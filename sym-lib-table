@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name compound_y_valve_board)(type Legacy)(uri ${KIPRJMOD}/compound_y_valve_board.lib)(options "")(descr ""))
+  (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
+)
