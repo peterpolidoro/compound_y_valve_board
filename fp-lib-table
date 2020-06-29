@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name compound_y_valve_board)(type KiCad)(uri ${KIPRJMOD}/compound_y_valve_board.pretty)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
+)
