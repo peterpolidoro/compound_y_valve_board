@@ -1,9 +1,9 @@
 * Header                                                           :noexport:
 
-  #+MACRO: name compound_y_valve_board
+  #+MACRO: name y_arena_controller_pi
   #+MACRO: version 1.0
   #+MACRO: license Open-Source Hardware
-  #+MACRO: url https://github.com/janelia-kicad/compound_y_valve_board
+  #+MACRO: url https://github.com/janelia-kicad/y_arena_controller_pi
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 

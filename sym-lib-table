@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name compound_y_valve_board)(type Legacy)(uri ${KIPRJMOD}/compound_y_valve_board.lib)(options "")(descr ""))
+  (lib (name y_arena_controller_pi)(type Legacy)(uri ${KIPRJMOD}/y_arena_controller_pi.lib)(options "")(descr ""))
   (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
 )

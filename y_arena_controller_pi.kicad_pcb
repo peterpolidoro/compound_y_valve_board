@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title compound_y_valve_board)
+    (title y_arena_controller_pi)
     (rev 1.0)
     (company Janelia)
   )
