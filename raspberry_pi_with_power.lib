@@ -1,0 +1,79 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 10uF
+#
+DEF 10uF C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "10uF" 0 0 30 H V C CNN
+F2 "raspberry_pi_with_power:SM1210" 38 -150 30 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "digikey" 100 200 60 H I C CNN "Vendor"
+F5 "445-4536-1-ND" 200 300 60 H I C CNN "PartNumber"
+F6 "CAP CER 10UF 50V 10% X7S 1210" 300 400 60 H I C CNN "Description"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PWR_JACK_2.1x5.5
+#
+DEF PWR_JACK_2.1x5.5 P 0 40 Y N 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "PWR_JACK_2.1x5.5" 100 0 50 V V C CNN
+F2 "raspberry_pi_with_power:DCJACK_2PIN_HIGHCURRENT" -100 50 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 100 250 60 H I C CNN "Vendor"
+F5 "CP-063AH-ND" 200 350 60 H I C CNN "Vendor Part Number"
+F6 "CONN PWR JACK DC 2.1X5.5 8A T/H" 300 450 60 H I C CNN "Description"
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 50 50 1 1 P
+X P2 2 -200 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# diode_schottky_45V_10A
+#
+DEF diode_schottky_45V_10A D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "diode_schottky_45V_10A" -280 -80 50 H I L CNN
+F2 "raspberry_pi_with_power:CFP15" -150 -20 60 H I C CNN
+F3 "" -50 80 60 H I C CNN
+F4 "digikey" 50 180 60 H I C CNN "Vendor"
+F5 "568-11697-1-ND" 150 280 60 H I C CNN "PartNumber"
+F6 "DIODE SCHOTTKY 45V 10A CFP15" 250 380 60 H I C CNN "Description"
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

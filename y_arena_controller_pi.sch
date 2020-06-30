@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title "y_arena_controller_pi"
 Date ""
 Rev "1.0"
@@ -26,7 +26,7 @@ F 5 "ED90331-ND" H 6250 2100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 2200 60  0001 C CNN "Description"
 F 7 "2" H 6050 1750 50  0001 C CNN "Quantity"
 	1    6050 1750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -41,7 +41,7 @@ F 5 "ED90331-ND" H 6250 2600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 2700 60  0001 C CNN "Description"
 F 7 "2" H 6050 2250 50  0001 C CNN "Quantity"
 	1    6050 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -56,7 +56,7 @@ F 5 "ED90331-ND" H 6250 3100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 3200 60  0001 C CNN "Description"
 F 7 "2" H 6050 2750 50  0001 C CNN "Quantity"
 	1    6050 2750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -71,7 +71,7 @@ F 5 "ED90331-ND" H 6250 3600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 3700 60  0001 C CNN "Description"
 F 7 "2" H 6050 3250 50  0001 C CNN "Quantity"
 	1    6050 3250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -86,7 +86,7 @@ F 5 "ED90331-ND" H 6250 4100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 4200 60  0001 C CNN "Description"
 F 7 "2" H 6050 3750 50  0001 C CNN "Quantity"
 	1    6050 3750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -101,7 +101,7 @@ F 5 "ED90331-ND" H 6250 4600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 4700 60  0001 C CNN "Description"
 F 7 "2" H 6050 4250 50  0001 C CNN "Quantity"
 	1    6050 4250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -116,7 +116,7 @@ F 5 "ED90331-ND" H 6250 5100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 5200 60  0001 C CNN "Description"
 F 7 "2" H 6050 4750 50  0001 C CNN "Quantity"
 	1    6050 4750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -131,7 +131,7 @@ F 5 "ED90331-ND" H 6250 5600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 5700 60  0001 C CNN "Description"
 F 7 "2" H 6050 5250 50  0001 C CNN "Quantity"
 	1    6050 5250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_controller_pi:LEECO_LHDB S?
@@ -146,7 +146,7 @@ F 5 "ED90331-ND" H 6250 6100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 6200 60  0001 C CNN "Description"
 F 7 "2" H 6050 5750 50  0001 C CNN "Quantity"
 	1    6050 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VAA #PWR?
@@ -157,7 +157,7 @@ F 1 "VAA" H 5765 1773 50  0000 C CNN
 F 2 "" H 5750 1600 50  0001 C CNN
 F 3 "" H 5750 1600 50  0001 C CNN
 	1    5750 1600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 5700 5750 5700
@@ -221,4 +221,10 @@ Wire Wire Line
 	5850 5300 5650 5300
 Wire Wire Line
 	5850 5800 5650 5800
+$Sheet
+S 1300 1550 2650 1950
+U 5EFB889E
+F0 "raspberry_pi_with_power" 50
+F1 "raspberry_pi_with_power.sch" 50
+$EndSheet
 $EndSCHEMATC
