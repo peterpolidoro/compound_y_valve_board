@@ -24,6 +24,47 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# CONV_DC_DC_5V_1A
+#
+DEF CONV_DC_DC_5V_1A REG 0 40 Y Y 1 F N
+F0 "REG" 200 -300 60 H V C CNN
+F1 "CONV_DC_DC_5V_1A" 0 100 60 H V C CNN
+F2 "raspberry_pi_with_power:DC_DC_CONV_R78C" 100 -400 60 H I C CNN
+F3 "" 200 -300 60 H V C CNN
+F4 "digikey" 0 -200 60 H I C CNN "Vendor"
+F5 "945-1395-5-ND" 0 -100 60 H I C CNN "PartNumber"
+F6 "CONV DC/DC 1A 5V OUT SIP VERT" 500 0 60 H I C CNN "Description"
+DRAW
+S -300 50 300 -250 0 1 0 N
+X +VIN 1 -400 0 100 R 50 50 1 1 W
+X GND 2 0 -350 100 U 50 50 1 1 W
+X +VOUT 3 400 0 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# MNT_HOLE
+#
+DEF MNT_HOLE MH 0 40 Y N 1 F N
+F0 "MH" 0 100 50 H V C CNN
+F1 "MNT_HOLE" 100 0 50 V V C CNN
+F2 "raspberry_pi_with_power:MOUNTING_HOLE_4-40" -100 0 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+F4 "digikey" 100 200 60 H I C CNN "Vendor"
+F5 "36-2027-ND" 200 300 60 H I C CNN "PartNumber"
+F6 "Round Standoff Threaded 4-40 Aluminum 0.500in 0.187in" 300 400 60 H I C CNN "Description"
+$FPLIST
+ Pin_Header_Straight_1X01
+ Pin_Header_Angled_1X01
+ Socket_Strip_Straight_1X01
+ Socket_Strip_Angled_1X01
+$ENDFPLIST
+DRAW
+S -50 5 10 -5 0 1 0 N
+S -50 50 50 -50 0 1 0 N
+X P1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PWR_JACK_2.1x5.5
 #
 DEF PWR_JACK_2.1x5.5 P 0 40 Y N 1 F N

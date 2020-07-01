@@ -2,4 +2,5 @@
   (lib (name y_arena_controller_pi)(type Legacy)(uri ${KIPRJMOD}/y_arena_controller_pi.lib)(options "")(descr ""))
   (lib (name raspberry_pi_with_power)(type Legacy)(uri ${KIPRJMOD}/raspberry_pi_with_power.lib)(options "")(descr ""))
   (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
+  (lib (name mdb)(type Legacy)(uri /home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.lib)(options "")(descr ""))
 )
