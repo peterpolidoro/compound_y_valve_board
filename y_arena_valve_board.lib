@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 0.1uF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "0.1uF" 0 0 30 H V C CNN
-F2 "y_arena_controller_pi:SM1210" 38 -150 30 H I C CNN
+F2 "y_arena_valve_board:SM1210" 38 -150 30 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "399-13229-1-ND" 200 300 60 H I C CNN "PartNumber"
@@ -29,7 +29,7 @@ ENDDEF
 DEF HEADER_02X09 P 0 1 Y N 1 F N
 F0 "P" 0 250 50 H V C CNN
 F1 "HEADER_02X09" 0 -250 50 H V C CNN
-F2 "y_arena_controller_pi:HEADER_02x09" 0 -1200 60 H I C CNN
+F2 "y_arena_valve_board:HEADER_02x09" 0 -1200 60 H I C CNN
 F3 "" 0 -1200 60 H V C CNN
 F4 "digikey" 100 350 60 H I C CNN "Vendor"
 F5 "732-5395-ND" 200 450 60 H I C CNN "PartNumber"
@@ -66,7 +66,7 @@ ENDDEF
 DEF LEECO_LHDB S 0 40 Y N 1 F N
 F0 "S" 0 150 50 H V C CNN
 F1 "LEECO_LHDB" 100 0 50 V V C CNN
-F2 "y_arena_controller_pi:LEECO_LHDB" -100 50 60 H I C CNN
+F2 "y_arena_valve_board:LEECO_LHDB" -100 50 60 H I C CNN
 F3 "" 0 150 60 H V C CNN
 F4 "digikey" 100 250 60 H I C CNN "Vendor"
 F5 "ED90331-ND" 200 350 60 H I C CNN "PartNumber"
@@ -92,7 +92,7 @@ ENDDEF
 DEF MOUNTING_HOLE MH 0 40 Y N 1 F N
 F0 "MH" 0 100 50 H V C CNN
 F1 "MOUNTING_HOLE" 100 0 50 V V C CNN
-F2 "y_arena_controller_pi:MOUNTING_HOLE" -100 0 60 H I C CNN
+F2 "y_arena_valve_board:MOUNTING_HOLE" -100 0 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
  Pin_Header_Straight_1X01
@@ -112,7 +112,7 @@ ENDDEF
 DEF SPST_SLIDE_AS SW 0 0 N Y 1 F N
 F0 "SW" 0 -50 40 H V C CNN
 F1 "SPST_SLIDE_AS" 0 100 40 H V C CNN
-F2 "y_arena_controller_pi:SPST_SLIDE_AS" -100 -200 60 H I C CNN
+F2 "y_arena_valve_board:SPST_SLIDE_AS" -100 -200 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "360-2610-ND" 200 300 60 H I C CNN "PartNumber"
@@ -131,7 +131,7 @@ ENDDEF
 DEF TLE7230R U 0 40 Y Y 1 F N
 F0 "U" 400 500 60 H V C CNN
 F1 "TLE7230R" 0 500 60 H V C CNN
-F2 "y_arena_controller_pi:PG-DSO-36" 300 400 60 H I C CNN
+F2 "y_arena_valve_board:PG-DSO-36" 300 400 60 H I C CNN
 F3 "" 400 500 60 H V C CNN
 F4 "digikey" 500 600 60 H I C CNN "Vendor"
 F5 "TLE7230RCT-ND" 600 700 60 H I C CNN "PartNumber"
@@ -171,7 +171,7 @@ ENDDEF
 DEF diode_low_rev_current D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "diode_low_rev_current" -280 -80 50 H I L CNN
-F2 "y_arena_controller_pi:SOD-123" -150 -20 60 H I C CNN
+F2 "y_arena_valve_board:SOD-123" -150 -20 60 H I C CNN
 F3 "" -50 80 60 H I C CNN
 F4 "digikey" 50 180 60 H I C CNN "Vendor"
 F5 "CMHD3595 CT-ND" 150 280 60 H I C CNN "PartNumber"

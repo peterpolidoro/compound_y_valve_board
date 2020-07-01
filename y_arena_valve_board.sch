@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "y_arena_controller_pi"
+Title "y_arena_valve_board"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA450D
 P 6050 1750
 F 0 "S?" H 6050 1900 50  0000 C CNN
@@ -26,10 +26,10 @@ F 5 "ED90331-ND" H 6250 2100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 2200 60  0001 C CNN "Description"
 F 7 "2" H 6050 1750 50  0001 C CNN "Quantity"
 	1    6050 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA5780
 P 6050 2250
 F 0 "S?" H 6050 2400 50  0000 C CNN
@@ -41,10 +41,10 @@ F 5 "ED90331-ND" H 6250 2600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 2700 60  0001 C CNN "Description"
 F 7 "2" H 6050 2250 50  0001 C CNN "Quantity"
 	1    6050 2250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA583A
 P 6050 2750
 F 0 "S?" H 6050 2900 50  0000 C CNN
@@ -56,10 +56,10 @@ F 5 "ED90331-ND" H 6250 3100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 3200 60  0001 C CNN "Description"
 F 7 "2" H 6050 2750 50  0001 C CNN "Quantity"
 	1    6050 2750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA5848
 P 6050 3250
 F 0 "S?" H 6050 3400 50  0000 C CNN
@@ -71,10 +71,10 @@ F 5 "ED90331-ND" H 6250 3600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 3700 60  0001 C CNN "Description"
 F 7 "2" H 6050 3250 50  0001 C CNN "Quantity"
 	1    6050 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA679C
 P 6050 3750
 F 0 "S?" H 6050 3900 50  0000 C CNN
@@ -86,10 +86,10 @@ F 5 "ED90331-ND" H 6250 4100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 4200 60  0001 C CNN "Description"
 F 7 "2" H 6050 3750 50  0001 C CNN "Quantity"
 	1    6050 3750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA67AA
 P 6050 4250
 F 0 "S?" H 6050 4400 50  0000 C CNN
@@ -101,10 +101,10 @@ F 5 "ED90331-ND" H 6250 4600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 4700 60  0001 C CNN "Description"
 F 7 "2" H 6050 4250 50  0001 C CNN "Quantity"
 	1    6050 4250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA67B8
 P 6050 4750
 F 0 "S?" H 6050 4900 50  0000 C CNN
@@ -116,10 +116,10 @@ F 5 "ED90331-ND" H 6250 5100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 5200 60  0001 C CNN "Description"
 F 7 "2" H 6050 4750 50  0001 C CNN "Quantity"
 	1    6050 4750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA67C6
 P 6050 5250
 F 0 "S?" H 6050 5400 50  0000 C CNN
@@ -131,10 +131,10 @@ F 5 "ED90331-ND" H 6250 5600 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 5700 60  0001 C CNN "Description"
 F 7 "2" H 6050 5250 50  0001 C CNN "Quantity"
 	1    6050 5250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_controller_pi:LEECO_LHDB S?
+L y_arena_valve_board:LEECO_LHDB S?
 U 1 1 5EFA7964
 P 6050 5750
 F 0 "S?" H 6050 5900 50  0000 C CNN
@@ -146,7 +146,7 @@ F 5 "ED90331-ND" H 6250 6100 60  0001 C CNN "PartNumber"
 F 6 "CONN PIN RCPT .025-.037 SOLDER" H 6350 6200 60  0001 C CNN "Description"
 F 7 "2" H 6050 5750 50  0001 C CNN "Quantity"
 	1    6050 5750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VAA #PWR?
@@ -157,7 +157,7 @@ F 1 "VAA" H 5765 1773 50  0000 C CNN
 F 2 "" H 5750 1600 50  0001 C CNN
 F 3 "" H 5750 1600 50  0001 C CNN
 	1    5750 1600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5850 5700 5750 5700

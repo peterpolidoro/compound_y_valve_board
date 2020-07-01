@@ -1,6 +1,4 @@
 (fp_lib_table
-  (lib (name y_arena_controller_pi)(type KiCad)(uri ${KIPRJMOD}/y_arena_controller_pi.pretty)(options "")(descr ""))
-  (lib (name raspberry_pi_with_power)(type KiCad)(uri ${KIPRJMOD}/raspberry_pi_with_power.pretty)(options "")(descr ""))
+  (lib (name y_arena_valve_board)(type KiCad)(uri ${KIPRJMOD}/y_arena_valve_board.pretty)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
-  (lib (name mdb)(type KiCad)(uri /home/polidorop/git/kicad/modular_device_base_3x2/modular_device_base_3x2.pretty)(options "")(descr ""))
 )
