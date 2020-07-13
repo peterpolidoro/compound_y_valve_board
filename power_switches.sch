@@ -3,11 +3,11 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 12
+Sheet 12 12
 Title ""
 Date ""
-Rev ""
-Comp ""
+Rev "1.0"
+Comp "Janelia"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -16,12 +16,13 @@ $EndDescr
 Text HLabel 2750 2700 0    60   Input ~ 0
 RESET
 $Comp
-L power_switches:TLE7230R U?
+L power_switches:TLE7230R U1
 U 1 1 5938296C
 P 3350 2850
-AR Path="/5F0CF7A3/5938296C" Ref="U?"  Part="1" 
-AR Path="/5F0ED5B3/5938296C" Ref="U?"  Part="1" 
-F 0 "U?" H 3350 3487 60  0000 C CNN
+AR Path="/5F0CF7A3/5938296C" Ref="U1"  Part="1" 
+AR Path="/5F0ED5B3/5938296C" Ref="U2"  Part="1" 
+AR Path="/5F11D49D/5938296C" Ref="U2"  Part="1" 
+F 0 "U2" H 3350 3487 60  0000 C CNN
 F 1 "TLE7230R" H 3350 3381 60  0000 C CNN
 F 2 "power_switches:PG-DSO-36" H 3650 3250 60  0001 C CNN
 F 3 "" H 3750 3350 60  0000 C CNN
@@ -78,12 +79,13 @@ Wire Wire Line
 	3400 3800 3400 3850
 Connection ~ 3400 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR016
 U 1 1 59382B09
 P 3350 3900
-AR Path="/5F0CF7A3/59382B09" Ref="#PWR?"  Part="1" 
-AR Path="/5F0ED5B3/59382B09" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3350 3650 50  0001 C CNN
+AR Path="/5F0CF7A3/59382B09" Ref="#PWR016"  Part="1" 
+AR Path="/5F0ED5B3/59382B09" Ref="#PWR019"  Part="1" 
+AR Path="/5F11D49D/59382B09" Ref="#PWR019"  Part="1" 
+F 0 "#PWR019" H 3350 3650 50  0001 C CNN
 F 1 "GND" H 3355 3727 50  0000 C CNN
 F 2 "" H 3350 3900 50  0001 C CNN
 F 3 "" H 3350 3900 50  0001 C CNN
@@ -94,12 +96,13 @@ Wire Wire Line
 	3350 3900 3350 3850
 Connection ~ 3350 3850
 $Comp
-L power:GND #PWR?
+L power:GND #PWR015
 U 1 1 59382C11
 P 2350 3800
-AR Path="/5F0CF7A3/59382C11" Ref="#PWR?"  Part="1" 
-AR Path="/5F0ED5B3/59382C11" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2350 3550 50  0001 C CNN
+AR Path="/5F0CF7A3/59382C11" Ref="#PWR015"  Part="1" 
+AR Path="/5F0ED5B3/59382C11" Ref="#PWR018"  Part="1" 
+AR Path="/5F11D49D/59382C11" Ref="#PWR018"  Part="1" 
+F 0 "#PWR018" H 2350 3550 50  0001 C CNN
 F 1 "GND" H 2355 3627 50  0000 C CNN
 F 2 "" H 2350 3800 50  0001 C CNN
 F 3 "" H 2350 3800 50  0001 C CNN
@@ -125,17 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3200 3950 3200
 Text HLabel 2750 3300 0    60   Input ~ 0
-IN
-Wire Wire Line
-	2750 3300 2800 3300
-Wire Wire Line
-	2800 3300 2800 3400
-Wire Wire Line
-	2800 3500 2850 3500
-Connection ~ 2800 3300
-Wire Wire Line
-	2850 3400 2800 3400
-Connection ~ 2800 3400
+IN1
 Wire Wire Line
 	2800 2500 2850 2500
 Wire Wire Line
@@ -146,17 +139,14 @@ Wire Wire Line
 	3400 3850 3500 3850
 Wire Wire Line
 	3350 3850 3400 3850
-Wire Wire Line
-	2800 3300 2850 3300
-Wire Wire Line
-	2800 3400 2800 3500
 $Comp
-L power_switches:0.1uF C?
+L power_switches:0.1uF C3
 U 1 1 5F0D6DA6
 P 2350 3550
-AR Path="/5F0CF7A3/5F0D6DA6" Ref="C?"  Part="1" 
-AR Path="/5F0ED5B3/5F0D6DA6" Ref="C?"  Part="1" 
-F 0 "C?" H 2400 3650 40  0000 L CNN
+AR Path="/5F0CF7A3/5F0D6DA6" Ref="C3"  Part="1" 
+AR Path="/5F0ED5B3/5F0D6DA6" Ref="C4"  Part="1" 
+AR Path="/5F11D49D/5F0D6DA6" Ref="C4"  Part="1" 
+F 0 "C4" H 2400 3650 40  0000 L CNN
 F 1 "0.1uF" H 2350 3550 30  0000 C CNN
 F 2 "power_switches:SM0805" H 2388 3400 30  0001 C CNN
 F 3 "" H 2350 3550 60  0001 C CNN
@@ -190,12 +180,24 @@ L power:VAA #PWR?
 U 1 1 5F118A55
 P 2350 2450
 AR Path="/5F118A55" Ref="#PWR?"  Part="1" 
-AR Path="/5F0CF7A3/5F118A55" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2350 2300 50  0001 C CNN
+AR Path="/5F0CF7A3/5F118A55" Ref="#PWR014"  Part="1" 
+AR Path="/5F0ED5B3/5F118A55" Ref="#PWR017"  Part="1" 
+AR Path="/5F11D49D/5F118A55" Ref="#PWR017"  Part="1" 
+F 0 "#PWR017" H 2350 2300 50  0001 C CNN
 F 1 "VAA" H 2365 2623 50  0000 C CNN
 F 2 "" H 2350 2450 50  0001 C CNN
 F 3 "" H 2350 2450 50  0001 C CNN
 	1    2350 2450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2750 3300 2850 3300
+Text HLabel 2750 3400 0    60   Input ~ 0
+IN2
+Text HLabel 2750 3500 0    60   Input ~ 0
+IN3
+Wire Wire Line
+	2750 3400 2850 3400
+Wire Wire Line
+	2750 3500 2850 3500
 $EndSCHEMATC
