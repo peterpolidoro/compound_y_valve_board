@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title y_arena_valve_board)
+    (title y_arena_valve_controller)
     (rev 1.0)
     (company Janelia)
   )
@@ -164,7 +164,7 @@
     (add_net VAA)
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD65EC)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD65EC)
     (at 181.22 52.224301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -190,7 +190,7 @@
       (net 2 "Net-(D1-Pad1)") (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD65C7)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD65C7)
     (at 185.068501 52.861)
     (path /5EFCDFF8/5EFDB33E)
     (fp_text reference D2 (at 0 -2.25 180) (layer F.SilkS)
@@ -212,7 +212,7 @@
       (net 4 "Net-(D2-Pad1)") (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD65A1)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD65A1)
     (at 227.05 25.144301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -238,7 +238,7 @@
       (net 1 LED_PWR) (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD657C)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD657C)
     (at 230.898501 25.781)
     (path /5EFCF736/5EFDB33E)
     (fp_text reference D4 (at 0 -2.25 180) (layer F.SilkS)
@@ -260,7 +260,7 @@
       (net 7 /VALVE_1) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD6556)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD6556)
     (at 195.3 52.224301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -286,7 +286,7 @@
       (net 8 "Net-(D5-Pad1)") (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD6531)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD6531)
     (at 199.148501 52.861)
     (path /5EFCFB5E/5EFDB33E)
     (fp_text reference D6 (at 0 -2.25 180) (layer F.SilkS)
@@ -308,7 +308,7 @@
       (net 10 "Net-(D6-Pad1)") (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD650B)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD650B)
     (at 227.05 34.374301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -334,7 +334,7 @@
       (net 11 "Net-(D7-Pad1)") (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD64E6)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD64E6)
     (at 230.898501 35.011)
     (path /5EFCFB62/5EFDB33E)
     (fp_text reference D8 (at 0 -2.25 180) (layer F.SilkS)
@@ -356,7 +356,7 @@
       (net 13 "Net-(D8-Pad1)") (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD64C0)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD64C0)
     (at 241.13 25.144301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -382,7 +382,7 @@
       (net 1 LED_PWR) (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD649B)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD649B)
     (at 244.978501 25.781)
     (path /5EFD009E/5EFDB33E)
     (fp_text reference D10 (at 0 -2.25 180) (layer F.SilkS)
@@ -404,7 +404,7 @@
       (net 16 /VALVE_4) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD6475)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD6475)
     (at 209.38 52.224301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -430,7 +430,7 @@
       (net 17 "Net-(D11-Pad1)") (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD6450)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD6450)
     (at 213.228501 52.861)
     (path /5EFD00A2/5EFDB33E)
     (fp_text reference D12 (at 0 -2.25 180) (layer F.SilkS)
@@ -452,7 +452,7 @@
       (net 19 /VALVE_5) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD642A)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD642A)
     (at 227.05 43.604301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -478,7 +478,7 @@
       (net 1 LED_PWR) (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD6405)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD6405)
     (at 230.898501 44.241)
     (path /5EFD00A6/5EFDB33E)
     (fp_text reference D14 (at 0 -2.25 180) (layer F.SilkS)
@@ -500,7 +500,7 @@
       (net 22 "Net-(D14-Pad1)") (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD63DF)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD63DF)
     (at 241.13 34.374301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -526,7 +526,7 @@
       (net 23 "Net-(D15-Pad1)") (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD63BA)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD63BA)
     (at 244.978501 35.011)
     (path /5EFD00AA/5EFDB33E)
     (fp_text reference D16 (at 0 -2.25 180) (layer F.SilkS)
@@ -548,7 +548,7 @@
       (net 25 /VALVE_7) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD6394)
+  (module y_arena_valve_controller:SOD-123 (layer F.Cu) (tedit 59690BE5) (tstamp 5EFD6394)
     (at 223.46 52.834301)
     (descr "Microsemi LSM115J")
     (tags "DO-214BA diode")
@@ -574,7 +574,7 @@
       (net 1 LED_PWR) (solder_mask_margin 0.1016) (clearance 0.1016))
   )
 
-  (module y_arena_valve_board:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD636F)
+  (module y_arena_valve_controller:LED0805 (layer F.Cu) (tedit 5CF9191A) (tstamp 5EFD636F)
     (at 227.308501 53.471)
     (path /5EFD0901/5EFDB33E)
     (fp_text reference D18 (at 0 -2.25 180) (layer F.SilkS)
@@ -596,7 +596,7 @@
       (net 28 /VALVE_8) (solder_mask_margin 0.0508) (clearance 0.0508))
   )
 
-  (module y_arena_valve_board:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD6355)
+  (module y_arena_valve_controller:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD6355)
     (at 219.325001 24.905001)
     (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
     (tags marker)
@@ -617,7 +617,7 @@
       (solder_mask_margin 0.25) (clearance 0.25))
   )
 
-  (module y_arena_valve_board:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD6340)
+  (module y_arena_valve_controller:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD6340)
     (at 188.855001 43.475001)
     (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
     (tags marker)
@@ -638,7 +638,7 @@
       (solder_mask_margin 0.25) (clearance 0.25))
   )
 
-  (module y_arena_valve_board:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD632B)
+  (module y_arena_valve_controller:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD632B)
     (at 186.305001 43.475001)
     (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
     (tags marker)
@@ -659,7 +659,7 @@
       (solder_mask_margin 0.25) (clearance 0.25))
   )
 
-  (module y_arena_valve_board:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD6316)
+  (module y_arena_valve_controller:FIDUCIAL (layer F.Cu) (tedit 5CD5B42B) (tstamp 5EFD6316)
     (at 205.205001 37.175001)
     (descr "Circular Fiducial, 0.5mm bare copper top; 1mm keepout (Level C)")
     (tags marker)
@@ -680,7 +680,7 @@
       (solder_mask_margin 0.25) (clearance 0.25))
   )
 
-  (module y_arena_valve_board:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5CD5AEA6) (tstamp 5EFD6305)
+  (module y_arena_valve_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5CD5AEA6) (tstamp 5EFD6305)
     (at 92.075 100.965)
     (path /5EFE0DCF)
     (fp_text reference MH1 (at 0 -3.175) (layer F.SilkS) hide
@@ -693,7 +693,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask))
   )
 
-  (module y_arena_valve_board:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5CD5AEA6) (tstamp 5EFD62F6)
+  (module y_arena_valve_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5CD5AEA6) (tstamp 5EFD62F6)
     (at 120.015 72.39)
     (path /5EFE42B4)
     (fp_text reference MH2 (at 0 -3.175) (layer F.SilkS) hide
@@ -706,7 +706,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask))
   )
 
-  (module y_arena_valve_board:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5CD5AEA6) (tstamp 5EFD62E7)
+  (module y_arena_valve_controller:MOUNTING_HOLE_4-40 (layer F.Cu) (tedit 5CD5AEA6) (tstamp 5EFD62E7)
     (at 64.135 72.39)
     (path /5EFE5820)
     (fp_text reference MH3 (at 0 -3.175) (layer F.SilkS) hide
@@ -719,7 +719,7 @@
     (pad 1 thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.302) (layers *.Cu *.Mask))
   )
 
-  (module y_arena_valve_board:HEADER_02x12_SMD (layer F.Cu) (tedit 5EFCC9FF) (tstamp 5EFD629E)
+  (module y_arena_valve_controller:HEADER_02x12_SMD (layer F.Cu) (tedit 5EFCC9FF) (tstamp 5EFD629E)
     (at 114.3 101.6)
     (path /5EFD802C)
     (fp_text reference P1 (at 0 -6.35) (layer F.SilkS)
@@ -782,7 +782,7 @@
       (net 3 /VALVE_0))
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6266)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6266)
     (at 187.737901 52.822901)
     (tags "CMS SM")
     (path /5EFCDFF8/5EFDA87C)
@@ -810,7 +810,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6632)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6632)
     (at 233.567901 25.742901)
     (tags "CMS SM")
     (path /5EFCF736/5EFDA87C)
@@ -838,7 +838,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6611)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6611)
     (at 201.817901 52.822901)
     (tags "CMS SM")
     (path /5EFCFB5E/5EFDA87C)
@@ -866,7 +866,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6245)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6245)
     (at 233.567901 34.972901)
     (tags "CMS SM")
     (path /5EFCFB62/5EFDA87C)
@@ -894,7 +894,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6224)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6224)
     (at 247.647901 25.742901)
     (tags "CMS SM")
     (path /5EFD009E/5EFDA87C)
@@ -922,7 +922,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6203)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD6203)
     (at 215.897901 52.822901)
     (tags "CMS SM")
     (path /5EFD00A2/5EFDA87C)
@@ -950,7 +950,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD61E2)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD61E2)
     (at 233.567901 44.202901)
     (tags "CMS SM")
     (path /5EFD00A6/5EFDA87C)
@@ -978,7 +978,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD61C1)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD61C1)
     (at 247.647901 34.972901)
     (tags "CMS SM")
     (path /5EFD00AA/5EFDA87C)
@@ -1006,7 +1006,7 @@
     )
   )
 
-  (module y_arena_valve_board:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD61A0)
+  (module y_arena_valve_controller:SM0805 (layer F.Cu) (tedit 5CDEF0CF) (tstamp 5EFD61A0)
     (at 229.977901 53.432901)
     (tags "CMS SM")
     (path /5EFD0901/5EFDA87C)
@@ -1034,7 +1034,7 @@
     )
   )
 
-  (module y_arena_valve_board:SPST_SLIDE_AS (layer F.Cu) (tedit 56D0743B) (tstamp 5EFD617F)
+  (module y_arena_valve_controller:SPST_SLIDE_AS (layer F.Cu) (tedit 56D0743B) (tstamp 5EFD617F)
     (at 181.800501 41.670501)
     (path /5EFCEA3B)
     (fp_text reference SW1 (at -3.048 6.604 90) (layer F.SilkS)
@@ -1059,7 +1059,7 @@
       (net 1 LED_PWR))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD60B3)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD60B3)
     (at 129.54 33.02 90)
     (path /5EFCDFF8/5EFCEB08)
     (fp_text reference S1 (at 0 -6.985 90) (layer B.SilkS)
@@ -1083,7 +1083,7 @@
       (net 3 /VALVE_0))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD60DD)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD60DD)
     (at 80.645 22.225 90)
     (path /5EFCF736/5EFCEB08)
     (fp_text reference S2 (at 0 -6.985 90) (layer B.SilkS)
@@ -1107,7 +1107,7 @@
       (net 7 /VALVE_1))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD600B)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD600B)
     (at 80.645 34.925 90)
     (path /5EFCFB5E/5EFCEB08)
     (fp_text reference S3 (at 0 -6.985 90) (layer B.SilkS)
@@ -1131,7 +1131,7 @@
       (net 9 /VALVE_2))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6158)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6158)
     (at 79.375 53.34 90)
     (path /5EFCFB62/5EFCEB08)
     (fp_text reference S4 (at 0 -6.985 90) (layer B.SilkS)
@@ -1155,7 +1155,7 @@
       (net 29 VAA))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD605F)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD605F)
     (at 110.49 23.495 90)
     (path /5EFD009E/5EFCEB08)
     (fp_text reference S5 (at 0 -6.985 -90) (layer B.SilkS)
@@ -1179,7 +1179,7 @@
       (net 29 VAA))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6107)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6107)
     (at 101.6 35.56 90)
     (path /5EFD00A2/5EFCEB08)
     (fp_text reference S6 (at 0 -6.985 90) (layer B.SilkS)
@@ -1203,7 +1203,7 @@
       (net 19 /VALVE_5))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD5FE1)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD5FE1)
     (at 135.89 53.975 90)
     (path /5EFD00A6/5EFCEB08)
     (fp_text reference S7 (at 0 -6.985 90) (layer B.SilkS)
@@ -1227,7 +1227,7 @@
       (net 29 VAA))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6035)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6035)
     (at 113.03 46.99 90)
     (path /5EFD00AA/5EFCEB08)
     (fp_text reference S8 (at 0 -6.985 90) (layer B.SilkS)
@@ -1251,7 +1251,7 @@
       (net 29 VAA))
   )
 
-  (module y_arena_valve_board:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6089)
+  (module y_arena_valve_controller:LEECO_LHDB (layer B.Cu) (tedit 5EFD512F) (tstamp 5EFD6089)
     (at 160.02 73.66 90)
     (path /5EFD0901/5EFCEB08)
     (fp_text reference S9 (at 0 -6.985 90) (layer B.SilkS)

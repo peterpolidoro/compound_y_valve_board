@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 499 R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "499" 7 1 40 V V C CNN
-F2 "y_arena_valve_board:SM0805" -70 0 30 V I C CNN
+F2 "y_arena_valve_controller:SM0805" -70 0 30 V I C CNN
 F3 "" 0 0 30 H V C CNN
 F4 "RES SMD 499 OHM 1% 1/8W 0805" 380 300 60 V I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
@@ -31,7 +31,7 @@ ENDDEF
 DEF FIDUCIAL FID 0 30 N N 1 F N
 F0 "FID" 0 90 50 H V C CNN
 F1 "FIDUCIAL" 0 -90 50 H V C CNN
-F2 "y_arena_valve_board:FIDUCIAL" 200 0 50 H I C CNN
+F2 "y_arena_valve_controller:FIDUCIAL" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
 C 0 0 25 0 1 0 f
@@ -45,7 +45,7 @@ ENDDEF
 DEF HEADER_02X12_SMD P 0 1 Y N 1 F N
 F0 "P" 0 650 50 H V C CNN
 F1 "HEADER_02X12_SMD" 0 -650 50 H V C CNN
-F2 "y_arena_valve_board:HEADER_02x12_SMD" 0 -1200 60 H I C CNN
+F2 "y_arena_valve_controller:HEADER_02x12_SMD" 0 -1200 60 H I C CNN
 F3 "" 0 -1200 60 H V C CNN
 F4 "digikey" 100 350 60 H I C CNN "Vendor"
 F5 "S9189-ND " 200 450 60 H I C CNN "PartNumber"
@@ -114,7 +114,7 @@ ENDDEF
 DEF LED_GRN D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "LED_GRN" 0 -100 40 H V C CNN
-F2 "y_arena_valve_board:LED0805" -100 0 60 H I C CNN
+F2 "y_arena_valve_controller:LED0805" -100 0 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "LED GREEN CLEAR SMD" 300 400 60 H I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
@@ -146,7 +146,7 @@ ENDDEF
 DEF LEECO_LHDB S 0 40 Y N 1 F N
 F0 "S" 0 150 50 H V C CNN
 F1 "LEECO_LHDB" 100 0 50 V V C CNN
-F2 "y_arena_valve_board:LEECO_LHDB" -100 50 60 H I C CNN
+F2 "y_arena_valve_controller:LEECO_LHDB" -100 50 60 H I C CNN
 F3 "" 0 150 60 H V C CNN
 F4 "digikey" 100 250 60 H I C CNN "Vendor"
 F5 "ED90331-ND" 200 350 60 H I C CNN "PartNumber"
@@ -172,7 +172,7 @@ ENDDEF
 DEF MOUNTING_HOLE_4-40 MH 0 30 N N 1 F N
 F0 "MH" 0 270 50 H V C CNN
 F1 "MOUNTING_HOLE_4-40" 0 200 50 H V C CNN
-F2 "y_arena_valve_board:MOUNTING_HOLE_4-40" 200 0 50 H I C CNN
+F2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" 200 0 50 H I C CNN
 F3 "" 200 0 50 H I C CNN
 DRAW
 C 0 130 30 0 1 0 N
@@ -185,7 +185,7 @@ ENDDEF
 DEF SPST_SLIDE_AS SW 0 0 N Y 1 F N
 F0 "SW" 0 -50 40 H V C CNN
 F1 "SPST_SLIDE_AS" 0 100 40 H V C CNN
-F2 "y_arena_valve_board:SPST_SLIDE_AS" -100 -200 60 H I C CNN
+F2 "y_arena_valve_controller:SPST_SLIDE_AS" -100 -200 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "digikey" 100 200 60 H I C CNN "Vendor"
 F5 "360-2610-ND" 200 300 60 H I C CNN "PartNumber"
@@ -204,7 +204,7 @@ ENDDEF
 DEF diode_low_rev_current D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "diode_low_rev_current" -280 -80 50 H I L CNN
-F2 "y_arena_valve_board:SOD-123" -150 -20 60 H I C CNN
+F2 "y_arena_valve_controller:SOD-123" -150 -20 60 H I C CNN
 F3 "" -50 80 60 H I C CNN
 F4 "digikey" 50 180 60 H I C CNN "Vendor"
 F5 "CMHD3595 CT-ND" 150 280 60 H I C CNN "PartNumber"

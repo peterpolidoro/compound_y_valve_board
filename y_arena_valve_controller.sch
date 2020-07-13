@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title "y_arena_valve_board"
+Title "y_arena_valve_controller"
 Date ""
 Rev "1.0"
 Comp "Janelia"
@@ -22,7 +22,7 @@ F 1 "VAA" H 5765 1773 50  0000 C CNN
 F 2 "" H 5750 1600 50  0001 C CNN
 F 3 "" H 5750 1600 50  0001 C CNN
 	1    5750 1600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5850 5700 5750 5700
@@ -105,91 +105,91 @@ VALVE_7
 Text Label 5650 5800 2    50   ~ 0
 VALVE_8
 $Sheet
-S 5850 1600 550  300 
+S 5850 1600 550  300
 U 5EFCDFF8
 F0 "valve_with_led_0" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 1700 50 
-F3 "VALVE_-" U L 5850 1800 50 
+F2 "VALVE_+" U L 5850 1700 50
+F3 "VALVE_-" U L 5850 1800 50
 $EndSheet
 $Sheet
-S 5850 2100 550  300 
+S 5850 2100 550  300
 U 5EFCF736
 F0 "valve_with_led_1" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 2200 50 
-F3 "VALVE_-" U L 5850 2300 50 
+F2 "VALVE_+" U L 5850 2200 50
+F3 "VALVE_-" U L 5850 2300 50
 $EndSheet
 $Sheet
-S 5850 2600 550  300 
+S 5850 2600 550  300
 U 5EFCFB5E
 F0 "valve_with_led_2" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 2700 50 
-F3 "VALVE_-" U L 5850 2800 50 
+F2 "VALVE_+" U L 5850 2700 50
+F3 "VALVE_-" U L 5850 2800 50
 $EndSheet
 $Sheet
-S 5850 3100 550  300 
+S 5850 3100 550  300
 U 5EFCFB62
 F0 "valve_with_led_3" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 3200 50 
-F3 "VALVE_-" U L 5850 3300 50 
+F2 "VALVE_+" U L 5850 3200 50
+F3 "VALVE_-" U L 5850 3300 50
 $EndSheet
 $Sheet
-S 5850 3600 550  300 
+S 5850 3600 550  300
 U 5EFD009E
 F0 "valve_with_led_4" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 3700 50 
-F3 "VALVE_-" U L 5850 3800 50 
+F2 "VALVE_+" U L 5850 3700 50
+F3 "VALVE_-" U L 5850 3800 50
 $EndSheet
 $Sheet
-S 5850 4100 550  300 
+S 5850 4100 550  300
 U 5EFD00A2
 F0 "valve_with_led_5" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 4200 50 
-F3 "VALVE_-" U L 5850 4300 50 
+F2 "VALVE_+" U L 5850 4200 50
+F3 "VALVE_-" U L 5850 4300 50
 $EndSheet
 $Sheet
-S 5850 4600 550  300 
+S 5850 4600 550  300
 U 5EFD00A6
 F0 "valve_with_led_6" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 4700 50 
-F3 "VALVE_-" U L 5850 4800 50 
+F2 "VALVE_+" U L 5850 4700 50
+F3 "VALVE_-" U L 5850 4800 50
 $EndSheet
 $Sheet
-S 5850 5100 550  300 
+S 5850 5100 550  300
 U 5EFD00AA
 F0 "valve_with_led_7" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 5200 50 
-F3 "VALVE_-" U L 5850 5300 50 
+F2 "VALVE_+" U L 5850 5200 50
+F3 "VALVE_-" U L 5850 5300 50
 $EndSheet
 $Sheet
-S 5850 5600 550  300 
+S 5850 5600 550  300
 U 5EFD0901
 F0 "valve_with_led_8" 50
 F1 "valve_with_led.sch" 50
-F2 "VALVE_+" U L 5850 5700 50 
-F3 "VALVE_-" U L 5850 5800 50 
+F2 "VALVE_+" U L 5850 5700 50
+F3 "VALVE_-" U L 5850 5800 50
 $EndSheet
 NoConn ~ 7900 2300
 $Comp
-L y_arena_valve_board:HEADER_02X12_SMD P1
+L y_arena_valve_controller:HEADER_02X12_SMD P1
 U 1 1 5EFD802C
 P 3150 3150
 F 0 "P1" H 3150 3800 50  0000 C CNN
 F 1 "HEADER_02X12_SMD" H 3150 2500 50  0000 C CNN
-F 2 "y_arena_valve_board:HEADER_02x12_SMD" H 3150 1950 60  0001 C CNN
+F 2 "y_arena_valve_controller:HEADER_02x12_SMD" H 3150 1950 60  0001 C CNN
 F 3 "" H 3150 1950 60  0000 C CNN
 F 4 "digikey" H 3250 3500 60  0001 C CNN "Vendor"
 F 5 "S9189-ND " H 3350 3600 60  0001 C CNN "PartNumber"
 F 6 "CONN HEADER SMD 24POS 2.54MM" H 3450 3700 60  0001 C CNN "Description"
 	1    3150 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:VAA #PWR02
@@ -200,7 +200,7 @@ F 1 "VAA" H 2865 2723 50  0000 C CNN
 F 2 "" H 2850 2550 50  0001 C CNN
 F 3 "" H 2850 2550 50  0001 C CNN
 	1    2850 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2900 3700 2850 3700
@@ -298,18 +298,18 @@ VALVE_8
 Wire Wire Line
 	3400 3400 3450 3400
 $Comp
-L y_arena_valve_board:SPST_SLIDE_AS SW1
+L y_arena_valve_controller:SPST_SLIDE_AS SW1
 U 1 1 5EFCEA3B
 P 3150 4750
 F 0 "SW1" V 3112 4827 40  0000 L CNN
 F 1 "SPST_SLIDE_AS" V 3188 4827 40  0000 L CNN
-F 2 "y_arena_valve_board:SPST_SLIDE_AS" H 3050 4550 60  0001 C CNN
+F 2 "y_arena_valve_controller:SPST_SLIDE_AS" H 3050 4550 60  0001 C CNN
 F 3 "" H 3150 4750 60  0000 C CNN
 F 4 "digikey" H 3250 4950 60  0001 C CNN "Vendor"
 F 5 "360-2610-ND" H 3350 5050 60  0001 C CNN "PartNumber"
 F 6 "SWITCH SLIDE SPST 0.4VA 28V" H 3450 5150 60  0001 C CNN "Description"
 	1    3150 4750
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L power:VAA #PWR03
@@ -320,7 +320,7 @@ F 1 "VAA" H 3165 4623 50  0000 C CNN
 F 2 "" H 3150 4450 50  0001 C CNN
 F 3 "" H 3150 4450 50  0001 C CNN
 	1    3150 4450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3150 4450 3150 4500
@@ -329,86 +329,86 @@ Wire Wire Line
 Text GLabel 3150 5050 3    50   UnSpc ~ 0
 LED_PWR
 $Comp
-L y_arena_valve_board:MOUNTING_HOLE_4-40 MH1
+L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH1
 U 1 1 5EFE0DCF
 P 7900 2300
 F 0 "MH1" H 7958 2418 50  0000 L CNN
 F 1 "MOUNTING_HOLE_4-40" H 7958 2327 50  0000 L CNN
-F 2 "y_arena_valve_board:MOUNTING_HOLE_4-40" H 8100 2300 50  0001 C CNN
+F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 8100 2300 50  0001 C CNN
 F 3 "" H 8100 2300 50  0001 C CNN
 	1    7900 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 7900 2550
 $Comp
-L y_arena_valve_board:MOUNTING_HOLE_4-40 MH2
+L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH2
 U 1 1 5EFE42B4
 P 7900 2550
 F 0 "MH2" H 7958 2668 50  0000 L CNN
 F 1 "MOUNTING_HOLE_4-40" H 7958 2577 50  0000 L CNN
-F 2 "y_arena_valve_board:MOUNTING_HOLE_4-40" H 8100 2550 50  0001 C CNN
+F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 8100 2550 50  0001 C CNN
 F 3 "" H 8100 2550 50  0001 C CNN
 	1    7900 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 7900 2800
 $Comp
-L y_arena_valve_board:MOUNTING_HOLE_4-40 MH3
+L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH3
 U 1 1 5EFE5820
 P 7900 2800
 F 0 "MH3" H 7958 2918 50  0000 L CNN
 F 1 "MOUNTING_HOLE_4-40" H 7958 2827 50  0000 L CNN
-F 2 "y_arena_valve_board:MOUNTING_HOLE_4-40" H 8100 2800 50  0001 C CNN
+F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 8100 2800 50  0001 C CNN
 F 3 "" H 8100 2800 50  0001 C CNN
 	1    7900 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 3400 3500
 NoConn ~ 3400 3600
 NoConn ~ 3400 3700
 $Comp
-L y_arena_valve_board:FIDUCIAL FID1
+L y_arena_valve_controller:FIDUCIAL FID1
 U 1 1 5EFF6F31
 P 9050 2200
 F 0 "FID1" H 9128 2246 50  0000 L CNN
 F 1 "FIDUCIAL" H 9128 2155 50  0000 L CNN
-F 2 "y_arena_valve_board:FIDUCIAL" H 9250 2200 50  0001 C CNN
+F 2 "y_arena_valve_controller:FIDUCIAL" H 9250 2200 50  0001 C CNN
 F 3 "" H 9250 2200 50  0001 C CNN
 	1    9050 2200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_valve_board:FIDUCIAL FID2
+L y_arena_valve_controller:FIDUCIAL FID2
 U 1 1 5EFF7D26
 P 9050 2400
 F 0 "FID2" H 9128 2446 50  0000 L CNN
 F 1 "FIDUCIAL" H 9128 2355 50  0000 L CNN
-F 2 "y_arena_valve_board:FIDUCIAL" H 9250 2400 50  0001 C CNN
+F 2 "y_arena_valve_controller:FIDUCIAL" H 9250 2400 50  0001 C CNN
 F 3 "" H 9250 2400 50  0001 C CNN
 	1    9050 2400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_valve_board:FIDUCIAL FID3
+L y_arena_valve_controller:FIDUCIAL FID3
 U 1 1 5EFF92FD
 P 9050 2600
 F 0 "FID3" H 9128 2646 50  0000 L CNN
 F 1 "FIDUCIAL" H 9128 2555 50  0000 L CNN
-F 2 "y_arena_valve_board:FIDUCIAL" H 9250 2600 50  0001 C CNN
+F 2 "y_arena_valve_controller:FIDUCIAL" H 9250 2600 50  0001 C CNN
 F 3 "" H 9250 2600 50  0001 C CNN
 	1    9050 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
-L y_arena_valve_board:FIDUCIAL FID4
+L y_arena_valve_controller:FIDUCIAL FID4
 U 1 1 5EFF9307
 P 9050 2800
 F 0 "FID4" H 9128 2846 50  0000 L CNN
 F 1 "FIDUCIAL" H 9128 2755 50  0000 L CNN
-F 2 "y_arena_valve_board:FIDUCIAL" H 9250 2800 50  0001 C CNN
+F 2 "y_arena_valve_controller:FIDUCIAL" H 9250 2800 50  0001 C CNN
 F 3 "" H 9250 2800 50  0001 C CNN
 	1    9050 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -419,7 +419,7 @@ F 1 "PWR_FLAG" H 2450 2773 50  0000 C CNN
 F 2 "" H 2450 2600 50  0001 C CNN
 F 3 "~" H 2450 2600 50  0001 C CNN
 	1    2450 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2450 2600 2450 2650

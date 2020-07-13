@@ -1,4 +1,4 @@
 (fp_lib_table
-  (lib (name y_arena_valve_board)(type KiCad)(uri ${KIPRJMOD}/y_arena_valve_board.pretty)(options "")(descr ""))
+  (lib (name y_arena_valve_controller)(type KiCad)(uri ${KIPRJMOD}/y_arena_valve_controller.pretty)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri /home/polidorop/git/kicad/kicad-libraries/footprints.pretty)(options "")(descr ""))
 )
