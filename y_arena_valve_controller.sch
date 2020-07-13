@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 12
 Title "y_arena_valve_controller"
 Date ""
 Rev "1.0"
@@ -180,62 +180,62 @@ NoConn ~ 9200 1950
 $Comp
 L power:VAA #PWR02
 U 1 1 5EFD858D
-P 1650 1250
-F 0 "#PWR02" H 1650 1100 50  0001 C CNN
-F 1 "VAA" H 1665 1423 50  0000 C CNN
-F 2 "" H 1650 1250 50  0001 C CNN
-F 3 "" H 1650 1250 50  0001 C CNN
-	1    1650 1250
+P 2150 5650
+F 0 "#PWR02" H 2150 5500 50  0001 C CNN
+F 1 "VAA" H 2165 5823 50  0000 C CNN
+F 2 "" H 2150 5650 50  0001 C CNN
+F 3 "" H 2150 5650 50  0001 C CNN
+	1    2150 5650
 	1    0    0    -1  
 $EndComp
-Text Label 2000 850  0    50   ~ 0
+Text Label 5350 2000 0    50   ~ 0
 VALVE_0
-Text Label 2000 950  0    50   ~ 0
+Text Label 5350 2100 0    50   ~ 0
 VALVE_1
-Text Label 2000 1050 0    50   ~ 0
+Text Label 5350 2200 0    50   ~ 0
 VALVE_2
-Text Label 2000 1550 0    50   ~ 0
+Text Label 5350 2700 0    50   ~ 0
 VALVE_7
-Text Label 2000 1450 0    50   ~ 0
+Text Label 5350 2600 0    50   ~ 0
 VALVE_6
-Text Label 2000 1350 0    50   ~ 0
+Text Label 5350 2500 0    50   ~ 0
 VALVE_5
-Text Label 2000 1250 0    50   ~ 0
+Text Label 5350 2400 0    50   ~ 0
 VALVE_4
-Text Label 2000 1150 0    50   ~ 0
+Text Label 5350 2300 0    50   ~ 0
 VALVE_3
-Text Label 2000 1650 0    50   ~ 0
+Text Label 5350 3150 0    50   ~ 0
 VALVE_8
 $Comp
 L y_arena_valve_controller:SPST_SLIDE_AS SW1
 U 1 1 5EFCEA3B
-P 6100 6550
-F 0 "SW1" V 6062 6627 40  0000 L CNN
-F 1 "SPST_SLIDE_AS" V 6138 6627 40  0000 L CNN
-F 2 "y_arena_valve_controller:SPST_SLIDE_AS" H 6000 6350 60  0001 C CNN
-F 3 "" H 6100 6550 60  0000 C CNN
-F 4 "digikey" H 6200 6750 60  0001 C CNN "Vendor"
-F 5 "360-2610-ND" H 6300 6850 60  0001 C CNN "PartNumber"
-F 6 "SWITCH SLIDE SPST 0.4VA 28V" H 6400 6950 60  0001 C CNN "Description"
-	1    6100 6550
+P 5350 6150
+F 0 "SW1" V 5312 6227 40  0000 L CNN
+F 1 "SPST_SLIDE_AS" V 5388 6227 40  0000 L CNN
+F 2 "y_arena_valve_controller:SPST_SLIDE_AS" H 5250 5950 60  0001 C CNN
+F 3 "" H 5350 6150 60  0000 C CNN
+F 4 "digikey" H 5450 6350 60  0001 C CNN "Vendor"
+F 5 "360-2610-ND" H 5550 6450 60  0001 C CNN "PartNumber"
+F 6 "SWITCH SLIDE SPST 0.4VA 28V" H 5650 6550 60  0001 C CNN "Description"
+	1    5350 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L power:VAA #PWR03
 U 1 1 5EFCED6A
-P 6100 6250
-F 0 "#PWR03" H 6100 6100 50  0001 C CNN
-F 1 "VAA" H 6115 6423 50  0000 C CNN
-F 2 "" H 6100 6250 50  0001 C CNN
-F 3 "" H 6100 6250 50  0001 C CNN
-	1    6100 6250
+P 5350 5850
+F 0 "#PWR03" H 5350 5700 50  0001 C CNN
+F 1 "VAA" H 5365 6023 50  0000 C CNN
+F 2 "" H 5350 5850 50  0001 C CNN
+F 3 "" H 5350 5850 50  0001 C CNN
+	1    5350 5850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6100 6250 6100 6300
+	5350 5850 5350 5900
 Wire Wire Line
-	6100 6800 6100 6850
-Text GLabel 6100 6850 3    50   UnSpc ~ 0
+	5350 6400 5350 6450
+Text GLabel 5350 6450 3    50   UnSpc ~ 0
 LED_PWR
 $Comp
 L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH1
@@ -319,16 +319,16 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F0009C0
-P 1250 1300
-F 0 "#FLG0101" H 1250 1375 50  0001 C CNN
-F 1 "PWR_FLAG" H 1250 1473 50  0000 C CNN
-F 2 "" H 1250 1300 50  0001 C CNN
-F 3 "~" H 1250 1300 50  0001 C CNN
-	1    1250 1300
+P 1750 5700
+F 0 "#FLG0101" H 1750 5775 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 5873 50  0000 C CNN
+F 2 "" H 1750 5700 50  0001 C CNN
+F 3 "~" H 1750 5700 50  0001 C CNN
+	1    1750 5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 1300 1250 1350
+	1750 5700 1750 5750
 $Comp
 L y_arena_valve_controller:TEENSY_4.0 TEENSY?
 U 1 1 5F0DFEA6
@@ -344,4 +344,270 @@ F 7 "28" H 2500 3000 50  0001 C CNN "Quantity"
 	1    2500 3000
 	1    0    0    -1  
 $EndComp
+$Comp
+L y_arena_valve_controller:diode_low_rev_current D?
+U 1 1 5F0CE441
+P 6050 5900
+AR Path="/5EFCDFF8/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFCF736/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFCFB5E/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFCFB62/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFD009E/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFD00A2/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFD00A6/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFD00AA/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5EFD0901/5F0CE441" Ref="D?"  Part="1" 
+AR Path="/5F0CE441" Ref="D?"  Part="1" 
+F 0 "D?" V 6050 5832 50  0000 R CNN
+F 1 "diode_low_rev_current" H 5770 5820 50  0001 L CNN
+F 2 "y_arena_valve_controller:SOD-123" H 5900 5880 60  0001 C CNN
+F 3 "" H 6000 5980 60  0001 C CNN
+F 4 "digikey" H 6100 6080 60  0001 C CNN "Vendor"
+F 5 "CMHD3595 CT-ND" H 6200 6180 60  0001 C CNN "PartNumber"
+F 6 "DIODE GEN PURP 150V 150MA SOD123" H 6300 6280 60  0001 C CNN "Description"
+	1    6050 5900
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6050 5750 1    50   UnSpc ~ 0
+LED_PWR
+Wire Wire Line
+	6050 5800 6050 5750
+$Comp
+L y_arena_valve_controller:499 R?
+U 1 1 5F0CE44F
+P 6050 6300
+AR Path="/5EFCDFF8/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFCF736/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFCFB5E/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFCFB62/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFD009E/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFD00A2/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFD00A6/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFD00AA/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5EFD0901/5F0CE44F" Ref="R?"  Part="1" 
+AR Path="/5F0CE44F" Ref="R?"  Part="1" 
+F 0 "R?" H 6100 6300 40  0000 L CNN
+F 1 "499" V 6050 6300 40  0000 C CNN
+F 2 "y_arena_valve_controller:SM0805" V 5980 6300 30  0001 C CNN
+F 3 "" H 6050 6300 30  0000 C CNN
+F 4 "RES SMD 499 OHM 1% 1/8W 0805" V 6430 6600 60  0001 C CNN "Description"
+F 5 "0805 (2012 Metric)" H 6050 6300 60  0001 C CNN "Package"
+F 6 "digikey" H 6050 6300 60  0001 C CNN "Vendor"
+F 7 "311-499CRCT-ND" H 6050 6300 60  0001 C CNN "Vendor Part Number"
+	1    6050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L y_arena_valve_controller:LED_GRN D?
+U 1 1 5F0CE45B
+P 6050 6800
+AR Path="/5EFCDFF8/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFCF736/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFCFB5E/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFCFB62/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFD009E/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFD00A2/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFD00A6/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFD00AA/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5EFD0901/5F0CE45B" Ref="D?"  Part="1" 
+AR Path="/5F0CE45B" Ref="D?"  Part="1" 
+F 0 "D?" V 6012 6878 50  0000 L CNN
+F 1 "LED_GRN" V 6096 6878 40  0000 L CNN
+F 2 "y_arena_valve_controller:LED0805" H 5950 6800 60  0001 C CNN
+F 3 "" H 6050 6800 60  0000 C CNN
+F 4 "LED GREEN CLEAR SMD" H 6350 7200 60  0001 C CNN "Description"
+F 5 "0805 (2012 Metric)" H 6050 6800 60  0001 C CNN "Package"
+F 6 "Lite-On Inc." H 6050 6800 60  0001 C CNN "Manufacturer"
+F 7 "LTST-C170GKT" H 6050 6800 60  0001 C CNN "Manufacturer Part Number"
+F 8 "digikey" H 6050 6800 60  0001 C CNN "Vendor"
+F 9 "160-1179-1-ND" H 6050 6800 60  0001 C CNN "Vendor Part Number"
+	1    6050 6800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 6000 6050 6050
+Wire Wire Line
+	6050 6550 6050 6600
+$Sheet
+S 4650 1900 650  900 
+U 5F0CF7A3
+F0 "power_switches_0-7" 50
+F1 "power_switches.sch" 50
+F2 "RESET" I L 4650 2400 50 
+F3 "CS" I L 4650 2300 50 
+F4 "SCK" I L 4650 2200 50 
+F5 "MOSI" I L 4650 2000 50 
+F6 "MISO" O L 4650 2100 50 
+F7 "MAP" I L 4650 2600 50 
+F8 "IN" I L 4650 2500 50 
+F9 "OUT1" U R 5300 2000 50 
+F10 "OUT2" U R 5300 2100 50 
+F11 "OUT3" U R 5300 2200 50 
+F12 "OUT4" U R 5300 2300 50 
+F13 "OUT5" U R 5300 2400 50 
+F14 "OUT6" U R 5300 2500 50 
+F15 "OUT7" U R 5300 2600 50 
+F16 "OUT8" U R 5300 2700 50 
+$EndSheet
+Wire Wire Line
+	5300 2000 5350 2000
+Wire Wire Line
+	5300 2100 5350 2100
+Wire Wire Line
+	5300 2200 5350 2200
+Wire Wire Line
+	5300 2300 5350 2300
+Wire Wire Line
+	5300 2400 5350 2400
+Wire Wire Line
+	5300 2500 5350 2500
+Wire Wire Line
+	5300 2600 5350 2600
+Wire Wire Line
+	5300 2700 5350 2700
+Wire Wire Line
+	1250 2650 1200 2650
+Text Label 1200 2650 2    50   ~ 0
+RESET
+NoConn ~ 4650 2500
+NoConn ~ 4650 2600
+Wire Wire Line
+	4650 2400 4600 2400
+Text Label 4600 2400 2    50   ~ 0
+RESET
+Wire Wire Line
+	4650 2300 4600 2300
+Text Label 4600 2300 2    50   ~ 0
+CS
+Wire Wire Line
+	4650 2200 4600 2200
+Text Label 4600 2200 2    50   ~ 0
+SCK
+Wire Wire Line
+	4650 2100 4600 2100
+Text Label 4600 2100 2    50   ~ 0
+SO_0
+Wire Wire Line
+	4650 2000 4600 2000
+Text Label 4600 2000 2    50   ~ 0
+MOSI
+Wire Wire Line
+	1250 3450 1200 3450
+Text Label 1200 3450 2    50   ~ 0
+CS
+Wire Wire Line
+	3750 3650 3800 3650
+Text Label 3800 3650 0    50   ~ 0
+SCK
+Wire Wire Line
+	1250 3650 1200 3650
+Text Label 1200 3650 2    50   ~ 0
+MISO
+Wire Wire Line
+	1250 3550 1200 3550
+Text Label 1200 3550 2    50   ~ 0
+MOSI
+$Sheet
+S 4650 3050 650  900 
+U 5F0ED5B3
+F0 "power_switches_8-16" 50
+F1 "power_switches.sch" 50
+F2 "RESET" I L 4650 3550 50 
+F3 "CS" I L 4650 3450 50 
+F4 "SCK" I L 4650 3350 50 
+F5 "MOSI" I L 4650 3150 50 
+F6 "MISO" O L 4650 3250 50 
+F7 "MAP" I L 4650 3750 50 
+F8 "IN" I L 4650 3650 50 
+F9 "OUT1" U R 5300 3150 50 
+F10 "OUT2" U R 5300 3250 50 
+F11 "OUT3" U R 5300 3350 50 
+F12 "OUT4" U R 5300 3450 50 
+F13 "OUT5" U R 5300 3550 50 
+F14 "OUT6" U R 5300 3650 50 
+F15 "OUT7" U R 5300 3750 50 
+F16 "OUT8" U R 5300 3850 50 
+$EndSheet
+NoConn ~ 4650 3650
+NoConn ~ 4650 3750
+Wire Wire Line
+	4650 3550 4600 3550
+Text Label 4600 3550 2    50   ~ 0
+RESET
+Wire Wire Line
+	4650 3450 4600 3450
+Text Label 4600 3450 2    50   ~ 0
+CS
+Wire Wire Line
+	4650 3350 4600 3350
+Text Label 4600 3350 2    50   ~ 0
+SCK
+Wire Wire Line
+	4650 3250 4600 3250
+Text Label 4600 3250 2    50   ~ 0
+MISO
+Wire Wire Line
+	4650 3150 4600 3150
+Wire Wire Line
+	5300 3150 5350 3150
+NoConn ~ 5300 3250
+NoConn ~ 5300 3350
+NoConn ~ 5300 3450
+NoConn ~ 5300 3550
+NoConn ~ 5300 3650
+NoConn ~ 5300 3750
+NoConn ~ 5300 3850
+NoConn ~ 1250 2750
+NoConn ~ 1250 2850
+NoConn ~ 1250 2950
+NoConn ~ 1250 3050
+NoConn ~ 1250 3150
+NoConn ~ 1250 3250
+NoConn ~ 1250 3350
+NoConn ~ 3750 3550
+NoConn ~ 3750 3450
+NoConn ~ 3750 3350
+NoConn ~ 3750 3250
+NoConn ~ 3750 3150
+NoConn ~ 3750 3050
+NoConn ~ 3750 2950
+NoConn ~ 3750 2850
+NoConn ~ 3750 2750
+NoConn ~ 3750 2650
+NoConn ~ 3750 2550
+NoConn ~ 3750 2450
+NoConn ~ 1250 2450
+NoConn ~ 1250 2550
+Text Label 4600 3150 2    50   ~ 0
+SO_0
+$Comp
+L power:GND #PWR?
+U 1 1 5F120B60
+P 850 2450
+F 0 "#PWR?" H 850 2200 50  0001 C CNN
+F 1 "GND" H 855 2277 50  0000 C CNN
+F 2 "" H 850 2450 50  0001 C CNN
+F 3 "" H 850 2450 50  0001 C CNN
+	1    850  2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2350 850  2350
+Wire Wire Line
+	850  2350 850  2450
+$Comp
+L power:+5V #PWR?
+U 1 1 5F122A9A
+P 3800 2300
+F 0 "#PWR?" H 3800 2150 50  0001 C CNN
+F 1 "+5V" H 3815 2473 50  0000 C CNN
+F 2 "" H 3800 2300 50  0001 C CNN
+F 3 "" H 3800 2300 50  0001 C CNN
+	1    3800 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 2350 3800 2350
+Wire Wire Line
+	3800 2350 3800 2300
 $EndSCHEMATC
