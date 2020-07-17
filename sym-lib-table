@@ -1,6 +1,5 @@
 (sym_lib_table
   (lib (name y_arena_valve_controller)(type Legacy)(uri ${KIPRJMOD}/y_arena_valve_controller.lib)(options "")(descr ""))
-  (lib (name power_switches)(type Legacy)(uri ${KIPRJMOD}/power_switches.lib)(options "")(descr ""))
   (lib (name valve_with_led)(type Legacy)(uri ${KIPRJMOD}/valve_with_led.lib)(options "")(descr ""))
   (lib (name components)(type Legacy)(uri /home/polidorop/git/kicad/kicad-libraries/components.lib)(options "")(descr ""))
 )
