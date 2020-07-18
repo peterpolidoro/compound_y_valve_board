@@ -1,6 +1,6 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | PartNumber     | Vendor  | Description                    |
-|------+----------+----------------+---------+--------------------------------|
-|    1 |        1 | A3CCB-2436G-ND | digikey | IDC CABLE- AKC24B/AE24G/AKC24B |
-|      |          |                |         |                                |
+| Item | Quantity | PartNumber        | Vendor   | Description |
+|------+----------+-------------------+----------+-------------|
+|    1 |        1 | 1568-DEV-15583-ND | Digi-Key | TEENSY 4.0  |
+|      |          |                   |          |             |
