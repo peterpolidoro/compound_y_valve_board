@@ -1,4 +1,4 @@
-update=Wed 01 Jul 2020 11:22:55 PM EDT
+update=Mon 20 Jul 2020 04:50:45 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -245,4 +245,15 @@ uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=SUPERPOWER
+Clearance=0.1016
+TrackWidth=0.8128
+ViaDiameter=0.889
+ViaDrill=0.635
+uViaDiameter=0.508
+uViaDrill=0.127
+dPairWidth=0.254
+dPairGap=0.254
 dPairViaGap=0.25

@@ -1,5 +1,5 @@
 (fp_lib_table
   (lib (name y_arena_valve_controller)(type KiCad)(uri ${KIPRJMOD}/y_arena_valve_controller.pretty)(options "")(descr ""))
-  (lib (name valve_with_led)(type KiCad)(uri ${KIPRJMOD}/valve_with_led.pretty)(options "")(descr ""))
+  (lib (name valve)(type KiCad)(uri ${KIPRJMOD}/valve.pretty)(options "")(descr ""))
   (lib (name footprints)(type KiCad)(uri ${KILIBS}/footprints.pretty)(options "")(descr ""))
 )
