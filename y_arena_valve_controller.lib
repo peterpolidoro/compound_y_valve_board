@@ -91,7 +91,7 @@ F0 "PHIDGET" 0 750 50 H V C CNN
 F1 "PHIDGET_RELAY_16X_COMP" 0 -950 50 H V C CNN
 F2 "y_arena_valve_controller:PHIDGET_RELAY_16X_COMP" -700 -50 50 H I C CNN
 F3 "" -700 -50 50 H I C CNN
-F4 "16x Isolated Solid State Relay Phidget" 50 1400 50 H I C CNN "Description"
+F4 "CONN HEADER VERT 16POS 2.54MM " 50 1400 50 H I C CNN "Description"
 F5 "VINT" 0 1400 50 H I C CNN "Package"
 F6 " TE Connectivity" 50 1400 50 H I C CNN "Manufacturer"
 F7 "1-103908-5" 50 1400 50 H I C CNN "Manufacturer Part Number"

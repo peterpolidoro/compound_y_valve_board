@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 10
+Sheet 4 10
 Title ""
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -27,7 +27,7 @@ AR Path="/5EFD00A2/5EFCEB08" Ref="S6"  Part="1"
 AR Path="/5EFD00A6/5EFCEB08" Ref="S7"  Part="1" 
 AR Path="/5EFD00AA/5EFCEB08" Ref="S8"  Part="1" 
 AR Path="/5EFD0901/5EFCEB08" Ref="S9"  Part="1" 
-F 0 "S1" H 5450 3650 50  0000 C CNN
+F 0 "S3" H 5450 3650 50  0000 C CNN
 F 1 "LEECO_LHDB" V 5550 3500 50  0000 C CNN
 F 2 "valve_with_led:LEECO_LHDB" H 5350 3550 60  0001 C CNN
 F 3 "" H 5450 3650 60  0000 C CNN

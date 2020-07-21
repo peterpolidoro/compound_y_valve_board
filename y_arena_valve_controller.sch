@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 10
 Title "y_arena_valve_controller"
 Date ""
-Rev "1.0"
+Rev "1.1"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""

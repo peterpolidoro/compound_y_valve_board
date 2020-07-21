@@ -1,19 +1,19 @@
-- [Repository Information](#org44c5dd7)
-  - [Description](#org3df8dc2)
-- [Images](#org747cbb4)
-- [Schematic](#orga201062)
-- [Gerbers](#org87dbd61)
-- [Bill of Materials](#org08f6f21)
-  - [PCB Parts](#org4b98466)
-  - [Supplemental Parts](#org9d07261)
-  - [Vendor Parts Lists](#org7da4d80)
-- [Supplemental Documentation](#org495cc0b)
-  - [Assembly Instructions](#org4588b08)
-- [Manufacturing Archive](#org4ce79ef)
+- [Repository Information](#org33656cb)
+  - [Description](#org8989e45)
+- [Images](#org17bf3b4)
+- [Schematic](#orgf0553b6)
+- [Gerbers](#org313ca19)
+- [Bill of Materials](#org35db9f6)
+  - [PCB Parts](#orgde15fdf)
+  - [Supplemental Parts](#org48bcb1a)
+  - [Vendor Parts Lists](#org43aa63b)
+- [Supplemental Documentation](#org98404fa)
+  - [Assembly Instructions](#org182e91a)
+- [Manufacturing Archive](#orgd159457)
 
 
 
-<a id="org44c5dd7"></a>
+<a id="org33656cb"></a>
 
 # Repository Information
 
@@ -25,19 +25,19 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org3df8dc2"></a>
+<a id="org8989e45"></a>
 
 ## Description
 
 This board&#x2026;
 
 
-<a id="org747cbb4"></a>
+<a id="org17bf3b4"></a>
 
 # Images
 
 
-<a id="orga201062"></a>
+<a id="orgf0553b6"></a>
 
 # Schematic
 
@@ -64,7 +64,7 @@ This board&#x2026;
 ![img](./schematic/images/schematic09.png)
 
 
-<a id="org87dbd61"></a>
+<a id="org313ca19"></a>
 
 # Gerbers
 
@@ -73,12 +73,12 @@ This board&#x2026;
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="org08f6f21"></a>
+<a id="org35db9f6"></a>
 
 # Bill of Materials
 
 
-<a id="org4b98466"></a>
+<a id="orgde15fdf"></a>
 
 ## PCB Parts
 
@@ -87,11 +87,11 @@ This board&#x2026;
 | 1    | C1                         | 1        | TDK Corporation             | C2012X5R1V106K085AC      | Digi-Key | 445-14417-1-ND     | CAP CER 10UF 35V X5R                   | 0805 (2012 Metric) |
 | 2    | D1                         | 1        | Nexperia USA Inc.           | PMEG045V100EPDZ          | Digi-Key | 1727-1904-1-ND     | DIODE SCHOTTKY 45V 10A                 | CFP15              |
 | 3    | P1                         | 1        | CUI Devices                 | PJ-015AH-SMT-TR          | Digi-Key | CP-015AHPJ-CT-ND   | CONN PWR JACK 2X5.5MM SOLDER           |                    |
-| 4    | PHIDGET1                   | 1        | TE Connectivity             | 1-103908-5               | Digi-Key | A28514-ND          | 16x Isolated Solid State Relay Phidget | VINT               |
-| 5    | S1 S2 S3 S4 S5 S6 S7 S8 S9 | 9        | Mill-Max Manufacturing Corp | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND         | CONN PIN RCPT .025-.037 SOLDER         |                    |
+| 4    | PHIDGET1                   | 2        | TE Connectivity             | 1-103908-5               | Digi-Key | A28514-ND          | 16x Isolated Solid State Relay Phidget | VINT               |
+| 5    | S1 S2 S3 S4 S5 S6 S7 S8 S9 | 18       | Mill-Max Manufacturing Corp | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND         | CONN PIN RCPT .025-.037 SOLDER         |                    |
 
 
-<a id="org9d07261"></a>
+<a id="org48bcb1a"></a>
 
 ## Supplemental Parts
 
@@ -101,7 +101,7 @@ This board&#x2026;
 | 2    | 4        | Keystone Electronics           | 4883                     | Digi-Key | 36-4883CT-ND       | ROUND STANDOFF #4-40 STEEL 1/4IN |
 
 
-<a id="org7da4d80"></a>
+<a id="org43aa63b"></a>
 
 ## Vendor Parts Lists
 
@@ -110,19 +110,19 @@ This board&#x2026;
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="org495cc0b"></a>
+<a id="org98404fa"></a>
 
 # Supplemental Documentation
 
 
-<a id="org4588b08"></a>
+<a id="org182e91a"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org4ce79ef"></a>
+<a id="orgd159457"></a>
 
 # Manufacturing Archive
 

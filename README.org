@@ -1,4 +1,4 @@
-# Created 2020-07-21 Tue 11:23
+# Created 2020-07-21 Tue 15:48
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
@@ -54,8 +54,8 @@ This board...
 |    1 | C1                         |        1 | TDK Corporation             | C2012X5R1V106K085AC      | Digi-Key | 445-14417-1-ND     | CAP CER 10UF 35V X5R                   | 0805 (2012 Metric) |
 |    2 | D1                         |        1 | Nexperia USA Inc.           | PMEG045V100EPDZ          | Digi-Key | 1727-1904-1-ND     | DIODE SCHOTTKY 45V 10A                 | CFP15              |
 |    3 | P1                         |        1 | CUI Devices                 | PJ-015AH-SMT-TR          | Digi-Key | CP-015AHPJ-CT-ND   | CONN PWR JACK 2X5.5MM SOLDER           |                    |
-|    4 | PHIDGET1                   |        1 | TE Connectivity             | 1-103908-5               | Digi-Key | A28514-ND          | 16x Isolated Solid State Relay Phidget | VINT               |
-|    5 | S1 S2 S3 S4 S5 S6 S7 S8 S9 |        9 | Mill-Max Manufacturing Corp | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND         | CONN PIN RCPT .025-.037 SOLDER         |                    |
+|    4 | PHIDGET1                   |        2 | TE Connectivity             | 1-103908-5               | Digi-Key | A28514-ND          | 16x Isolated Solid State Relay Phidget | VINT               |
+|    5 | S1 S2 S3 S4 S5 S6 S7 S8 S9 |       18 | Mill-Max Manufacturing Corp | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND         | CONN PIN RCPT .025-.037 SOLDER         |                    |
 
 ** Supplemental Parts
 
