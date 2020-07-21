@@ -12,6 +12,8 @@ F4 "Digi-Key" 100 250 60 H I C CNN "Vendor"
 F5 "ED90331-ND" 200 350 60 H I C CNN "Vendor Part Number"
 F6 "CONN PIN RCPT .025-.037 SOLDER" 300 450 60 H I C CNN "Description"
 F7 "2" 0 0 50 H I C CNN "Quantity"
+F8 "Mill-Max Manufacturing Corp" 0 0 50 H I C CNN "Manufacturer"
+F9 "0305-0-15-15-47-27-10-0" 0 0 50 H I C CNN "Manufacturer Part Number"
 $FPLIST
  Pin_Header_Straight_1X02
  Pin_Header_Angled_1X02

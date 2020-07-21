@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/peter/git/kicad/y_arena_valve_controller/y_arena_valve_controller.sch</source>
+    <date>Tue 21 Jul 2020 11:22:34 AM EDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>y_arena_valve_controller</title>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>y_arena_valve_controller.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/valve_0/" tstamps="/5EFCDFF8/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/valve_1/" tstamps="/5EFCF736/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/valve_2/" tstamps="/5EFCFB5E/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/valve_3/" tstamps="/5EFCFB62/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/valve_4/" tstamps="/5EFD009E/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/valve_5/" tstamps="/5EFD00A2/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/valve_6/" tstamps="/5EFD00A6/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/valve_7/" tstamps="/5EFD00AA/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/valve_8/" tstamps="/5EFD0901/">
+      <title_block>
+        <title/>
+        <company>Janelia</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>valve.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MH1">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>y_arena_valve_controller:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="y_arena_valve_controller" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE0DCF</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>y_arena_valve_controller:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="y_arena_valve_controller" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE42B4</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MOUNTING_HOLE_4-40</value>
+      <footprint>y_arena_valve_controller:MOUNTING_HOLE_4-40</footprint>
+      <libsource lib="y_arena_valve_controller" part="MOUNTING_HOLE_4-40" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFE5820</tstamp>
+    </comp>
+    <comp ref="FID1">
+      <value>FIDUCIAL</value>
+      <footprint>y_arena_valve_controller:FIDUCIAL</footprint>
+      <libsource lib="y_arena_valve_controller" part="FIDUCIAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF6F31</tstamp>
+    </comp>
+    <comp ref="FID2">
+      <value>FIDUCIAL</value>
+      <footprint>y_arena_valve_controller:FIDUCIAL</footprint>
+      <libsource lib="y_arena_valve_controller" part="FIDUCIAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF7D26</tstamp>
+    </comp>
+    <comp ref="FID3">
+      <value>FIDUCIAL</value>
+      <footprint>y_arena_valve_controller:FIDUCIAL</footprint>
+      <libsource lib="y_arena_valve_controller" part="FIDUCIAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF92FD</tstamp>
+    </comp>
+    <comp ref="FID4">
+      <value>FIDUCIAL</value>
+      <footprint>y_arena_valve_controller:FIDUCIAL</footprint>
+      <libsource lib="y_arena_valve_controller" part="FIDUCIAL" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EFF9307</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>y_arena_valve_controller:SM0805</footprint>
+      <fields>
+        <field name="Description">CAP CER 10UF 35V X5R</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number"> C2012X5R1V106K085AC</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number"> 445-14417-1-ND </field>
+      </fields>
+      <libsource lib="y_arena_valve_controller" part="10uF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0E6C69</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE_SCHOTTKY_45V_10A</value>
+      <footprint>y_arena_valve_controller:CFP15</footprint>
+      <fields>
+        <field name="Description">DIODE SCHOTTKY 45V 10A</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Manufacturer Part Number">PMEG045V100EPDZ</field>
+        <field name="Package">CFP15</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1727-1904-1-ND</field>
+      </fields>
+      <libsource lib="y_arena_valve_controller" part="DIODE_SCHOTTKY_45V_10A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F124F7B</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>PWR_JACK_2.1x5.5_SMD_VERT</value>
+      <footprint>y_arena_valve_controller:DCJACK_3PIN_SMD_VERT</footprint>
+      <fields>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Manufacturer Part Number">PJ-015AH-SMT-TR</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">CP-015AHPJ-CT-ND</field>
+      </fields>
+      <libsource lib="y_arena_valve_controller" part="PWR_JACK_2.1x5.5_SMD_VERT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F17FD9D</tstamp>
+    </comp>
+    <comp ref="PHIDGET1">
+      <value>PHIDGET_RELAY_16X_COMP</value>
+      <footprint>y_arena_valve_controller:PHIDGET_RELAY_16X_COMP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">16x Isolated Solid State Relay Phidget</field>
+        <field name="Manufacturer"> TE Connectivity</field>
+        <field name="Manufacturer Part Number">1-103908-5</field>
+        <field name="Package">VINT</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">A28514-ND</field>
+      </fields>
+      <libsource lib="y_arena_valve_controller" part="PHIDGET_RELAY_16X_COMP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F191469</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_0/" tstamps="/5EFCDFF8/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_1/" tstamps="/5EFCF736/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_2/" tstamps="/5EFCFB5E/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_3/" tstamps="/5EFCFB62/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_4/" tstamps="/5EFD009E/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_5/" tstamps="/5EFD00A2/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_6/" tstamps="/5EFD00A6/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_7/" tstamps="/5EFD00AA/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+    <comp ref="S9">
+      <value>LEECO_LHDB</value>
+      <footprint>valve_with_led:LEECO_LHDB</footprint>
+      <fields>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+        <field name="PartNumber">ED90331-ND</field>
+        <field name="Quantity">2</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+      </fields>
+      <libsource lib="valve" part="LEECO_LHDB" description=""/>
+      <sheetpath names="/valve_8/" tstamps="/5EFD0901/"/>
+      <tstamp>5EFCEB08</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="valve" part="LEECO_LHDB">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">LEECO_LHDB</field>
+        <field name="Footprint">valve_with_led:LEECO_LHDB</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">ED90331-ND</field>
+        <field name="Description">CONN PIN RCPT .025-.037 SOLDER</field>
+        <field name="Quantity">2</field>
+        <field name="Manufacturer">Mill-Max Manufacturing Corp</field>
+        <field name="Manufacturer Part Number">0305-0-15-15-47-27-10-0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="y_arena_valve_controller" part="10uF">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">10uF</field>
+        <field name="Footprint">y_arena_valve_controller:SM0805</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number"> 445-14417-1-ND </field>
+        <field name="Description">CAP CER 10UF 35V X5R</field>
+        <field name="Package">0805 (2012 Metric)</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Manufacturer Part Number"> C2012X5R1V106K085AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="y_arena_valve_controller" part="DIODE_SCHOTTKY_45V_10A">
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE_SCHOTTKY_45V_10A</field>
+        <field name="Footprint">y_arena_valve_controller:CFP15</field>
+        <field name="Description">DIODE SCHOTTKY 45V 10A</field>
+        <field name="Package">CFP15</field>
+        <field name="Manufacturer">Nexperia USA Inc.</field>
+        <field name="Manufacturer Part Number">PMEG045V100EPDZ</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">1727-1904-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="y_arena_valve_controller" part="FIDUCIAL">
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">FIDUCIAL</field>
+        <field name="Footprint">y_arena_valve_controller:FIDUCIAL</field>
+      </fields>
+    </libpart>
+    <libpart lib="y_arena_valve_controller" part="MOUNTING_HOLE_4-40">
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MOUNTING_HOLE_4-40</field>
+        <field name="Footprint">y_arena_valve_controller:MOUNTING_HOLE_4-40</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="y_arena_valve_controller" part="PHIDGET_RELAY_16X_COMP">
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">PHIDGET</field>
+        <field name="Value">PHIDGET_RELAY_16X_COMP</field>
+        <field name="Footprint">y_arena_valve_controller:PHIDGET_RELAY_16X_COMP</field>
+        <field name="Description">16x Isolated Solid State Relay Phidget</field>
+        <field name="Package">VINT</field>
+        <field name="Manufacturer"> TE Connectivity</field>
+        <field name="Manufacturer Part Number">1-103908-5</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">A28514-ND</field>
+        <field name="Quantity">2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="0" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="3" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="4" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="5" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="6" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="7" type="passive"/>
+        <pin num="17" name="~" type="passive"/>
+        <pin num="18" name="8" type="passive"/>
+        <pin num="19" name="~" type="passive"/>
+        <pin num="20" name="9" type="passive"/>
+        <pin num="21" name="~" type="passive"/>
+        <pin num="22" name="10" type="passive"/>
+        <pin num="23" name="~" type="passive"/>
+        <pin num="24" name="11" type="passive"/>
+        <pin num="25" name="~" type="passive"/>
+        <pin num="26" name="12" type="passive"/>
+        <pin num="27" name="~" type="passive"/>
+        <pin num="28" name="13" type="passive"/>
+        <pin num="29" name="~" type="passive"/>
+        <pin num="30" name="14" type="passive"/>
+        <pin num="31" name="~" type="passive"/>
+        <pin num="32" name="15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="y_arena_valve_controller" part="PWR_JACK_2.1x5.5_SMD_VERT">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PWR_JACK_2.1x5.5_SMD_VERT</field>
+        <field name="Footprint">y_arena_valve_controller:DCJACK_3PIN_SMD_VERT</field>
+        <field name="Vendor">Digi-Key</field>
+        <field name="Vendor Part Number">CP-015AHPJ-CT-ND</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM SOLDER</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Manufacturer Part Number">PJ-015AH-SMT-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="valve">
+      <uri>/home/peter/git/kicad/y_arena_valve_controller/valve.lib</uri>
+    </library>
+    <library logical="y_arena_valve_controller">
+      <uri>/home/peter/git/kicad/y_arena_valve_controller/y_arena_valve_controller.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/VALVE_3">
+      <node ref="PHIDGET1" pin="8"/>
+      <node ref="S4" pin="2"/>
+    </net>
+    <net code="2" name="/VALVE_4">
+      <node ref="PHIDGET1" pin="10"/>
+      <node ref="S5" pin="2"/>
+    </net>
+    <net code="3" name="/VALVE_5">
+      <node ref="PHIDGET1" pin="12"/>
+      <node ref="S6" pin="2"/>
+    </net>
+    <net code="4" name="/VALVE_6">
+      <node ref="S7" pin="2"/>
+      <node ref="PHIDGET1" pin="14"/>
+    </net>
+    <net code="5" name="/VALVE_7">
+      <node ref="PHIDGET1" pin="16"/>
+      <node ref="S8" pin="2"/>
+    </net>
+    <net code="6" name="/VALVE_2">
+      <node ref="S3" pin="2"/>
+      <node ref="PHIDGET1" pin="6"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="PHIDGET1" pin="1"/>
+      <node ref="PHIDGET1" pin="13"/>
+      <node ref="PHIDGET1" pin="11"/>
+      <node ref="PHIDGET1" pin="19"/>
+      <node ref="PHIDGET1" pin="21"/>
+      <node ref="PHIDGET1" pin="23"/>
+      <node ref="PHIDGET1" pin="25"/>
+      <node ref="PHIDGET1" pin="29"/>
+      <node ref="PHIDGET1" pin="3"/>
+      <node ref="PHIDGET1" pin="31"/>
+      <node ref="PHIDGET1" pin="5"/>
+      <node ref="PHIDGET1" pin="7"/>
+      <node ref="PHIDGET1" pin="9"/>
+      <node ref="PHIDGET1" pin="17"/>
+      <node ref="PHIDGET1" pin="15"/>
+      <node ref="PHIDGET1" pin="27"/>
+    </net>
+    <net code="8" name="/VALVE_0">
+      <node ref="S1" pin="2"/>
+      <node ref="PHIDGET1" pin="2"/>
+    </net>
+    <net code="9" name="/VALVE_1">
+      <node ref="S2" pin="2"/>
+      <node ref="PHIDGET1" pin="4"/>
+    </net>
+    <net code="10" name="/VALVE_8">
+      <node ref="S9" pin="2"/>
+      <node ref="PHIDGET1" pin="18"/>
+    </net>
+    <net code="11" name="Net-(PHIDGET1-Pad20)">
+      <node ref="PHIDGET1" pin="20"/>
+    </net>
+    <net code="12" name="Net-(PHIDGET1-Pad22)">
+      <node ref="PHIDGET1" pin="22"/>
+    </net>
+    <net code="13" name="Net-(PHIDGET1-Pad24)">
+      <node ref="PHIDGET1" pin="24"/>
+    </net>
+    <net code="14" name="Net-(PHIDGET1-Pad26)">
+      <node ref="PHIDGET1" pin="26"/>
+    </net>
+    <net code="15" name="Net-(PHIDGET1-Pad28)">
+      <node ref="PHIDGET1" pin="28"/>
+    </net>
+    <net code="16" name="Net-(PHIDGET1-Pad30)">
+      <node ref="PHIDGET1" pin="30"/>
+    </net>
+    <net code="17" name="Net-(PHIDGET1-Pad32)">
+      <node ref="PHIDGET1" pin="32"/>
+    </net>
+    <net code="18" name="VCC">
+      <node ref="S2" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="S3" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="S5" pin="1"/>
+      <node ref="S6" pin="1"/>
+      <node ref="S7" pin="1"/>
+      <node ref="S8" pin="1"/>
+      <node ref="S9" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="19" name="VAA">
+      <node ref="P1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(MH1-Pad1)">
+      <node ref="MH1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(MH2-Pad1)">
+      <node ref="MH2" pin="1"/>
+    </net>
+    <net code="22" name="Net-(MH3-Pad1)">
+      <node ref="MH3" pin="1"/>
+    </net>
+  </nets>
+</export>

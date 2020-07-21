@@ -578,6 +578,8 @@ F 3 "" H 3250 5450 60  0000 C CNN
 F 4 "Digi-Key" H 3350 5700 60  0001 C CNN "Vendor"
 F 5 "CP-015AHPJ-CT-ND" H 3450 5800 60  0001 C CNN "Vendor Part Number"
 F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 3550 5900 60  0001 C CNN "Description"
+F 7 "CUI Devices" H 3250 5450 50  0001 C CNN "Manufacturer"
+F 8 "PJ-015AH-SMT-TR" H 3250 5450 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 5450
 	1    0    0    -1  
 $EndComp

@@ -1,7 +1,6 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | PartNumber     | Vendor   | Description                      |
-|------+----------+----------------+----------+----------------------------------|
-|    1 |        2 | A9CAG-1606F-ND | Digi-Key | FLEX CABLE - AFG16G/AF16/AFE16T  |
-|    2 |        4 | 36-4883CT-ND   | Digi-Key | ROUND STANDOFF #4-40 STEEL 1/4IN |
-|      |          |                |          |                                  |
+| Item | Quantity | Manufacturer                   | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                      |
+|------+----------+--------------------------------+--------------------------+----------+--------------------+----------------------------------|
+|    1 |        2 | TE Connectivity AMP Connectors | A9CAG-1606F              | Digi-Key | A9CAG-1606F-ND     | FLEX CABLE - AFG16G/AF16/AFE16T  |
+|    2 |        4 | Keystone Electronics           | 4883                     | Digi-Key | 36-4883CT-ND       | ROUND STANDOFF #4-40 STEEL 1/4IN |
