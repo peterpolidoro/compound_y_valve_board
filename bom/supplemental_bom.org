@@ -1,6 +1,12 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | Manufacturer                   | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                      |
-|------+----------+--------------------------------+--------------------------+----------+--------------------+----------------------------------|
-|    1 |        2 | TE Connectivity AMP Connectors | A9CAG-1606F              | Digi-Key | A9CAG-1606F-ND     | FLEX CABLE - AFG16G/AF16/AFE16T  |
-|    2 |        4 | Keystone Electronics           | 4883                     | Digi-Key | 36-4883CT-ND       | ROUND STANDOFF #4-40 STEEL 1/4IN |
+| Item | Quantity | Manufacturer                   | Manufacturer Part Number | Vendor   | Vendor Part Number | Description                            |
+|------+----------+--------------------------------+--------------------------+----------+--------------------+----------------------------------------|
+|    1 |        2 | TE Connectivity AMP Connectors | A9CAG-1606F              | Digi-Key | A9CAG-1606F-ND     | FLEX CABLE - AFG16G/AF16/AFE16T        |
+|    2 |        4 | Keystone Electronics           | 4882                     | Digi-Key | 36-4882CT-ND       | ROUND STANDOFF #4-40 STEEL 1/8IN       |
+|    3 |        4 | Keystone Electronics           | 2441                     | Digi-Key | 36-2441-ND         | SHLDR SCREW RND HEAD HEX #4-40         |
+|    4 |        1 | Tensility International Corp   | 10-02739                 | Digi-Key | 839-1474-ND        | SPLITTER 5.5X2.1MM F TO X4 M           |
+|    5 |        1 | Tensility International Corp   | CA-2216                  | Digi-Key | CP-2216-ND         | CABLE ASSY 5.5X2.1MM M/F 3FT           |
+|    6 |        1 | Phidgets                       | REL1101_0                | Phidgets | REL1101_0          | 16x Isolated Solid State Relay Phidget |
+|    7 |        1 | Phidgets                       | HUB0000_0                | Phidgets | HUB0000_0          | VINT Hub Phidget                       |
+|      |          |                                |                          |          |                    |                                        |
