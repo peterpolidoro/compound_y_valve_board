@@ -1,43 +1,43 @@
-- [Repository Information](#org33656cb)
-  - [Description](#org8989e45)
-- [Images](#org17bf3b4)
-- [Schematic](#orgf0553b6)
-- [Gerbers](#org313ca19)
-- [Bill of Materials](#org35db9f6)
-  - [PCB Parts](#orgde15fdf)
-  - [Supplemental Parts](#org48bcb1a)
-  - [Vendor Parts Lists](#org43aa63b)
-- [Supplemental Documentation](#org98404fa)
-  - [Assembly Instructions](#org182e91a)
-- [Manufacturing Archive](#orgd159457)
+- [Repository Information](#org892eabe)
+  - [Description](#orgb33e225)
+- [Images](#org3ac7316)
+- [Schematic](#orga17a44f)
+- [Gerbers](#org97fb29c)
+- [Bill of Materials](#org2f85de1)
+  - [PCB Parts](#org1515cdc)
+  - [Supplemental Parts](#orgec4c8ce)
+  - [Vendor Parts Lists](#org8d2b7d9)
+- [Supplemental Documentation](#org72b403a)
+  - [Assembly Instructions](#orgf372120)
+- [Manufacturing Archive](#orgc898dc7)
 
 
 
-<a id="org33656cb"></a>
+<a id="org892eabe"></a>
 
 # Repository Information
 
 -   **Name:** y\_arena\_valve\_controller
--   **Version:** 1.0
+-   **Version:** 1.1
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/y_arena_valve_controller>
 -   **Author:** Peter Polidoro
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org8989e45"></a>
+<a id="orgb33e225"></a>
 
 ## Description
 
-This board&#x2026;
+This board controls the y-arena valves for the Turner lab.
 
 
-<a id="org17bf3b4"></a>
+<a id="org3ac7316"></a>
 
 # Images
 
 
-<a id="orgf0553b6"></a>
+<a id="orga17a44f"></a>
 
 # Schematic
 
@@ -45,40 +45,18 @@ This board&#x2026;
 
 ![img](./schematic/images/schematic00.png)
 
-![img](./schematic/images/schematic01.png)
 
-![img](./schematic/images/schematic02.png)
-
-![img](./schematic/images/schematic03.png)
-
-![img](./schematic/images/schematic04.png)
-
-![img](./schematic/images/schematic05.png)
-
-![img](./schematic/images/schematic06.png)
-
-![img](./schematic/images/schematic07.png)
-
-![img](./schematic/images/schematic08.png)
-
-![img](./schematic/images/schematic09.png)
-
-
-<a id="org313ca19"></a>
+<a id="org97fb29c"></a>
 
 # Gerbers
 
-![img](./gerbers/images/gerbers00.png)
 
-![img](./gerbers/images/gerbers01.png)
-
-
-<a id="org35db9f6"></a>
+<a id="org2f85de1"></a>
 
 # Bill of Materials
 
 
-<a id="orgde15fdf"></a>
+<a id="org1515cdc"></a>
 
 ## PCB Parts
 
@@ -91,7 +69,7 @@ This board&#x2026;
 | 5    | S1 S2 S3 S4 S5 S6 S7 S8 S9 | 18       | Mill-Max Manufacturing Corp | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND         | CONN PIN RCPT .025-.037 SOLDER         |                    |
 
 
-<a id="org48bcb1a"></a>
+<a id="orgec4c8ce"></a>
 
 ## Supplemental Parts
 
@@ -101,7 +79,7 @@ This board&#x2026;
 | 2    | 4        | Keystone Electronics           | 4883                     | Digi-Key | 36-4883CT-ND       | ROUND STANDOFF #4-40 STEEL 1/4IN |
 
 
-<a id="org43aa63b"></a>
+<a id="org8d2b7d9"></a>
 
 ## Vendor Parts Lists
 
@@ -110,22 +88,22 @@ This board&#x2026;
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="org98404fa"></a>
+<a id="org72b403a"></a>
 
 # Supplemental Documentation
 
 
-<a id="org182e91a"></a>
+<a id="orgf372120"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="orgd159457"></a>
+<a id="orgc898dc7"></a>
 
 # Manufacturing Archive
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[./manufacturing/y\_arena\_valve\_controller\_v1.0.zip](./manufacturing/y_arena_valve_controller_v1.0.zip)
+[./manufacturing/y\_arena\_valve\_controller\_v1.1.zip](./manufacturing/y_arena_valve_controller_v1.1.zip)

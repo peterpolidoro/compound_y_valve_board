@@ -209,7 +209,7 @@
       (tstamp 5F191469))
     (comp (ref S1)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -220,7 +220,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S2)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -231,7 +231,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S3)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -242,7 +242,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S4)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -253,7 +253,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S5)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -264,7 +264,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S6)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -275,7 +275,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S7)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -286,7 +286,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S8)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)
@@ -297,7 +297,7 @@
       (tstamp 5EFCEB08))
     (comp (ref S9)
       (value LEECO_LHDB)
-      (footprint valve:LEECO_LHDB)
+      (footprint y_arena_valve_controller:LEECO_LHDB)
       (fields
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
         (field (name PartNumber) ED90331-ND)

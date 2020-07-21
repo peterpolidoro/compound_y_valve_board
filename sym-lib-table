@@ -1,6 +1,5 @@
 (sym_lib_table
   (lib (name y_arena_valve_controller)(type Legacy)(uri ${KIPRJMOD}/y_arena_valve_controller.lib)(options "")(descr ""))
-  (lib (name valve)(type Legacy)(uri ${KIPRJMOD}/valve.lib)(options "")(descr ""))
   (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
   (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
 )

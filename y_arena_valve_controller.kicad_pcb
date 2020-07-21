@@ -287,7 +287,7 @@
       (net 11 GND))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160340)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160340)
     (at 52.705 76.835 90)
     (path /5EFCDFF8/5EFCEB08)
     (fp_text reference S1 (at -4.445 0 180) (layer B.SilkS)
@@ -314,7 +314,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160187)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160187)
     (at 52.705 69.215 90)
     (path /5EFCF736/5EFCEB08)
     (fp_text reference S2 (at 0 6.985 90) (layer B.SilkS)
@@ -341,7 +341,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F1602F8)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F1602F8)
     (at 52.705 61.595 90)
     (path /5EFCFB5E/5EFCEB08)
     (fp_text reference S3 (at 0 6.985 270) (layer B.SilkS)
@@ -368,7 +368,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F16031C)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F16031C)
     (at 80.645 76.835 90)
     (path /5EFCFB62/5EFCEB08)
     (fp_text reference S4 (at 0 6.985 90) (layer B.SilkS)
@@ -395,7 +395,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160433)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160433)
     (at 80.645 69.215 90)
     (path /5EFD009E/5EFCEB08)
     (fp_text reference S5 (at 0 6.985 90) (layer B.SilkS)
@@ -422,7 +422,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160457)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F160457)
     (at 80.645 61.595 90)
     (path /5EFD00A2/5EFCEB08)
     (fp_text reference S6 (at 0 6.985 90) (layer B.SilkS)
@@ -449,7 +449,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F1604D8)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F1604D8)
     (at 108.585 76.835 90)
     (path /5EFD00A6/5EFCEB08)
     (fp_text reference S7 (at -4.445 0 180) (layer B.SilkS)
@@ -476,7 +476,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F1602D1)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F1602D1)
     (at 108.585 69.215 90)
     (path /5EFD00AA/5EFCEB08)
     (fp_text reference S8 (at 0 6.985 90) (layer B.SilkS)
@@ -503,7 +503,7 @@
       (net 12 VCC))
   )
 
-  (module valve:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F16039A)
+  (module y_arena_valve_controller:LEECO_LHDB (layer F.Cu) (tedit 5F173E11) (tstamp 5F16039A)
     (at 108.585 61.595 90)
     (path /5EFD0901/5EFCEB08)
     (fp_text reference S9 (at 0 6.985 270) (layer B.SilkS)

@@ -1,9 +1,9 @@
-# Created 2020-07-21 Tue 15:48
+# Created 2020-07-21 Tue 16:30
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
 - Name :: y_arena_valve_controller
-- Version :: 1.0
+- Version :: 1.1
 - License :: Open-Source Hardware
 - URL :: https://github.com/janelia-kicad/y_arena_valve_controller
 - Author :: Peter Polidoro
@@ -11,7 +11,7 @@
 
 ** Description
 
-This board...
+This board controls the y-arena valves for the Turner lab.
 
 * Images
 
@@ -21,29 +21,7 @@ This board...
 
 [[file:./schematic/images/schematic00.png]]
 
-[[file:./schematic/images/schematic01.png]]
-
-[[file:./schematic/images/schematic02.png]]
-
-[[file:./schematic/images/schematic03.png]]
-
-[[file:./schematic/images/schematic04.png]]
-
-[[file:./schematic/images/schematic05.png]]
-
-[[file:./schematic/images/schematic06.png]]
-
-[[file:./schematic/images/schematic07.png]]
-
-[[file:./schematic/images/schematic08.png]]
-
-[[file:./schematic/images/schematic09.png]]
-
 * Gerbers
-
-[[file:./gerbers/images/gerbers00.png]]
-
-[[file:./gerbers/images/gerbers01.png]]
 
 * Bill of Materials
 
@@ -80,4 +58,4 @@ This board...
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./manufacturing/y_arena_valve_controller_v1.0.zip][./manufacturing/y_arena_valve_controller_v1.0.zip]]
+[[file:./manufacturing/y_arena_valve_controller_v1.1.zip][./manufacturing/y_arena_valve_controller_v1.1.zip]]
