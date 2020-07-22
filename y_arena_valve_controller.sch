@@ -103,7 +103,7 @@ F 1 "VAA" H 3015 5523 50  0000 C CNN
 F 2 "" H 3000 5350 50  0001 C CNN
 F 3 "" H 3000 5350 50  0001 C CNN
 	1    3000 5350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH1
@@ -114,7 +114,7 @@ F 1 "MOUNTING_HOLE_4-40" H 9258 1977 50  0000 L CNN
 F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 9400 1950 50  0001 C CNN
 F 3 "" H 9400 1950 50  0001 C CNN
 	1    9200 1950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 9200 2200
 $Comp
@@ -126,7 +126,7 @@ F 1 "MOUNTING_HOLE_4-40" H 9258 2227 50  0000 L CNN
 F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 9400 2200 50  0001 C CNN
 F 3 "" H 9400 2200 50  0001 C CNN
 	1    9200 2200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 NoConn ~ 9200 2450
 $Comp
@@ -138,7 +138,7 @@ F 1 "MOUNTING_HOLE_4-40" H 9258 2477 50  0000 L CNN
 F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 9400 2450 50  0001 C CNN
 F 3 "" H 9400 2450 50  0001 C CNN
 	1    9200 2450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:FIDUCIAL FID1
@@ -149,7 +149,7 @@ F 1 "FIDUCIAL" H 10428 1805 50  0000 L CNN
 F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 1850 50  0001 C CNN
 F 3 "" H 10550 1850 50  0001 C CNN
 	1    10350 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:FIDUCIAL FID2
@@ -160,7 +160,7 @@ F 1 "FIDUCIAL" H 10428 2005 50  0000 L CNN
 F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 2050 50  0001 C CNN
 F 3 "" H 10550 2050 50  0001 C CNN
 	1    10350 2050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:FIDUCIAL FID3
@@ -171,7 +171,7 @@ F 1 "FIDUCIAL" H 10428 2205 50  0000 L CNN
 F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 2250 50  0001 C CNN
 F 3 "" H 10550 2250 50  0001 C CNN
 	1    10350 2250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:FIDUCIAL FID4
@@ -182,7 +182,7 @@ F 1 "FIDUCIAL" H 10428 2405 50  0000 L CNN
 F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 2450 50  0001 C CNN
 F 3 "" H 10550 2450 50  0001 C CNN
 	1    10350 2450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:10uF C1
@@ -199,7 +199,7 @@ F 7 "0805 (2012 Metric)" H 4300 6000 60  0001 C CNN "Package"
 F 8 "TDK Corporation" H 4300 6000 60  0001 C CNN "Manufacturer"
 F 9 " C2012X5R1V106K085AC" H 4300 6000 60  0001 C CNN "Manufacturer Part Number"
 	1    4300 6000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR06
@@ -210,7 +210,7 @@ F 1 "GND" H 4305 6077 50  0000 C CNN
 F 2 "" H 4300 6250 50  0001 C CNN
 F 3 "" H 4300 6250 50  0001 C CNN
 	1    4300 6250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4300 5750 4300 5800
@@ -229,7 +229,7 @@ F 1 "GND" H 3005 5377 50  0000 C CNN
 F 2 "" H 3000 5550 50  0001 C CNN
 F 3 "" H 3000 5550 50  0001 C CNN
 	1    3000 5550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3000 5550 3000 5500
@@ -244,7 +244,7 @@ F 1 "PWR_FLAG" H 2850 5423 50  0000 C CNN
 F 2 "" H 2850 5250 50  0001 C CNN
 F 3 "~" H 2850 5250 50  0001 C CNN
 	1    2850 5250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2850 5250 2850 5400
@@ -260,7 +260,7 @@ F 1 "PWR_FLAG" H 2600 5623 50  0000 C CNN
 F 2 "" H 2600 5450 50  0001 C CNN
 F 3 "~" H 2600 5450 50  0001 C CNN
 	1    2600 5450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2600 5450 2600 5500
@@ -282,7 +282,7 @@ F 7 "PMEG045V100EPDZ" H 4400 5300 60  0001 C CNN "Manufacturer Part Number"
 F 8 "Digi-Key" H 4400 5300 60  0001 C CNN "Vendor"
 F 9 "1727-1904-1-ND" H 4400 5300 60  0001 C CNN "Vendor Part Number"
 	1    4400 5300
-	-1   0    0    1
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:VAA #PWR04
@@ -293,7 +293,7 @@ F 1 "VAA" H 4265 5423 50  0000 C CNN
 F 2 "" H 4250 5250 50  0001 C CNN
 F 3 "" H 4250 5250 50  0001 C CNN
 	1    4250 5250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR08
@@ -304,7 +304,7 @@ F 1 "VCC" H 4565 5423 50  0000 C CNN
 F 2 "" H 4550 5250 50  0001 C CNN
 F 3 "" H 4550 5250 50  0001 C CNN
 	1    4550 5250
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4250 5250 4250 5300
@@ -323,7 +323,7 @@ F 1 "PWR_FLAG" H 4700 5323 50  0000 C CNN
 F 2 "" H 4700 5150 50  0001 C CNN
 F 3 "~" H 4700 5150 50  0001 C CNN
 	1    4700 5150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4550 5300 4700 5300
@@ -339,7 +339,7 @@ F 1 "VCC" H 4315 5923 50  0000 C CNN
 F 2 "" H 4300 5750 50  0001 C CNN
 F 3 "" H 4300 5750 50  0001 C CNN
 	1    4300 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR09
@@ -350,7 +350,7 @@ F 1 "VCC" H 7915 1473 50  0000 C CNN
 F 2 "" H 7900 1300 50  0001 C CNN
 F 3 "" H 7900 1300 50  0001 C CNN
 	1    7900 1300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -361,7 +361,7 @@ F 1 "GND" H 3455 3777 50  0000 C CNN
 F 2 "" H 3450 3950 50  0001 C CNN
 F 3 "" H 3450 3950 50  0001 C CNN
 	1    3450 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3500 2400 3450 2400
@@ -427,7 +427,7 @@ F 1 "GND" H 4355 3777 50  0000 C CNN
 F 2 "" H 4350 3950 50  0001 C CNN
 F 3 "" H 4350 3950 50  0001 C CNN
 	1    4350 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4300 2500 4350 2500
@@ -509,7 +509,7 @@ F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 3550 5900 60  0001 C CNN "Description"
 F 7 "CUI Devices" H 3250 5450 50  0001 C CNN "Manufacturer"
 F 8 "PJ-015AH-SMT-TR" H 3250 5450 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 5450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:PHIDGET_RELAY_16X_COMP PHIDGET1
@@ -519,30 +519,29 @@ F 0 "PHIDGET1" H 3900 3950 50  0000 C CNN
 F 1 "PHIDGET_RELAY_16X_COMP" H 3900 3850 50  0000 C CNN
 F 2 "y_arena_valve_controller:PHIDGET_RELAY_16X_COMP" H 3200 3000 50  0001 C CNN
 F 3 "~" H 3200 3000 50  0001 C CNN
-F 4 "16x Isolated Solid State Relay Phidget" H 3950 4450 50  0001 C CNN "Description"
-F 5 "VINT" H 3900 4450 50  0001 C CNN "Package"
-F 6 " TE Connectivity" H 3950 4450 50  0001 C CNN "Manufacturer"
-F 7 "1-103908-5" H 3950 4450 50  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 3950 4450 50  0001 C CNN "Vendor"
-F 9 "A28514-ND" H 3950 4450 50  0001 C CNN "Vendor Part Number"
-F 10 "2" H 3900 3050 50  0001 C CNN "Quantity"
+F 4 "CONN HEADER VERT 16POS 2.54MM " H 3950 4450 50  0001 C CNN "Description"
+F 5 " TE Connectivity" H 3950 4450 50  0001 C CNN "Manufacturer"
+F 6 "1-103908-5" H 3950 4450 50  0001 C CNN "Manufacturer Part Number"
+F 7 "Digi-Key" H 3950 4450 50  0001 C CNN "Vendor"
+F 8 "A28514-ND" H 3950 4450 50  0001 C CNN "Vendor Part Number"
+F 9 "2" H 3900 3050 50  0001 C CNN "Quantity"
 	1    3900 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S1
 U 1 1 5F17F651
 P 8200 1450
-AR Path="/5F17F651" Ref="S1"  Part="1"
-AR Path="/5EFCDFF8/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F17F651" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F17F651" Ref="S?"  Part="1"
+AR Path="/5F17F651" Ref="S1"  Part="1" 
+AR Path="/5EFCDFF8/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F17F651" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F17F651" Ref="S?"  Part="1" 
 F 0 "S1" H 8200 1600 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 1450 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 1500 60  0001 C CNN
@@ -555,22 +554,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 1450 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 1450 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 1450 50  0001 C CNN "Vendor Part Number"
 	1    8200 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S2
 U 1 1 5F19D140
 P 8200 1950
-AR Path="/5F19D140" Ref="S2"  Part="1"
-AR Path="/5EFCDFF8/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F19D140" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F19D140" Ref="S?"  Part="1"
+AR Path="/5F19D140" Ref="S2"  Part="1" 
+AR Path="/5EFCDFF8/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F19D140" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F19D140" Ref="S?"  Part="1" 
 F 0 "S2" H 8200 2100 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 1950 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 2000 60  0001 C CNN
@@ -583,22 +582,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 1950 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 1950 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 1950 50  0001 C CNN "Vendor Part Number"
 	1    8200 1950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S3
 U 1 1 5F19E431
 P 8200 2450
-AR Path="/5F19E431" Ref="S3"  Part="1"
-AR Path="/5EFCDFF8/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F19E431" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F19E431" Ref="S?"  Part="1"
+AR Path="/5F19E431" Ref="S3"  Part="1" 
+AR Path="/5EFCDFF8/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F19E431" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F19E431" Ref="S?"  Part="1" 
 F 0 "S3" H 8200 2600 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 2450 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 2500 60  0001 C CNN
@@ -611,22 +610,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 2450 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 2450 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 2450 50  0001 C CNN "Vendor Part Number"
 	1    8200 2450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S4
 U 1 1 5F19E442
 P 8200 2950
-AR Path="/5F19E442" Ref="S4"  Part="1"
-AR Path="/5EFCDFF8/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F19E442" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F19E442" Ref="S?"  Part="1"
+AR Path="/5F19E442" Ref="S4"  Part="1" 
+AR Path="/5EFCDFF8/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F19E442" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F19E442" Ref="S?"  Part="1" 
 F 0 "S4" H 8200 3100 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 2950 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 3000 60  0001 C CNN
@@ -639,22 +638,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 2950 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 2950 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 2950 50  0001 C CNN "Vendor Part Number"
 	1    8200 2950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S5
 U 1 1 5F1A895B
 P 8200 3450
-AR Path="/5F1A895B" Ref="S5"  Part="1"
-AR Path="/5EFCDFF8/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F1A895B" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F1A895B" Ref="S?"  Part="1"
+AR Path="/5F1A895B" Ref="S5"  Part="1" 
+AR Path="/5EFCDFF8/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F1A895B" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F1A895B" Ref="S?"  Part="1" 
 F 0 "S5" H 8200 3600 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 3450 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 3500 60  0001 C CNN
@@ -667,22 +666,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 3450 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 3450 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 3450 50  0001 C CNN "Vendor Part Number"
 	1    8200 3450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S6
 U 1 1 5F1A896C
 P 8200 3950
-AR Path="/5F1A896C" Ref="S6"  Part="1"
-AR Path="/5EFCDFF8/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F1A896C" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F1A896C" Ref="S?"  Part="1"
+AR Path="/5F1A896C" Ref="S6"  Part="1" 
+AR Path="/5EFCDFF8/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F1A896C" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F1A896C" Ref="S?"  Part="1" 
 F 0 "S6" H 8200 4100 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 3950 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 4000 60  0001 C CNN
@@ -695,22 +694,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 3950 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 3950 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 3950 50  0001 C CNN "Vendor Part Number"
 	1    8200 3950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S7
 U 1 1 5F1A897D
 P 8200 4450
-AR Path="/5F1A897D" Ref="S7"  Part="1"
-AR Path="/5EFCDFF8/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F1A897D" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F1A897D" Ref="S?"  Part="1"
+AR Path="/5F1A897D" Ref="S7"  Part="1" 
+AR Path="/5EFCDFF8/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F1A897D" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F1A897D" Ref="S?"  Part="1" 
 F 0 "S7" H 8200 4600 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 4450 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 4500 60  0001 C CNN
@@ -723,22 +722,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 4450 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 4450 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 4450 50  0001 C CNN "Vendor Part Number"
 	1    8200 4450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S8
 U 1 1 5F1A898E
 P 8200 4950
-AR Path="/5F1A898E" Ref="S8"  Part="1"
-AR Path="/5EFCDFF8/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F1A898E" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F1A898E" Ref="S?"  Part="1"
+AR Path="/5F1A898E" Ref="S8"  Part="1" 
+AR Path="/5EFCDFF8/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F1A898E" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F1A898E" Ref="S?"  Part="1" 
 F 0 "S8" H 8200 5100 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 4950 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 5000 60  0001 C CNN
@@ -751,22 +750,22 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 4950 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 4950 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 4950 50  0001 C CNN "Vendor Part Number"
 	1    8200 4950
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L y_arena_valve_controller:LEECO_LHDB S9
 U 1 1 5F1B198B
 P 8200 5450
-AR Path="/5F1B198B" Ref="S9"  Part="1"
-AR Path="/5EFCDFF8/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFCF736/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFCFB5E/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFCFB62/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFD009E/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFD00A2/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFD00A6/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFD00AA/5F1B198B" Ref="S?"  Part="1"
-AR Path="/5EFD0901/5F1B198B" Ref="S?"  Part="1"
+AR Path="/5F1B198B" Ref="S9"  Part="1" 
+AR Path="/5EFCDFF8/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFCF736/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFCFB5E/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFCFB62/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFD009E/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFD00A2/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFD00A6/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFD00AA/5F1B198B" Ref="S?"  Part="1" 
+AR Path="/5EFD0901/5F1B198B" Ref="S?"  Part="1" 
 F 0 "S9" H 8200 5600 50  0000 C CNN
 F 1 "LEECO_LHDB" V 8300 5450 50  0000 C CNN
 F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 5500 60  0001 C CNN
@@ -779,6 +778,6 @@ F 8 "Mill-Max Manufacturing Corp" H 8200 5450 50  0001 C CNN "Manufacturer"
 F 9 "0305-0-15-15-47-27-10-0" H 8200 5450 50  0001 C CNN "Manufacturer Part Number"
 F 10 "ED90331-ND" H 8200 5450 50  0001 C CNN "Vendor Part Number"
 	1    8200 5450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
