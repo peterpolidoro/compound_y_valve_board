@@ -1,23 +1,17 @@
 * Supplemental Bill of Materials
 #+RESULTS: supplemental-parts
-| Item | Quantity | Manufacturer                   | Manufacturer Part Number        | Vendor   | Vendor Part Number                 | Description                            |
-|------+----------+--------------------------------+---------------------------------+----------+------------------------------------+----------------------------------------|
-|    1 |        2 | TE Connectivity AMP Connectors | A9CAG-1606F                     | Digi-Key | A9CAG-1606F-ND                     | FLEX CABLE - AFG16G/AF16/AFE16T        |
-|    2 |        4 | Keystone Electronics           | 4882                            | Digi-Key | 36-4882CT-ND                       | ROUND STANDOFF #4-40 STEEL 1/8IN       |
-|    3 |        4 | Keystone Electronics           | 2441                            | Digi-Key | 36-2441-ND                         | SHLDR SCREW RND HEAD HEX #4-40         |
-|    4 |        1 | Tensility International Corp   | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M           |
-|    5 |        1 | Tensility International Corp   | CA-2216                         | Digi-Key | CP-2216-ND                         | CABLE ASSY 5.5X2.1MM M/F 3FT           |
-|    6 |        1 | Raspberry Pi                   | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB                    |
-|    7 |        1 | Raspberry Pi                   | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US        |
-|    8 |        1 | Raspberry Pi                   | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY         |
-|    9 |        1 | Raspberry Pi                   | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD       |
-|   10 |        1 | ATP Electronics Inc            | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC       |
-|   11 |        1 | Tripp Lite                     | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS           |
-|   12 |        1 | Tripp Lite                     | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER            |
-|   13 |        1 | Assmann WSW Components         | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT        |
-|   14 |        1 | Phidgets                       | REL1101_0                       | Phidgets | REL1101_0                          | 16x Isolated Solid State Relay Phidget |
-|   15 |        1 | Phidgets                       | HUB0000_0                       | Phidgets | HUB0000_0                          | VINT Hub Phidget                       |
-|   16 |        1 | Phidgets                       | 3020_0                          | Phidgets | 3020_0                             | Mini-USB Cable 450cm 20AWG             |
-|   17 |        1 | Phidgets                       | 3004_0                          | Phidgets | 3004_0                             | Phidget Cable 350cm                    |
-|   18 |        1 | Phidgets                       | PSU4018_0                       | Phidgets | PSU4018_0                          | Power Supply 12VDC 5A                  |
-|   19 |        1 | Phidgets                       | PSU4100_0                       | Phidgets | PSU4100_0                          | US Supply Plug Cord                    |
+| Item | Quantity | Manufacturer         | Manufacturer Part Number | Vendor   | Vendor Part Number | Description |
+|------+----------+----------------------+--------------------------+----------+--------------------+-------------|
+|    1 |        1 | SparkFun Electronics | DEV-15583                | Digi-Key | 1568-DEV-15583-ND  | TEENSY 4.0  |
+|    2 |          |                      |                          |          |                    |             |
+
+|    4 |        1 | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M     |
+|    5 |        1 | Tensility International Corp | CA-2216                         | Digi-Key | CP-2216-ND                         | CABLE ASSY 5.5X2.1MM M/F 3FT     |
+|    6 |        1 | Raspberry Pi                 | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB              |
+|    7 |        1 | Raspberry Pi                 | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US  |
+|    8 |        1 | Raspberry Pi                 | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY   |
+|    9 |        1 | Raspberry Pi                 | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD |
+|   10 |        1 | ATP Electronics Inc          | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC |
+|   11 |        1 | Tripp Lite                   | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS     |
+|   12 |        1 | Tripp Lite                   | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER      |
+|   13 |        1 | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |

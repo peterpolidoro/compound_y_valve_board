@@ -364,53 +364,6 @@ Wire Wire Line
 	4000 6100 4000 6200
 Text Label 4000 6200 0    50   ~ 0
 Vled
-$Comp
-L y_arena_valve_controller:DIODE_LOW_REV_CURRENT D2
-U 1 1 5F29F698
-P 4950 5400
-F 0 "D2" V 4950 5332 50  0000 R CNN
-F 1 "DIODE_LOW_REV_CURRENT" H 4670 5320 50  0001 L CNN
-F 2 "y_arena_valve_controller:SOD-123" H 4800 5380 60  0001 C CNN
-F 3 "" H 4900 5480 60  0001 C CNN
-F 4 "Digi-Key" H 5000 5580 60  0001 C CNN "Vendor"
-F 5 "CMHD3595 CT-ND" H 5100 5680 60  0001 C CNN "Vendor Part Number"
-F 6 "DIODE GEN PURP 150V 150MA" H 5200 5780 60  0001 C CNN "Description"
-F 7 "SOD123" H 4950 5400 50  0001 C CNN "Package"
-	1    4950 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L y_arena_valve_controller:499 R1
-U 1 1 5F29F9F8
-P 4950 5800
-F 0 "R1" H 5000 5800 40  0000 L CNN
-F 1 "499" V 4950 5800 40  0000 C CNN
-F 2 "y_arena_valve_controller:SM0805" V 4880 5800 30  0001 C CNN
-F 3 "" H 4950 5800 30  0000 C CNN
-F 4 "RES SMD 499 OHM 1% 1/8W" V 5330 6100 60  0001 C CNN "Description"
-F 5 "0805 (2012 Metric)" H 4950 5800 60  0001 C CNN "Package"
-F 6 "Digi-Key" H 4950 5800 60  0001 C CNN "Vendor"
-F 7 "311-499CRCT-ND" H 4950 5800 60  0001 C CNN "Vendor Part Number"
-	1    4950 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L y_arena_valve_controller:LED_GRN L1
-U 1 1 5F29FFF3
-P 4950 6300
-F 0 "L1" V 4912 6378 50  0000 L CNN
-F 1 "LED_GRN" V 4996 6378 40  0000 L CNN
-F 2 "y_arena_valve_controller:LED0805" H 4850 6300 60  0001 C CNN
-F 3 "" H 4950 6300 60  0000 C CNN
-F 4 "LED GREEN CLEAR SMD" H 5250 6700 60  0001 C CNN "Description"
-F 5 "0805 (2012 Metric)" H 4950 6300 60  0001 C CNN "Package"
-F 6 "Lite-On Inc." H 4950 6300 60  0001 C CNN "Manufacturer"
-F 7 "LTST-C170GKT" H 4950 6300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 4950 6300 60  0001 C CNN "Vendor"
-F 9 "160-1179-1-ND" H 4950 6300 60  0001 C CNN "Vendor Part Number"
-	1    4950 6300
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4950 5300 4950 5200
 Wire Wire Line
@@ -891,4 +844,21 @@ Wire Wire Line
 	7750 5750 7850 5750
 Wire Wire Line
 	7850 5750 7850 5800
+$Comp
+L y_arena_valve_controller:DIODE_LOW_REV_CURRENT_0402 D?
+U 1 1 5F2613AE
+P 4950 5400
+F 0 "D?" V 4950 5332 50  0000 R CNN
+F 1 "DIODE_LOW_REV_CURRENT_0402" H 4670 5320 50  0001 L CNN
+F 2 "y_arena_valve_controller:SM0402_POL" H 4800 5380 60  0001 C CNN
+F 3 "" H 4900 5480 60  0001 C CNN
+F 4 "Digi-Key" H 5000 5580 60  0001 C CNN "Vendor"
+F 5 "BAS116LPH4-7BDICT-ND" H 5100 5680 60  0001 C CNN "Vendor Part Number"
+F 6 "DIODE GEN PURP 85V 215MA 2DFN" H 5200 5780 60  0001 C CNN "Description"
+F 7 "0402" H 4950 5400 50  0001 C CNN "Package"
+F 8 "Diodes Incorporated" H 4950 5400 50  0001 C CNN "Manufacturer"
+F 9 "BAS116LPH4-7B" H 4950 5400 50  0001 C CNN "Manufacturer Part Number"
+	1    4950 5400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
