@@ -3,10 +3,10 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 10
 Title "y_arena_valve_controller"
 Date ""
-Rev "1.1"
+Rev "1.2"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -14,95 +14,23 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	8000 5400 7900 5400
+	6750 1750 6550 1750
 Wire Wire Line
-	7900 5400 7900 4900
-Wire Wire Line
-	8000 1400 7900 1400
-Connection ~ 7900 1400
-Wire Wire Line
-	7900 1400 7900 1300
-Wire Wire Line
-	8000 1900 7900 1900
-Connection ~ 7900 1900
-Wire Wire Line
-	7900 1900 7900 1400
-Wire Wire Line
-	8000 2400 7900 2400
-Connection ~ 7900 2400
-Wire Wire Line
-	7900 2400 7900 1900
-Wire Wire Line
-	8000 2900 7900 2900
-Connection ~ 7900 2900
-Wire Wire Line
-	7900 2900 7900 2400
-Wire Wire Line
-	8000 3400 7900 3400
-Connection ~ 7900 3400
-Wire Wire Line
-	7900 3400 7900 2900
-Wire Wire Line
-	8000 3900 7900 3900
-Connection ~ 7900 3900
-Wire Wire Line
-	7900 3900 7900 3400
-Wire Wire Line
-	8000 4400 7900 4400
-Connection ~ 7900 4400
-Wire Wire Line
-	7900 4400 7900 3900
-Wire Wire Line
-	8000 4900 7900 4900
-Connection ~ 7900 4900
-Wire Wire Line
-	7900 4900 7900 4400
-Wire Wire Line
-	8000 1500 7800 1500
-Wire Wire Line
-	8000 2000 7800 2000
-Wire Wire Line
-	8000 2500 7800 2500
-Wire Wire Line
-	8000 3000 7800 3000
-Wire Wire Line
-	8000 3500 7800 3500
-Wire Wire Line
-	8000 4000 7800 4000
-Wire Wire Line
-	8000 4500 7800 4500
-Wire Wire Line
-	8000 5000 7800 5000
-Wire Wire Line
-	8000 5500 7800 5500
-Text Label 7800 1500 2    50   ~ 0
+	6750 2250 6550 2250
+Text Label 6550 1750 2    50   ~ 0
 VALVE_0
-Text Label 7800 2000 2    50   ~ 0
+Text Label 6550 2250 2    50   ~ 0
 VALVE_1
-Text Label 7800 2500 2    50   ~ 0
-VALVE_2
-Text Label 7800 3000 2    50   ~ 0
-VALVE_3
-Text Label 7800 3500 2    50   ~ 0
-VALVE_4
-Text Label 7800 4000 2    50   ~ 0
-VALVE_5
-Text Label 7800 4500 2    50   ~ 0
-VALVE_6
-Text Label 7800 5000 2    50   ~ 0
-VALVE_7
-Text Label 7800 5500 2    50   ~ 0
-VALVE_8
 NoConn ~ 9200 1950
 $Comp
-L power:VAA #PWR01
+L power:VAA #PWR020
 U 1 1 5EFCED6A
-P 3000 5350
-F 0 "#PWR01" H 3000 5200 50  0001 C CNN
-F 1 "VAA" H 3015 5523 50  0000 C CNN
-F 2 "" H 3000 5350 50  0001 C CNN
-F 3 "" H 3000 5350 50  0001 C CNN
-	1    3000 5350
+P 1750 5450
+F 0 "#PWR020" H 1750 5300 50  0001 C CNN
+F 1 "VAA" H 1765 5623 50  0000 C CNN
+F 2 "" H 1750 5450 50  0001 C CNN
+F 3 "" H 1750 5450 50  0001 C CNN
+	1    1750 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -187,597 +115,780 @@ $EndComp
 $Comp
 L y_arena_valve_controller:10uF C1
 U 1 1 5F0E6C69
-P 4300 6000
-F 0 "C1" H 4350 6100 40  0000 L CNN
-F 1 "10uF" H 4300 6000 30  0000 C CNN
-F 2 "y_arena_valve_controller:SM0805" H 4338 5850 30  0001 C CNN
-F 3 "" H 4300 6000 60  0000 C CNN
-F 4 "Digi-Key" H 4400 6200 60  0001 C CNN "Vendor"
-F 5 " 445-14417-1-ND " H 4500 6300 60  0001 C CNN "Vendor Part Number"
-F 6 "CAP CER 10UF 35V X5R" H 4600 6400 60  0001 C CNN "Description"
-F 7 "0805 (2012 Metric)" H 4300 6000 60  0001 C CNN "Package"
-F 8 "TDK Corporation" H 4300 6000 60  0001 C CNN "Manufacturer"
-F 9 " C2012X5R1V106K085AC" H 4300 6000 60  0001 C CNN "Manufacturer Part Number"
-	1    4300 6000
+P 3050 6100
+F 0 "C1" H 3100 6200 40  0000 L CNN
+F 1 "10uF" H 3050 6100 30  0000 C CNN
+F 2 "y_arena_valve_controller:SM0805" H 3088 5950 30  0001 C CNN
+F 3 "" H 3050 6100 60  0000 C CNN
+F 4 "Digi-Key" H 3150 6300 60  0001 C CNN "Vendor"
+F 5 " 445-14417-1-ND " H 3250 6400 60  0001 C CNN "Vendor Part Number"
+F 6 "CAP CER 10UF 35V X5R" H 3350 6500 60  0001 C CNN "Description"
+F 7 "0805 (2012 Metric)" H 3050 6100 60  0001 C CNN "Package"
+F 8 "TDK Corporation" H 3050 6100 60  0001 C CNN "Manufacturer"
+F 9 " C2012X5R1V106K085AC" H 3050 6100 60  0001 C CNN "Manufacturer Part Number"
+	1    3050 6100
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR06
+L power:GND #PWR026
 U 1 1 5F0E6C73
-P 4300 6250
-F 0 "#PWR06" H 4300 6000 50  0001 C CNN
-F 1 "GND" H 4305 6077 50  0000 C CNN
-F 2 "" H 4300 6250 50  0001 C CNN
-F 3 "" H 4300 6250 50  0001 C CNN
-	1    4300 6250
+P 3050 6350
+F 0 "#PWR026" H 3050 6100 50  0001 C CNN
+F 1 "GND" H 3055 6177 50  0000 C CNN
+F 2 "" H 3050 6350 50  0001 C CNN
+F 3 "" H 3050 6350 50  0001 C CNN
+	1    3050 6350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4300 5750 4300 5800
+	3050 5850 3050 5900
 Wire Wire Line
-	4300 6200 4300 6250
+	3050 6300 3050 6350
+Wire Wire Line
+	1750 5450 1750 5500
+Wire Wire Line
+	1750 5500 1800 5500
+$Comp
+L power:GND #PWR023
+U 1 1 5F11F24A
+P 1750 5650
+F 0 "#PWR023" H 1750 5400 50  0001 C CNN
+F 1 "GND" H 1755 5477 50  0000 C CNN
+F 2 "" H 1750 5650 50  0001 C CNN
+F 3 "" H 1750 5650 50  0001 C CNN
+	1    1750 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 5650 1750 5600
+Wire Wire Line
+	1750 5600 1800 5600
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5F1213B6
+P 1600 5350
+F 0 "#FLG02" H 1600 5425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1600 5523 50  0000 C CNN
+F 2 "" H 1600 5350 50  0001 C CNN
+F 3 "~" H 1600 5350 50  0001 C CNN
+	1    1600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5350 1600 5500
+Wire Wire Line
+	1600 5500 1750 5500
+Connection ~ 1750 5500
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5F12202D
+P 1350 5550
+F 0 "#FLG03" H 1350 5625 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 5723 50  0000 C CNN
+F 2 "" H 1350 5550 50  0001 C CNN
+F 3 "~" H 1350 5550 50  0001 C CNN
+	1    1350 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 5550 1350 5600
+Wire Wire Line
+	1350 5600 1750 5600
+Connection ~ 1750 5600
+$Comp
+L y_arena_valve_controller:DIODE_SCHOTTKY_45V_10A D1
+U 1 1 5F124F7B
+P 3150 5400
+F 0 "D1" H 3150 5287 50  0000 C CNN
+F 1 "DIODE_SCHOTTKY_45V_10A" H 2870 5320 50  0001 L CNN
+F 2 "y_arena_valve_controller:CFP15" H 3000 5380 60  0001 C CNN
+F 3 "" H 3100 5480 60  0001 C CNN
+F 4 "DIODE SCHOTTKY 45V 10A" H 3400 5780 60  0001 C CNN "Description"
+F 5 "CFP15" H 3150 5400 60  0001 C CNN "Package"
+F 6 "Nexperia USA Inc." H 3150 5400 60  0001 C CNN "Manufacturer"
+F 7 "PMEG045V100EPDZ" H 3150 5400 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 3150 5400 60  0001 C CNN "Vendor"
+F 9 "1727-1904-1-ND" H 3150 5400 60  0001 C CNN "Vendor Part Number"
+	1    3150 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:VAA #PWR018
+U 1 1 5F125A1B
+P 3000 5350
+F 0 "#PWR018" H 3000 5200 50  0001 C CNN
+F 1 "VAA" H 3015 5523 50  0000 C CNN
+F 2 "" H 3000 5350 50  0001 C CNN
+F 3 "" H 3000 5350 50  0001 C CNN
+	1    3000 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR019
+U 1 1 5F125F32
+P 3300 5350
+F 0 "#PWR019" H 3300 5200 50  0001 C CNN
+F 1 "VCC" H 3315 5523 50  0000 C CNN
+F 2 "" H 3300 5350 50  0001 C CNN
+F 3 "" H 3300 5350 50  0001 C CNN
+	1    3300 5350
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	3000 5350 3000 5400
 Wire Wire Line
 	3000 5400 3050 5400
-$Comp
-L power:GND #PWR02
-U 1 1 5F11F24A
-P 3000 5550
-F 0 "#PWR02" H 3000 5300 50  0001 C CNN
-F 1 "GND" H 3005 5377 50  0000 C CNN
-F 2 "" H 3000 5550 50  0001 C CNN
-F 3 "" H 3000 5550 50  0001 C CNN
-	1    3000 5550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3000 5550 3000 5500
+	3250 5400 3300 5400
 Wire Wire Line
-	3000 5500 3050 5500
-$Comp
-L power:PWR_FLAG #FLG02
-U 1 1 5F1213B6
-P 2850 5250
-F 0 "#FLG02" H 2850 5325 50  0001 C CNN
-F 1 "PWR_FLAG" H 2850 5423 50  0000 C CNN
-F 2 "" H 2850 5250 50  0001 C CNN
-F 3 "~" H 2850 5250 50  0001 C CNN
-	1    2850 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2850 5250 2850 5400
-Wire Wire Line
-	2850 5400 3000 5400
-Connection ~ 3000 5400
+	3300 5400 3300 5350
 $Comp
 L power:PWR_FLAG #FLG01
-U 1 1 5F12202D
-P 2600 5450
-F 0 "#FLG01" H 2600 5525 50  0001 C CNN
-F 1 "PWR_FLAG" H 2600 5623 50  0000 C CNN
-F 2 "" H 2600 5450 50  0001 C CNN
-F 3 "~" H 2600 5450 50  0001 C CNN
-	1    2600 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2600 5450 2600 5500
-Wire Wire Line
-	2600 5500 3000 5500
-Connection ~ 3000 5500
-$Comp
-L y_arena_valve_controller:DIODE_SCHOTTKY_45V_10A D1
-U 1 1 5F124F7B
-P 4400 5300
-F 0 "D1" H 4400 5187 50  0000 C CNN
-F 1 "DIODE_SCHOTTKY_45V_10A" H 4120 5220 50  0001 L CNN
-F 2 "y_arena_valve_controller:CFP15" H 4250 5280 60  0001 C CNN
-F 3 "" H 4350 5380 60  0001 C CNN
-F 4 "DIODE SCHOTTKY 45V 10A" H 4650 5680 60  0001 C CNN "Description"
-F 5 "CFP15" H 4400 5300 60  0001 C CNN "Package"
-F 6 "Nexperia USA Inc." H 4400 5300 60  0001 C CNN "Manufacturer"
-F 7 "PMEG045V100EPDZ" H 4400 5300 60  0001 C CNN "Manufacturer Part Number"
-F 8 "Digi-Key" H 4400 5300 60  0001 C CNN "Vendor"
-F 9 "1727-1904-1-ND" H 4400 5300 60  0001 C CNN "Vendor Part Number"
-	1    4400 5300
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VAA #PWR04
-U 1 1 5F125A1B
-P 4250 5250
-F 0 "#PWR04" H 4250 5100 50  0001 C CNN
-F 1 "VAA" H 4265 5423 50  0000 C CNN
-F 2 "" H 4250 5250 50  0001 C CNN
-F 3 "" H 4250 5250 50  0001 C CNN
-	1    4250 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VCC #PWR08
-U 1 1 5F125F32
-P 4550 5250
-F 0 "#PWR08" H 4550 5100 50  0001 C CNN
-F 1 "VCC" H 4565 5423 50  0000 C CNN
-F 2 "" H 4550 5250 50  0001 C CNN
-F 3 "" H 4550 5250 50  0001 C CNN
-	1    4550 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 5250 4250 5300
-Wire Wire Line
-	4250 5300 4300 5300
-Wire Wire Line
-	4500 5300 4550 5300
-Wire Wire Line
-	4550 5300 4550 5250
-$Comp
-L power:PWR_FLAG #FLG03
 U 1 1 5F12796E
-P 4700 5150
-F 0 "#FLG03" H 4700 5225 50  0001 C CNN
-F 1 "PWR_FLAG" H 4700 5323 50  0000 C CNN
-F 2 "" H 4700 5150 50  0001 C CNN
-F 3 "~" H 4700 5150 50  0001 C CNN
-	1    4700 5150
+P 3450 5250
+F 0 "#FLG01" H 3450 5325 50  0001 C CNN
+F 1 "PWR_FLAG" H 3450 5423 50  0000 C CNN
+F 2 "" H 3450 5250 50  0001 C CNN
+F 3 "~" H 3450 5250 50  0001 C CNN
+	1    3450 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4550 5300 4700 5300
+	3300 5400 3450 5400
 Wire Wire Line
-	4700 5300 4700 5150
-Connection ~ 4550 5300
+	3450 5400 3450 5250
+Connection ~ 3300 5400
 $Comp
-L power:VCC #PWR05
+L power:VCC #PWR025
 U 1 1 5F128BA6
-P 4300 5750
-F 0 "#PWR05" H 4300 5600 50  0001 C CNN
-F 1 "VCC" H 4315 5923 50  0000 C CNN
-F 2 "" H 4300 5750 50  0001 C CNN
-F 3 "" H 4300 5750 50  0001 C CNN
-	1    4300 5750
+P 3050 5850
+F 0 "#PWR025" H 3050 5700 50  0001 C CNN
+F 1 "VCC" H 3065 6023 50  0000 C CNN
+F 2 "" H 3050 5850 50  0001 C CNN
+F 3 "" H 3050 5850 50  0001 C CNN
+	1    3050 5850
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR09
+L power:VCC #PWR01
 U 1 1 5F1295EA
-P 7900 1300
-F 0 "#PWR09" H 7900 1150 50  0001 C CNN
-F 1 "VCC" H 7915 1473 50  0000 C CNN
-F 2 "" H 7900 1300 50  0001 C CNN
-F 3 "" H 7900 1300 50  0001 C CNN
-	1    7900 1300
+P 6650 1600
+F 0 "#PWR01" H 6650 1450 50  0001 C CNN
+F 1 "VCC" H 6665 1773 50  0000 C CNN
+F 2 "" H 6650 1600 50  0001 C CNN
+F 3 "" H 6650 1600 50  0001 C CNN
+	1    6650 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR03
+L power:GND #PWR05
 U 1 1 5F13B87F
-P 3450 3950
-F 0 "#PWR03" H 3450 3700 50  0001 C CNN
-F 1 "GND" H 3455 3777 50  0000 C CNN
-F 2 "" H 3450 3950 50  0001 C CNN
-F 3 "" H 3450 3950 50  0001 C CNN
-	1    3450 3950
+P 1500 2550
+F 0 "#PWR05" H 1500 2300 50  0001 C CNN
+F 1 "GND" H 1505 2377 50  0000 C CNN
+F 2 "" H 1500 2550 50  0001 C CNN
+F 3 "" H 1500 2550 50  0001 C CNN
+	1    1500 2550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3500 2400 3450 2400
-Wire Wire Line
-	3450 2400 3450 2600
-Wire Wire Line
-	3500 3800 3450 3800
-Connection ~ 3450 3800
-Wire Wire Line
-	3450 3800 3450 3950
-Wire Wire Line
-	3500 3600 3450 3600
-Connection ~ 3450 3600
-Wire Wire Line
-	3450 3600 3450 3800
-Wire Wire Line
-	3500 3400 3450 3400
-Connection ~ 3450 3400
-Wire Wire Line
-	3450 3400 3450 3600
-Wire Wire Line
-	3500 3200 3450 3200
-Connection ~ 3450 3200
-Wire Wire Line
-	3450 3200 3450 3400
-Wire Wire Line
-	3500 3000 3450 3000
-Connection ~ 3450 3000
-Wire Wire Line
-	3450 3000 3450 3200
-Wire Wire Line
-	3500 2800 3450 2800
-Connection ~ 3450 2800
-Wire Wire Line
-	3450 2800 3450 3000
-Wire Wire Line
-	3500 2600 3450 2600
-Connection ~ 3450 2600
-Wire Wire Line
-	3450 2600 3450 2800
-Wire Wire Line
-	3500 2500 3300 2500
-Wire Wire Line
-	3500 2700 3300 2700
-Wire Wire Line
-	3500 2900 3300 2900
-Wire Wire Line
-	3500 3100 3300 3100
-Wire Wire Line
-	3500 3300 3300 3300
-Wire Wire Line
-	3500 3500 3300 3500
-Wire Wire Line
-	3500 3700 3300 3700
-Wire Wire Line
-	3500 3900 3300 3900
-$Comp
-L power:GND #PWR07
-U 1 1 5F153B26
-P 4350 3950
-F 0 "#PWR07" H 4350 3700 50  0001 C CNN
-F 1 "GND" H 4355 3777 50  0000 C CNN
-F 2 "" H 4350 3950 50  0001 C CNN
-F 3 "" H 4350 3950 50  0001 C CNN
-	1    4350 3950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4300 2500 4350 2500
-Wire Wire Line
-	4350 2500 4350 2700
-Wire Wire Line
-	4300 3900 4350 3900
-Connection ~ 4350 3900
-Wire Wire Line
-	4350 3900 4350 3950
-Wire Wire Line
-	4300 3700 4350 3700
-Connection ~ 4350 3700
-Wire Wire Line
-	4350 3700 4350 3900
-Wire Wire Line
-	4300 3500 4350 3500
-Connection ~ 4350 3500
-Wire Wire Line
-	4350 3500 4350 3700
-Wire Wire Line
-	4300 3300 4350 3300
-Connection ~ 4350 3300
-Wire Wire Line
-	4350 3300 4350 3500
-Wire Wire Line
-	4300 3100 4350 3100
-Connection ~ 4350 3100
-Wire Wire Line
-	4350 3100 4350 3300
-Wire Wire Line
-	4300 2900 4350 2900
-Connection ~ 4350 2900
-Wire Wire Line
-	4350 2900 4350 3100
-Wire Wire Line
-	4300 2700 4350 2700
-Connection ~ 4350 2700
-Wire Wire Line
-	4350 2700 4350 2900
-Wire Wire Line
-	4300 3800 4500 3800
-Text Label 3300 2500 2    50   ~ 0
+Text Label 1950 2600 2    50   ~ 0
 VALVE_0
-Text Label 3300 2700 2    50   ~ 0
+Text Label 1950 2700 2    50   ~ 0
 VALVE_1
-Text Label 3300 2900 2    50   ~ 0
+Text Label 1950 2800 2    50   ~ 0
 VALVE_2
-Text Label 3300 3100 2    50   ~ 0
+Text Label 1950 2900 2    50   ~ 0
 VALVE_3
-Text Label 3300 3300 2    50   ~ 0
+Text Label 1950 3000 2    50   ~ 0
 VALVE_4
-Text Label 3300 3500 2    50   ~ 0
+Text Label 1950 3100 2    50   ~ 0
 VALVE_5
-Text Label 3300 3700 2    50   ~ 0
+Text Label 1950 3200 2    50   ~ 0
 VALVE_6
-Text Label 3300 3900 2    50   ~ 0
+Text Label 1950 3300 2    50   ~ 0
 VALVE_7
-Text Label 4500 3800 0    50   ~ 0
-VALVE_8
-NoConn ~ 4300 3600
-NoConn ~ 4300 3400
-NoConn ~ 4300 3200
-NoConn ~ 4300 3000
-NoConn ~ 4300 2800
-NoConn ~ 4300 2600
-NoConn ~ 4300 2400
 $Comp
 L y_arena_valve_controller:PWR_JACK_2.1x5.5_SMD_VERT P1
 U 1 1 5F17FD9D
-P 3250 5450
-F 0 "P1" H 3250 5600 50  0000 C CNN
-F 1 "PWR_JACK_2.1x5.5_SMD_VERT" V 3350 5450 50  0000 C CNN
-F 2 "y_arena_valve_controller:DCJACK_3PIN_SMD_VERT" H 3150 5500 60  0001 C CNN
-F 3 "" H 3250 5450 60  0000 C CNN
-F 4 "Digi-Key" H 3350 5700 60  0001 C CNN "Vendor"
-F 5 "CP-015AHPJ-CT-ND" H 3450 5800 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 3550 5900 60  0001 C CNN "Description"
-F 7 "CUI Devices" H 3250 5450 50  0001 C CNN "Manufacturer"
-F 8 "PJ-015AH-SMT-TR" H 3250 5450 50  0001 C CNN "Manufacturer Part Number"
-	1    3250 5450
+P 2000 5550
+F 0 "P1" H 2000 5700 50  0000 C CNN
+F 1 "PWR_JACK_2.1x5.5_SMD_VERT" V 2100 5550 50  0000 C CNN
+F 2 "y_arena_valve_controller:DCJACK_3PIN_SMD_VERT" H 1900 5600 60  0001 C CNN
+F 3 "" H 2000 5550 60  0000 C CNN
+F 4 "Digi-Key" H 2100 5800 60  0001 C CNN "Vendor"
+F 5 "CP-015AHPJ-CT-ND" H 2200 5900 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 2300 6000 60  0001 C CNN "Description"
+F 7 "CUI Devices" H 2000 5550 50  0001 C CNN "Manufacturer"
+F 8 "PJ-015AH-SMT-TR" H 2000 5550 50  0001 C CNN "Manufacturer Part Number"
+	1    2000 5550
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6750 1550 1000 300 
+U 5F238750
+F0 "valve_0" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 1650 50 
+F3 "GND" U R 7750 1750 50 
+F4 "VALVE" I L 6750 1750 50 
+F5 "Vled" U R 7750 1650 50 
+$EndSheet
+$Comp
+L y_arena_valve_controller:SPST_SLIDE_AS SW1
+U 1 1 5F29201E
+P 4000 5850
+F 0 "SW1" V 3962 5927 40  0000 L CNN
+F 1 "SPST_SLIDE_AS" V 4038 5927 40  0000 L CNN
+F 2 "y_arena_valve_controller:SPST_SLIDE_AS" H 3900 5650 60  0001 C CNN
+F 3 "" H 4000 5850 60  0000 C CNN
+F 4 "Digi-Key" H 4100 6050 60  0001 C CNN "Vendor"
+F 5 "360-2610-ND" H 4200 6150 60  0001 C CNN "Vendor Part Number"
+F 6 "SWITCH SLIDE SPST 0.4VA 28V" H 4300 6250 60  0001 C CNN "Description"
+	1    4000 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR021
+U 1 1 5F292107
+P 4000 5550
+F 0 "#PWR021" H 4000 5400 50  0001 C CNN
+F 1 "VCC" H 4015 5723 50  0000 C CNN
+F 2 "" H 4000 5550 50  0001 C CNN
+F 3 "" H 4000 5550 50  0001 C CNN
+	1    4000 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 5600 4000 5550
+Wire Wire Line
+	4000 6100 4000 6200
+Text Label 4000 6200 0    50   ~ 0
+Vled
+$Comp
+L y_arena_valve_controller:DIODE_LOW_REV_CURRENT D2
+U 1 1 5F29F698
+P 4950 5400
+F 0 "D2" V 4950 5332 50  0000 R CNN
+F 1 "DIODE_LOW_REV_CURRENT" H 4670 5320 50  0001 L CNN
+F 2 "y_arena_valve_controller:SOD-123" H 4800 5380 60  0001 C CNN
+F 3 "" H 4900 5480 60  0001 C CNN
+F 4 "Digi-Key" H 5000 5580 60  0001 C CNN "Vendor"
+F 5 "CMHD3595 CT-ND" H 5100 5680 60  0001 C CNN "Vendor Part Number"
+F 6 "DIODE GEN PURP 150V 150MA" H 5200 5780 60  0001 C CNN "Description"
+F 7 "SOD123" H 4950 5400 50  0001 C CNN "Package"
+	1    4950 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L y_arena_valve_controller:499 R1
+U 1 1 5F29F9F8
+P 4950 5800
+F 0 "R1" H 5000 5800 40  0000 L CNN
+F 1 "499" V 4950 5800 40  0000 C CNN
+F 2 "y_arena_valve_controller:SM0805" V 4880 5800 30  0001 C CNN
+F 3 "" H 4950 5800 30  0000 C CNN
+F 4 "RES SMD 499 OHM 1% 1/8W" V 5330 6100 60  0001 C CNN "Description"
+F 5 "0805 (2012 Metric)" H 4950 5800 60  0001 C CNN "Package"
+F 6 "Digi-Key" H 4950 5800 60  0001 C CNN "Vendor"
+F 7 "311-499CRCT-ND" H 4950 5800 60  0001 C CNN "Vendor Part Number"
+	1    4950 5800
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:PHIDGET_RELAY_16X_COMP PHIDGET1
-U 1 1 5F191469
-P 3900 3050
-F 0 "PHIDGET1" H 3900 3950 50  0000 C CNN
-F 1 "PHIDGET_RELAY_16X_COMP" H 3900 3850 50  0000 C CNN
-F 2 "y_arena_valve_controller:PHIDGET_RELAY_16X_COMP" H 3200 3000 50  0001 C CNN
-F 3 "~" H 3200 3000 50  0001 C CNN
-F 4 "CONN HEADER VERT 16POS 2.54MM " H 3950 4450 50  0001 C CNN "Description"
-F 5 " TE Connectivity" H 3950 4450 50  0001 C CNN "Manufacturer"
-F 6 "1-103908-5" H 3950 4450 50  0001 C CNN "Manufacturer Part Number"
-F 7 "Digi-Key" H 3950 4450 50  0001 C CNN "Vendor"
-F 8 "A28514-ND" H 3950 4450 50  0001 C CNN "Vendor Part Number"
-F 9 "2" H 3900 3050 50  0001 C CNN "Quantity"
-	1    3900 3050
-	1    0    0    -1  
+L y_arena_valve_controller:LED_GRN L1
+U 1 1 5F29FFF3
+P 4950 6300
+F 0 "L1" V 4912 6378 50  0000 L CNN
+F 1 "LED_GRN" V 4996 6378 40  0000 L CNN
+F 2 "y_arena_valve_controller:LED0805" H 4850 6300 60  0001 C CNN
+F 3 "" H 4950 6300 60  0000 C CNN
+F 4 "LED GREEN CLEAR SMD" H 5250 6700 60  0001 C CNN "Description"
+F 5 "0805 (2012 Metric)" H 4950 6300 60  0001 C CNN "Package"
+F 6 "Lite-On Inc." H 4950 6300 60  0001 C CNN "Manufacturer"
+F 7 "LTST-C170GKT" H 4950 6300 60  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 4950 6300 60  0001 C CNN "Vendor"
+F 9 "160-1179-1-ND" H 4950 6300 60  0001 C CNN "Vendor Part Number"
+	1    4950 6300
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	4950 5300 4950 5200
+Wire Wire Line
+	4950 5500 4950 5550
+Wire Wire Line
+	4950 6050 4950 6100
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S1
-U 1 1 5F17F651
-P 8200 1450
-AR Path="/5F17F651" Ref="S1"  Part="1" 
-AR Path="/5EFCDFF8/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F17F651" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F17F651" Ref="S?"  Part="1" 
-F 0 "S1" H 8200 1600 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 1450 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 1500 60  0001 C CNN
-F 3 "" H 8200 1600 60  0000 C CNN
-F 4 "Digi-Key" H 8300 1700 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 1800 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 1900 60  0001 C CNN "Description"
-F 7 "2" H 8200 1450 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 1450 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 1450 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 1450 50  0001 C CNN "Vendor Part Number"
-	1    8200 1450
+L power:GND #PWR027
+U 1 1 5F2A27CA
+P 4950 6550
+F 0 "#PWR027" H 4950 6300 50  0001 C CNN
+F 1 "GND" H 4955 6377 50  0000 C CNN
+F 2 "" H 4950 6550 50  0001 C CNN
+F 3 "" H 4950 6550 50  0001 C CNN
+	1    4950 6550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4950 6550 4950 6500
+Text Label 4950 5200 0    50   ~ 0
+Vled
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S2
-U 1 1 5F19D140
-P 8200 1950
-AR Path="/5F19D140" Ref="S2"  Part="1" 
-AR Path="/5EFCDFF8/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F19D140" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F19D140" Ref="S?"  Part="1" 
-F 0 "S2" H 8200 2100 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 1950 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 2000 60  0001 C CNN
-F 3 "" H 8200 2100 60  0000 C CNN
-F 4 "Digi-Key" H 8300 2200 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 2300 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 2400 60  0001 C CNN "Description"
-F 7 "2" H 8200 1950 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 1950 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 1950 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 1950 50  0001 C CNN "Vendor Part Number"
-	1    8200 1950
+L y_arena_valve_controller:TEENSY_4.0 TEENSY1
+U 1 1 5F2A54D7
+P 3250 3150
+F 0 "TEENSY1" H 3250 4047 60  0000 C CNN
+F 1 "TEENSY_4.0" H 3250 3941 60  0000 C CNN
+F 2 "y_arena_valve_controller:TEENSY_4.0" H 3250 4200 60  0001 C CNN
+F 3 "" H 3300 5900 60  0000 C CNN
+F 4 "Digi-Key" H 3250 4300 60  0001 C CNN "Vendor"
+F 5 "ED90331-ND" H 3250 4400 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PIN RCPT .025-.037 SOLDER" H 3250 4500 60  0001 C CNN "Description"
+F 7 "28" H 3250 3150 50  0001 C CNN "Quantity"
+	1    3250 3150
 	1    0    0    -1  
 $EndComp
+Text Label 1950 3400 2    50   ~ 0
+VALVE_8
+Wire Wire Line
+	1500 2550 1500 2500
+Wire Wire Line
+	1500 2500 2000 2500
+Wire Wire Line
+	1950 2600 2000 2600
+Wire Wire Line
+	1950 2700 2000 2700
+Wire Wire Line
+	1950 2800 2000 2800
+Wire Wire Line
+	1950 2900 2000 2900
+Wire Wire Line
+	1950 3000 2000 3000
+Wire Wire Line
+	1950 3100 2000 3100
+Wire Wire Line
+	1950 3200 2000 3200
+Wire Wire Line
+	1950 3300 2000 3300
+Wire Wire Line
+	1950 3400 2000 3400
+NoConn ~ 2000 3700
+NoConn ~ 2000 3800
+NoConn ~ 4500 2500
+NoConn ~ 4500 2700
+NoConn ~ 4500 2800
+NoConn ~ 4500 2900
+NoConn ~ 4500 3000
+NoConn ~ 4500 3100
+NoConn ~ 4500 3200
+NoConn ~ 4500 3300
+NoConn ~ 4500 3400
+NoConn ~ 4500 3500
+NoConn ~ 4500 3600
+NoConn ~ 4500 3700
+NoConn ~ 4500 3800
+$Sheet
+S 6750 2050 1000 300 
+U 5F2C7F20
+F0 "valve_1" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 2150 50 
+F3 "GND" U R 7750 2250 50 
+F4 "VALVE" I L 6750 2250 50 
+F5 "Vled" U R 7750 2150 50 
+$EndSheet
+Wire Wire Line
+	7750 1650 7850 1650
+Text Label 7850 1650 0    50   ~ 0
+Vled
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S3
-U 1 1 5F19E431
-P 8200 2450
-AR Path="/5F19E431" Ref="S3"  Part="1" 
-AR Path="/5EFCDFF8/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F19E431" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F19E431" Ref="S?"  Part="1" 
-F 0 "S3" H 8200 2600 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 2450 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 2500 60  0001 C CNN
-F 3 "" H 8200 2600 60  0000 C CNN
-F 4 "Digi-Key" H 8300 2700 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 2800 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 2900 60  0001 C CNN "Description"
-F 7 "2" H 8200 2450 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 2450 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 2450 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 2450 50  0001 C CNN "Vendor Part Number"
-	1    8200 2450
+L power:GND #PWR02
+U 1 1 5F2CAB94
+P 7850 1800
+F 0 "#PWR02" H 7850 1550 50  0001 C CNN
+F 1 "GND" H 7855 1627 50  0000 C CNN
+F 2 "" H 7850 1800 50  0001 C CNN
+F 3 "" H 7850 1800 50  0001 C CNN
+	1    7850 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7750 1750 7850 1750
+Wire Wire Line
+	7850 1750 7850 1800
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S4
-U 1 1 5F19E442
-P 8200 2950
-AR Path="/5F19E442" Ref="S4"  Part="1" 
-AR Path="/5EFCDFF8/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F19E442" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F19E442" Ref="S?"  Part="1" 
-F 0 "S4" H 8200 3100 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 2950 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 3000 60  0001 C CNN
-F 3 "" H 8200 3100 60  0000 C CNN
-F 4 "Digi-Key" H 8300 3200 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 3300 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 3400 60  0001 C CNN "Description"
-F 7 "2" H 8200 2950 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 2950 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 2950 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 2950 50  0001 C CNN "Vendor Part Number"
-	1    8200 2950
+L power:VCC #PWR03
+U 1 1 5F2DDC54
+P 6650 2100
+F 0 "#PWR03" H 6650 1950 50  0001 C CNN
+F 1 "VCC" H 6665 2273 50  0000 C CNN
+F 2 "" H 6650 2100 50  0001 C CNN
+F 3 "" H 6650 2100 50  0001 C CNN
+	1    6650 2100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 1600 6650 1650
+Wire Wire Line
+	6650 1650 6750 1650
+Wire Wire Line
+	6650 2100 6650 2150
+Wire Wire Line
+	6650 2150 6750 2150
+Wire Wire Line
+	7750 2150 7850 2150
+Text Label 7850 2150 0    50   ~ 0
+Vled
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S5
-U 1 1 5F1A895B
-P 8200 3450
-AR Path="/5F1A895B" Ref="S5"  Part="1" 
-AR Path="/5EFCDFF8/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F1A895B" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F1A895B" Ref="S?"  Part="1" 
-F 0 "S5" H 8200 3600 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 3450 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 3500 60  0001 C CNN
-F 3 "" H 8200 3600 60  0000 C CNN
-F 4 "Digi-Key" H 8300 3700 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 3800 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 3900 60  0001 C CNN "Description"
-F 7 "2" H 8200 3450 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 3450 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 3450 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 3450 50  0001 C CNN "Vendor Part Number"
-	1    8200 3450
+L power:GND #PWR04
+U 1 1 5F2E385F
+P 7850 2300
+F 0 "#PWR04" H 7850 2050 50  0001 C CNN
+F 1 "GND" H 7855 2127 50  0000 C CNN
+F 2 "" H 7850 2300 50  0001 C CNN
+F 3 "" H 7850 2300 50  0001 C CNN
+	1    7850 2300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7750 2250 7850 2250
+Wire Wire Line
+	7850 2250 7850 2300
+NoConn ~ 2000 3500
+NoConn ~ 2000 3600
+Wire Wire Line
+	6750 2750 6550 2750
+Wire Wire Line
+	6750 3250 6550 3250
+Text Label 6550 2750 2    50   ~ 0
+VALVE_2
+Text Label 6550 3250 2    50   ~ 0
+VALVE_3
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S6
-U 1 1 5F1A896C
-P 8200 3950
-AR Path="/5F1A896C" Ref="S6"  Part="1" 
-AR Path="/5EFCDFF8/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F1A896C" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F1A896C" Ref="S?"  Part="1" 
-F 0 "S6" H 8200 4100 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 3950 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 4000 60  0001 C CNN
-F 3 "" H 8200 4100 60  0000 C CNN
-F 4 "Digi-Key" H 8300 4200 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 4300 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 4400 60  0001 C CNN "Description"
-F 7 "2" H 8200 3950 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 3950 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 3950 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 3950 50  0001 C CNN "Vendor Part Number"
-	1    8200 3950
+L power:VCC #PWR06
+U 1 1 5F2EACEA
+P 6650 2600
+F 0 "#PWR06" H 6650 2450 50  0001 C CNN
+F 1 "VCC" H 6665 2773 50  0000 C CNN
+F 2 "" H 6650 2600 50  0001 C CNN
+F 3 "" H 6650 2600 50  0001 C CNN
+	1    6650 2600
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 6750 2550 1000 300 
+U 5F2EACF4
+F0 "valve_2" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 2650 50 
+F3 "GND" U R 7750 2750 50 
+F4 "VALVE" I L 6750 2750 50 
+F5 "Vled" U R 7750 2650 50 
+$EndSheet
+$Sheet
+S 6750 3050 1000 300 
+U 5F2EACFA
+F0 "valve_3" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 3150 50 
+F3 "GND" U R 7750 3250 50 
+F4 "VALVE" I L 6750 3250 50 
+F5 "Vled" U R 7750 3150 50 
+$EndSheet
+Wire Wire Line
+	7750 2650 7850 2650
+Text Label 7850 2650 0    50   ~ 0
+Vled
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S7
-U 1 1 5F1A897D
-P 8200 4450
-AR Path="/5F1A897D" Ref="S7"  Part="1" 
-AR Path="/5EFCDFF8/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F1A897D" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F1A897D" Ref="S?"  Part="1" 
-F 0 "S7" H 8200 4600 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 4450 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 4500 60  0001 C CNN
-F 3 "" H 8200 4600 60  0000 C CNN
-F 4 "Digi-Key" H 8300 4700 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 4800 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 4900 60  0001 C CNN "Description"
-F 7 "2" H 8200 4450 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 4450 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 4450 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 4450 50  0001 C CNN "Vendor Part Number"
-	1    8200 4450
+L power:GND #PWR07
+U 1 1 5F2EAD02
+P 7850 2800
+F 0 "#PWR07" H 7850 2550 50  0001 C CNN
+F 1 "GND" H 7855 2627 50  0000 C CNN
+F 2 "" H 7850 2800 50  0001 C CNN
+F 3 "" H 7850 2800 50  0001 C CNN
+	1    7850 2800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7750 2750 7850 2750
+Wire Wire Line
+	7850 2750 7850 2800
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S8
-U 1 1 5F1A898E
-P 8200 4950
-AR Path="/5F1A898E" Ref="S8"  Part="1" 
-AR Path="/5EFCDFF8/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F1A898E" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F1A898E" Ref="S?"  Part="1" 
-F 0 "S8" H 8200 5100 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 4950 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 5000 60  0001 C CNN
-F 3 "" H 8200 5100 60  0000 C CNN
-F 4 "Digi-Key" H 8300 5200 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 5300 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 5400 60  0001 C CNN "Description"
-F 7 "2" H 8200 4950 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 4950 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 4950 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 4950 50  0001 C CNN "Vendor Part Number"
-	1    8200 4950
+L power:VCC #PWR08
+U 1 1 5F2EAD0E
+P 6650 3100
+F 0 "#PWR08" H 6650 2950 50  0001 C CNN
+F 1 "VCC" H 6665 3273 50  0000 C CNN
+F 2 "" H 6650 3100 50  0001 C CNN
+F 3 "" H 6650 3100 50  0001 C CNN
+	1    6650 3100
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6650 2600 6650 2650
+Wire Wire Line
+	6650 2650 6750 2650
+Wire Wire Line
+	6650 3100 6650 3150
+Wire Wire Line
+	6650 3150 6750 3150
+Wire Wire Line
+	7750 3150 7850 3150
+Text Label 7850 3150 0    50   ~ 0
+Vled
 $Comp
-L y_arena_valve_controller:LEECO_LHDB S9
-U 1 1 5F1B198B
-P 8200 5450
-AR Path="/5F1B198B" Ref="S9"  Part="1" 
-AR Path="/5EFCDFF8/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFCF736/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFCFB5E/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFCFB62/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFD009E/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFD00A2/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFD00A6/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFD00AA/5F1B198B" Ref="S?"  Part="1" 
-AR Path="/5EFD0901/5F1B198B" Ref="S?"  Part="1" 
-F 0 "S9" H 8200 5600 50  0000 C CNN
-F 1 "LEECO_LHDB" V 8300 5450 50  0000 C CNN
-F 2 "y_arena_valve_controller:LEECO_LHDB" H 8100 5500 60  0001 C CNN
-F 3 "" H 8200 5600 60  0000 C CNN
-F 4 "Digi-Key" H 8300 5700 60  0001 C CNN "Vendor"
-F 5 "ED90331-ND" H 8400 5800 60  0001 C CNN "PartNumber"
-F 6 "CONN PIN RCPT .025-.037 SOLDER" H 8500 5900 60  0001 C CNN "Description"
-F 7 "2" H 8200 5450 50  0001 C CNN "Quantity"
-F 8 "Mill-Max Manufacturing Corp" H 8200 5450 50  0001 C CNN "Manufacturer"
-F 9 "0305-0-15-15-47-27-10-0" H 8200 5450 50  0001 C CNN "Manufacturer Part Number"
-F 10 "ED90331-ND" H 8200 5450 50  0001 C CNN "Vendor Part Number"
-	1    8200 5450
+L power:GND #PWR09
+U 1 1 5F2EAD1E
+P 7850 3300
+F 0 "#PWR09" H 7850 3050 50  0001 C CNN
+F 1 "GND" H 7855 3127 50  0000 C CNN
+F 2 "" H 7850 3300 50  0001 C CNN
+F 3 "" H 7850 3300 50  0001 C CNN
+	1    7850 3300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7750 3250 7850 3250
+Wire Wire Line
+	7850 3250 7850 3300
+Wire Wire Line
+	6750 3750 6550 3750
+Wire Wire Line
+	6750 4250 6550 4250
+Text Label 6550 3750 2    50   ~ 0
+VALVE_4
+Text Label 6550 4250 2    50   ~ 0
+VALVE_5
+$Comp
+L power:VCC #PWR010
+U 1 1 5F2ED130
+P 6650 3600
+F 0 "#PWR010" H 6650 3450 50  0001 C CNN
+F 1 "VCC" H 6665 3773 50  0000 C CNN
+F 2 "" H 6650 3600 50  0001 C CNN
+F 3 "" H 6650 3600 50  0001 C CNN
+	1    6650 3600
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6750 3550 1000 300 
+U 5F2ED13A
+F0 "valve_4" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 3650 50 
+F3 "GND" U R 7750 3750 50 
+F4 "VALVE" I L 6750 3750 50 
+F5 "Vled" U R 7750 3650 50 
+$EndSheet
+$Sheet
+S 6750 4050 1000 300 
+U 5F2ED140
+F0 "valve_5" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 4150 50 
+F3 "GND" U R 7750 4250 50 
+F4 "VALVE" I L 6750 4250 50 
+F5 "Vled" U R 7750 4150 50 
+$EndSheet
+Wire Wire Line
+	7750 3650 7850 3650
+Text Label 7850 3650 0    50   ~ 0
+Vled
+$Comp
+L power:GND #PWR011
+U 1 1 5F2ED148
+P 7850 3800
+F 0 "#PWR011" H 7850 3550 50  0001 C CNN
+F 1 "GND" H 7855 3627 50  0000 C CNN
+F 2 "" H 7850 3800 50  0001 C CNN
+F 3 "" H 7850 3800 50  0001 C CNN
+	1    7850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 3750 7850 3750
+Wire Wire Line
+	7850 3750 7850 3800
+$Comp
+L power:VCC #PWR012
+U 1 1 5F2ED154
+P 6650 4100
+F 0 "#PWR012" H 6650 3950 50  0001 C CNN
+F 1 "VCC" H 6665 4273 50  0000 C CNN
+F 2 "" H 6650 4100 50  0001 C CNN
+F 3 "" H 6650 4100 50  0001 C CNN
+	1    6650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 3600 6650 3650
+Wire Wire Line
+	6650 3650 6750 3650
+Wire Wire Line
+	6650 4100 6650 4150
+Wire Wire Line
+	6650 4150 6750 4150
+Wire Wire Line
+	7750 4150 7850 4150
+Text Label 7850 4150 0    50   ~ 0
+Vled
+$Comp
+L power:GND #PWR013
+U 1 1 5F2ED164
+P 7850 4300
+F 0 "#PWR013" H 7850 4050 50  0001 C CNN
+F 1 "GND" H 7855 4127 50  0000 C CNN
+F 2 "" H 7850 4300 50  0001 C CNN
+F 3 "" H 7850 4300 50  0001 C CNN
+	1    7850 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4250 7850 4250
+Wire Wire Line
+	7850 4250 7850 4300
+Wire Wire Line
+	6750 4750 6550 4750
+Wire Wire Line
+	6750 5250 6550 5250
+Text Label 6550 4750 2    50   ~ 0
+VALVE_6
+Text Label 6550 5250 2    50   ~ 0
+VALVE_7
+$Comp
+L power:VCC #PWR014
+U 1 1 5F2ED174
+P 6650 4600
+F 0 "#PWR014" H 6650 4450 50  0001 C CNN
+F 1 "VCC" H 6665 4773 50  0000 C CNN
+F 2 "" H 6650 4600 50  0001 C CNN
+F 3 "" H 6650 4600 50  0001 C CNN
+	1    6650 4600
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 6750 4550 1000 300 
+U 5F2ED17E
+F0 "valve_6" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 4650 50 
+F3 "GND" U R 7750 4750 50 
+F4 "VALVE" I L 6750 4750 50 
+F5 "Vled" U R 7750 4650 50 
+$EndSheet
+$Sheet
+S 6750 5050 1000 300 
+U 5F2ED184
+F0 "valve_7" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 5150 50 
+F3 "GND" U R 7750 5250 50 
+F4 "VALVE" I L 6750 5250 50 
+F5 "Vled" U R 7750 5150 50 
+$EndSheet
+Wire Wire Line
+	7750 4650 7850 4650
+Text Label 7850 4650 0    50   ~ 0
+Vled
+$Comp
+L power:GND #PWR015
+U 1 1 5F2ED18C
+P 7850 4800
+F 0 "#PWR015" H 7850 4550 50  0001 C CNN
+F 1 "GND" H 7855 4627 50  0000 C CNN
+F 2 "" H 7850 4800 50  0001 C CNN
+F 3 "" H 7850 4800 50  0001 C CNN
+	1    7850 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4750 7850 4750
+Wire Wire Line
+	7850 4750 7850 4800
+$Comp
+L power:VCC #PWR016
+U 1 1 5F2ED198
+P 6650 5100
+F 0 "#PWR016" H 6650 4950 50  0001 C CNN
+F 1 "VCC" H 6665 5273 50  0000 C CNN
+F 2 "" H 6650 5100 50  0001 C CNN
+F 3 "" H 6650 5100 50  0001 C CNN
+	1    6650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4600 6650 4650
+Wire Wire Line
+	6650 4650 6750 4650
+Wire Wire Line
+	6650 5100 6650 5150
+Wire Wire Line
+	6650 5150 6750 5150
+Wire Wire Line
+	7750 5150 7850 5150
+Text Label 7850 5150 0    50   ~ 0
+Vled
+$Comp
+L power:GND #PWR017
+U 1 1 5F2ED1A8
+P 7850 5300
+F 0 "#PWR017" H 7850 5050 50  0001 C CNN
+F 1 "GND" H 7855 5127 50  0000 C CNN
+F 2 "" H 7850 5300 50  0001 C CNN
+F 3 "" H 7850 5300 50  0001 C CNN
+	1    7850 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5250 7850 5250
+Wire Wire Line
+	7850 5250 7850 5300
+Wire Wire Line
+	6750 5750 6550 5750
+Text Label 6550 5750 2    50   ~ 0
+VALVE_8
+$Sheet
+S 6750 5550 1000 300 
+U 5F2F1BA8
+F0 "valve_8" 50
+F1 "valve_spike_hold.sch" 50
+F2 "Vs" U L 6750 5650 50 
+F3 "GND" U R 7750 5750 50 
+F4 "VALVE" I L 6750 5750 50 
+F5 "Vled" U R 7750 5650 50 
+$EndSheet
+$Comp
+L power:VCC #PWR022
+U 1 1 5F2F1BAE
+P 6650 5600
+F 0 "#PWR022" H 6650 5450 50  0001 C CNN
+F 1 "VCC" H 6665 5773 50  0000 C CNN
+F 2 "" H 6650 5600 50  0001 C CNN
+F 3 "" H 6650 5600 50  0001 C CNN
+	1    6650 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5600 6650 5650
+Wire Wire Line
+	6650 5650 6750 5650
+Wire Wire Line
+	7750 5650 7850 5650
+Text Label 7850 5650 0    50   ~ 0
+Vled
+$Comp
+L power:GND #PWR024
+U 1 1 5F2F1BBC
+P 7850 5800
+F 0 "#PWR024" H 7850 5550 50  0001 C CNN
+F 1 "GND" H 7855 5627 50  0000 C CNN
+F 2 "" H 7850 5800 50  0001 C CNN
+F 3 "" H 7850 5800 50  0001 C CNN
+	1    7850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 5750 7850 5750
+Wire Wire Line
+	7850 5750 7850 5800
 $EndSCHEMATC
