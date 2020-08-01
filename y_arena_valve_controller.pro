@@ -1,4 +1,4 @@
-update=Wed 22 Jul 2020 09:57:58 AM EDT
+update=Sat 01 Aug 2020 03:17:36 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -247,9 +247,9 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
-Name=SUPERPOWER
+Name=POWER
 Clearance=0.1016
-TrackWidth=0.8128
+TrackWidth=0.4064
 ViaDiameter=0.889
 ViaDrill=0.635
 uViaDiameter=0.508
