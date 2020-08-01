@@ -173,18 +173,18 @@ X 1 1 0 0 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# PWR_JACK_2.1x5.5_SMD_VERT
+# PWR_JACK_2.1x5.5
 #
-DEF PWR_JACK_2.1x5.5_SMD_VERT P 0 40 Y N 1 F N
+DEF PWR_JACK_2.1x5.5 P 0 40 Y N 1 F N
 F0 "P" 0 150 50 H V C CNN
-F1 "PWR_JACK_2.1x5.5_SMD_VERT" 100 0 50 V V C CNN
-F2 "y_arena_valve_controller:DCJACK_3PIN_SMD_VERT" -100 50 60 H I C CNN
+F1 "PWR_JACK_2.1x5.5" 100 0 50 V V C CNN
+F2 "y_arena_valve_controller:DCJACK_2PIN_HIGHCURRENT" -100 50 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 100 250 60 H I C CNN "Vendor"
-F5 "CP-015AHPJ-CT-ND" 200 350 60 H I C CNN "Vendor Part Number"
-F6 "CONN PWR JACK 2X5.5MM SOLDER" 300 450 60 H I C CNN "Description"
+F5 "CP-063AH-ND" 200 350 60 H I C CNN "Vendor Part Number"
+F6 "CONN PWR JACK DC 2.1X5.5 8A T/H" 300 450 60 H I C CNN "Description"
 F7 "CUI Devices" 0 0 50 H I C CNN "Manufacturer"
-F8 "PJ-015AH-SMT-TR" 0 0 50 H I C CNN "Manufacturer Part Number"
+F8 "PJ-063AH" 0 0 50 H I C CNN "Manufacturer Part Number"
 $FPLIST
  Pin_Header_Straight_1X02
  Pin_Header_Angled_1X02

@@ -291,38 +291,22 @@ F 3 "" H 1500 2550 50  0001 C CNN
 	1    1500 2550
 	1    0    0    -1  
 $EndComp
-Text Label 1950 2600 2    50   ~ 0
+Text Label 4550 2900 0    50   ~ 0
 VALVE_0
-Text Label 1950 2700 2    50   ~ 0
+Text Label 4550 3000 0    50   ~ 0
 VALVE_1
-Text Label 1950 2800 2    50   ~ 0
+Text Label 4550 3100 0    50   ~ 0
 VALVE_2
-Text Label 1950 2900 2    50   ~ 0
+Text Label 4550 3200 0    50   ~ 0
 VALVE_3
-Text Label 1950 3000 2    50   ~ 0
+Text Label 4550 3300 0    50   ~ 0
 VALVE_4
-Text Label 1950 3100 2    50   ~ 0
+Text Label 4550 3400 0    50   ~ 0
 VALVE_5
-Text Label 1950 3200 2    50   ~ 0
+Text Label 4550 3500 0    50   ~ 0
 VALVE_6
-Text Label 1950 3300 2    50   ~ 0
+Text Label 4550 3600 0    50   ~ 0
 VALVE_7
-$Comp
-L y_arena_valve_controller:PWR_JACK_2.1x5.5_SMD_VERT P1
-U 1 1 5F17FD9D
-P 2000 5550
-F 0 "P1" H 2000 5700 50  0000 C CNN
-F 1 "PWR_JACK_2.1x5.5_SMD_VERT" V 2100 5550 50  0000 C CNN
-F 2 "y_arena_valve_controller:DCJACK_3PIN_SMD_VERT" H 1900 5600 60  0001 C CNN
-F 3 "" H 2000 5550 60  0000 C CNN
-F 4 "Digi-Key" H 2100 5800 60  0001 C CNN "Vendor"
-F 5 "CP-015AHPJ-CT-ND" H 2200 5900 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 2300 6000 60  0001 C CNN "Description"
-F 7 "CUI Devices" H 2000 5550 50  0001 C CNN "Manufacturer"
-F 8 "PJ-015AH-SMT-TR" H 2000 5550 50  0001 C CNN "Manufacturer Part Number"
-	1    2000 5550
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 6750 1550 1000 300 
 U 5F238750
@@ -400,44 +384,35 @@ F 7 "28" H 3250 3150 50  0001 C CNN "Quantity"
 	1    3250 3150
 	1    0    0    -1  
 $EndComp
-Text Label 1950 3400 2    50   ~ 0
+Text Label 4550 3700 0    50   ~ 0
 VALVE_8
 Wire Wire Line
 	1500 2550 1500 2500
 Wire Wire Line
 	1500 2500 2000 2500
 Wire Wire Line
-	1950 2600 2000 2600
+	4550 2900 4500 2900
 Wire Wire Line
-	1950 2700 2000 2700
+	4550 3000 4500 3000
 Wire Wire Line
-	1950 2800 2000 2800
+	4550 3100 4500 3100
 Wire Wire Line
-	1950 2900 2000 2900
+	4550 3200 4500 3200
 Wire Wire Line
-	1950 3000 2000 3000
+	4550 3300 4500 3300
 Wire Wire Line
-	1950 3100 2000 3100
+	4550 3400 4500 3400
 Wire Wire Line
-	1950 3200 2000 3200
+	4550 3500 4500 3500
 Wire Wire Line
-	1950 3300 2000 3300
+	4550 3600 4500 3600
 Wire Wire Line
-	1950 3400 2000 3400
+	4550 3700 4500 3700
 NoConn ~ 2000 3700
 NoConn ~ 2000 3800
 NoConn ~ 4500 2500
 NoConn ~ 4500 2700
 NoConn ~ 4500 2800
-NoConn ~ 4500 2900
-NoConn ~ 4500 3000
-NoConn ~ 4500 3100
-NoConn ~ 4500 3200
-NoConn ~ 4500 3300
-NoConn ~ 4500 3400
-NoConn ~ 4500 3500
-NoConn ~ 4500 3600
-NoConn ~ 4500 3700
 NoConn ~ 4500 3800
 $Sheet
 S 6750 2050 1000 300 
@@ -895,4 +870,29 @@ F 9 "0402" H 4950 5800 50  0001 C CNN "Package"
 	1    4950 5800
 	1    0    0    -1  
 $EndComp
+$Comp
+L y_arena_valve_controller:PWR_JACK_2.1x5.5 P1
+U 1 1 5F265FDD
+P 2000 5550
+F 0 "P1" H 2078 5591 50  0000 L CNN
+F 1 "PWR_JACK_2.1x5.5" H 2078 5500 50  0000 L CNN
+F 2 "y_arena_valve_controller:DCJACK_2PIN_HIGHCURRENT" H 1900 5600 60  0001 C CNN
+F 3 "" H 2000 5550 60  0000 C CNN
+F 4 "Digi-Key" H 2100 5800 60  0001 C CNN "Vendor"
+F 5 "CP-063AH-ND" H 2200 5900 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PWR JACK DC 2.1X5.5 8A T/H" H 2300 6000 60  0001 C CNN "Description"
+F 7 "CUI Devices" H 2000 5550 50  0001 C CNN "Manufacturer"
+F 8 "PJ-063AH" H 2000 5550 50  0001 C CNN "Manufacturer Part Number"
+	1    2000 5550
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2000 3400
+NoConn ~ 2000 3300
+NoConn ~ 2000 3200
+NoConn ~ 2000 3100
+NoConn ~ 2000 3000
+NoConn ~ 2000 2900
+NoConn ~ 2000 2800
+NoConn ~ 2000 2700
+NoConn ~ 2000 2600
 $EndSCHEMATC
