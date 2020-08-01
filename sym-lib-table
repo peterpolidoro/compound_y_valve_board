@@ -1,10 +1,4 @@
 (sym_lib_table
   (lib (name y_arena_valve_controller)(type Legacy)(uri ${KIPRJMOD}/y_arena_valve_controller.lib)(options "")(descr ""))
   (lib (name valve_spike_hold)(type Legacy)(uri ${KIPRJMOD}/valve_spike_hold.lib)(options "")(descr ""))
-  (lib (name components)(type Legacy)(uri ${KILIBS}/components.lib)(options "")(descr ""))
-  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
-  (lib (name y_teensy)(type Legacy)(uri /home/polidorop/tmp/y_arena_valve_controller/y_arena_valve_controller.lib)(options "")(descr ""))
-  (lib (name valve_led)(type Legacy)(uri /home/polidorop/tmp/y_arena_valve_controller/valve_with_led.lib)(options "")(descr ""))
-  (lib (name power_switches)(type Legacy)(uri /home/polidorop/tmp/y_arena_valve_controller/power_switches.lib)(options "")(descr ""))
-  (lib (name elf)(type Legacy)(uri /home/polidorop/git/idf/elf/pcb/elf_head_interface/elf_head_interface.lib)(options "")(descr ""))
 )

@@ -1,7 +1,3 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP PHIDGET_RELAY_16X_COMP
-F ~
-$ENDCMP
-#
 #End Doc Library
