@@ -318,20 +318,6 @@ F4 "VALVE" I L 6750 1750 50
 F5 "Vled" U R 7750 1650 50 
 $EndSheet
 $Comp
-L y_arena_valve_controller:SPST_SLIDE_AS SW1
-U 1 1 5F29201E
-P 4000 5850
-F 0 "SW1" V 3962 5927 40  0000 L CNN
-F 1 "SPST_SLIDE_AS" V 4038 5927 40  0000 L CNN
-F 2 "y_arena_valve_controller:SPST_SLIDE_AS" H 3900 5650 60  0001 C CNN
-F 3 "" H 4000 5850 60  0000 C CNN
-F 4 "Digi-Key" H 4100 6050 60  0001 C CNN "Vendor"
-F 5 "360-2610-ND" H 4200 6150 60  0001 C CNN "Vendor Part Number"
-F 6 "SWITCH SLIDE SPST 0.4VA 28V" H 4300 6250 60  0001 C CNN "Description"
-	1    4000 5850
-	0    1    1    0   
-$EndComp
-$Comp
 L power:VCC #PWR021
 U 1 1 5F292107
 P 4000 5550
@@ -345,8 +331,8 @@ $EndComp
 Wire Wire Line
 	4000 5600 4000 5550
 Wire Wire Line
-	4000 6100 4000 6200
-Text Label 4000 6200 0    50   ~ 0
+	3900 6000 3900 6100
+Text Label 3900 6100 0    50   ~ 0
 Vled
 Wire Wire Line
 	4950 5300 4950 5200
@@ -870,22 +856,6 @@ F 9 "0402" H 4950 5800 50  0001 C CNN "Package"
 	1    4950 5800
 	1    0    0    -1  
 $EndComp
-$Comp
-L y_arena_valve_controller:PWR_JACK_2.1x5.5 P1
-U 1 1 5F265FDD
-P 2000 5550
-F 0 "P1" H 2078 5591 50  0000 L CNN
-F 1 "PWR_JACK_2.1x5.5" H 2078 5500 50  0000 L CNN
-F 2 "y_arena_valve_controller:DCJACK_2PIN_HIGHCURRENT" H 1900 5600 60  0001 C CNN
-F 3 "" H 2000 5550 60  0000 C CNN
-F 4 "Digi-Key" H 2100 5800 60  0001 C CNN "Vendor"
-F 5 "CP-063AH-ND" H 2200 5900 60  0001 C CNN "Vendor Part Number"
-F 6 "CONN PWR JACK DC 2.1X5.5 8A T/H" H 2300 6000 60  0001 C CNN "Description"
-F 7 "CUI Devices" H 2000 5550 50  0001 C CNN "Manufacturer"
-F 8 "PJ-063AH" H 2000 5550 50  0001 C CNN "Manufacturer Part Number"
-	1    2000 5550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 2000 3400
 NoConn ~ 2000 3300
 NoConn ~ 2000 3200
@@ -895,4 +865,37 @@ NoConn ~ 2000 2900
 NoConn ~ 2000 2800
 NoConn ~ 2000 2700
 NoConn ~ 2000 2600
+$Comp
+L y_arena_valve_controller:SPDT_SLIDE_500A_SM SW1
+U 1 1 5F275B4A
+P 4000 5800
+F 0 "SW1" H 4100 5800 40  0000 L CNN
+F 1 "SPDT_SLIDE_500A_SM" V 4150 5800 40  0001 C CNN
+F 2 "y_arena_valve_controller:SPDT_SLIDE_500A_SM" H 3950 6300 60  0001 C CNN
+F 3 "" H 4000 5800 60  0000 C CNN
+F 4 "Digi-Key" H 3950 6300 60  0001 C CNN "Vendor"
+F 5 "EG5810CT-ND" H 3950 6300 60  0001 C CNN "Vendor Part Number"
+F 6 "SWITCH SLIDE SPDT 3A 120V" H 3950 6300 60  0001 C CNN "Description"
+F 7 "E-Switch" H 3950 6300 50  0001 C CNN "Manufacturer"
+F 8 "500ASSP1SM6QE" H 3950 6300 50  0001 C CNN "Manufacturer Part Number"
+	1    4000 5800
+	1    0    0    -1  
+$EndComp
+NoConn ~ 4100 6000
+$Comp
+L y_arena_valve_controller:PWR_JACK_2.1x5.5_SMD_RA P1
+U 1 1 5F27FF09
+P 2000 5550
+F 0 "P1" H 2000 5700 50  0000 C CNN
+F 1 "PWR_JACK_2.1x5.5_SMD_RA" V 2100 5550 50  0000 C CNN
+F 2 "y_arena_valve_controller:DCJACK_3PAD_SMD_RA" H 1900 5600 60  0001 C CNN
+F 3 "" H 2000 5700 60  0000 C CNN
+F 4 "Digi-Key" H 2100 5800 60  0001 C CNN "Vendor"
+F 5 "CP-036AHPJCT-ND" H 2200 5900 60  0001 C CNN "Vendor Part Number"
+F 6 "CONN PWR JACK 2X5.5MM SOLDER" H 2300 6000 60  0001 C CNN "Description"
+F 7 "CUI Devices" H 2000 5550 50  0001 C CNN "Manufacturer"
+F 8 "PJ-036AH-SMT-TR" H 2000 5550 50  0001 C CNN "Manufacturer Part Number"
+	1    2000 5550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
