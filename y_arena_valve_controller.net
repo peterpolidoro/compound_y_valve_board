@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/polidorop/git/kicad/y_arena_valve_controller/y_arena_valve_controller.sch)
-    (date "Sun 02 Aug 2020 01:29:08 PM EDT")
+    (date "Sun 02 Aug 2020 03:26:27 PM EDT")
     (tool "Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1743,7 +1743,9 @@
         (field (name Vendor) Digi-Key)
         (field (name "Vendor Part Number") ED90331-ND)
         (field (name Description) "CONN PIN RCPT .025-.037 SOLDER")
-        (field (name Quantity) 28))
+        (field (name Quantity) 28)
+        (field (name Manufacturer) "Mill-Max Manufacturing Corp.")
+        (field (name "Manufacturer Part Number") 0305-0-15-15-47-27-10-0))
       (pins
         (pin (num 0) (name D0/RX1/CRX2/PWM) (type BiDi))
         (pin (num 1) (name D1/TX1/CTX2/PWM) (type BiDi))

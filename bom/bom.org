@@ -1,54 +1,6 @@
 # Created 2020-08-02 Sun 15:27
-#+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
-* Repository Information
-
-- Name :: y_arena_valve_controller
-- Version :: 1.1
-- License :: Open-Source Hardware
-- URL :: https://github.com/janelia-kicad/y_arena_valve_controller
-- Author :: Peter Polidoro
-- Email :: peterpolidoro@gmail.com
-
-** Description
-
-This board controls the y-arena valves for the Turner lab.
-
-* Images
-
-* Schematic
-
-[[file:./schematic/y_arena_valve_controller.pdf][./schematic/y_arena_valve_controller.pdf]]
-
-[[file:./schematic/images/schematic00.png]]
-
-[[file:./schematic/images/schematic01.png]]
-
-[[file:./schematic/images/schematic02.png]]
-
-[[file:./schematic/images/schematic03.png]]
-
-[[file:./schematic/images/schematic04.png]]
-
-[[file:./schematic/images/schematic05.png]]
-
-[[file:./schematic/images/schematic06.png]]
-
-[[file:./schematic/images/schematic07.png]]
-
-[[file:./schematic/images/schematic08.png]]
-
-[[file:./schematic/images/schematic09.png]]
-
-* Gerbers
-
-[[file:./gerbers/images/gerbers00.png]]
-
-[[file:./gerbers/images/gerbers01.png]]
-
 * Bill of Materials
-
-** PCB Parts
-
+#+results: pcb-parts
 | Item | Reference(s)                      | Quantity | Manufacturer                    | Manufacturer Part Number | Vendor   | Vendor Part Number   | Description                    |            Package |
 |------+-----------------------------------+----------+---------------------------------+--------------------------+----------+----------------------+--------------------------------+--------------------|
 |    1 | C1                                |        1 | TDK Corporation                 | C2012X5R1V106K085AC      | Digi-Key | 445-14417-1-ND       | CAP CER 10UF 35V X5R           | 0805 (2012 Metric) |
@@ -69,39 +21,3 @@ This board controls the y-arena valves for the Turner lab.
 |   16 | SW1                               |        1 | E-Switch                        | 500ASSP1SM6QE            | Digi-Key | EG5810CT-ND          | SWITCH SLIDE SPDT 3A 120V      |                    |
 |   17 | TEENSY1                           |       28 | Mill-Max Manufacturing Corp.    | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND           | CONN PIN RCPT .025-.037 SOLDER |                    |
 |   18 | U1 U2 U3 U4 U5 U6 U7 U8 U9        |        9 | Texas Instruments               | DRV103U                  | Digi-Key | 296-11622-ND         | IC LO-SIDE DRIVER PWM 8SOIC    |              8SOIC |
-
-** Supplemental Parts
-
-| Item | Quantity | Manufacturer                 | Manufacturer Part Number        | Vendor   | Vendor Part Number                 | Description                      |
-|------+----------+------------------------------+---------------------------------+----------+------------------------------------+----------------------------------|
-|    1 |        1 | SparkFun Electronics         | DEV-15583                       | Digi-Key | 1568-DEV-15583-ND                  | TEENSY 4.0                       |
-|    2 |        1 | Qualtek                      | 3021075-03                      | Digi-Key | Q1223-ND                           | USB 2.0 A MALE TO USB 2.0 MICRO  |
-|    3 |        1 | Coolgear                     | USBG-4PUSB2-MH                  | Digi-Key | 2671-USBG-4PUSB2-MH-ND             | 4-PORT USB 2.0 MINI METAL HIGH-S |
-|    4 |        1 | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M     |
-|    5 |        1 | Tensility International Corp | CA-2219                         | Digi-Key | CP-2219-ND                         | CABLE ASSY 5.5X2.1MM M/F R/A 3FT |
-|    6 |        1 | Raspberry Pi                 | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB              |
-|    7 |        1 | Raspberry Pi                 | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US  |
-|    8 |        1 | Raspberry Pi                 | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY   |
-|    9 |        1 | Raspberry Pi                 | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD |
-|   10 |        1 | ATP Electronics Inc          | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC |
-|   11 |        1 | Tripp Lite                   | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS     |
-|   12 |        1 | Tripp Lite                   | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER      |
-|   13 |        1 | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
-
-** Vendor Parts Lists
-
-[[file:./bom/Digi-Key_parts.csv][./bom/Digi-Key_parts.csv]]
-
-[[file:./bom/supplemental_Digi-Key_parts.csv][./bom/supplemental_Digi-Key_parts.csv]]
-
-* Supplemental Documentation
-
-** Assembly Instructions
-
-- Solder surface mount and through hole components onto the pcb.
-
-* Manufacturing Archive
-
-Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
-
-[[file:./manufacturing/y_arena_valve_controller_v1.1.zip][./manufacturing/y_arena_valve_controller_v1.1.zip]]
