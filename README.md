@@ -1,43 +1,43 @@
-- [Repository Information](#orgbc42dec)
-  - [Description](#org338aae6)
-- [Images](#org1c6e4e9)
-- [Schematic](#org64a1392)
-- [Gerbers](#orge607dd2)
-- [Bill of Materials](#orgba0b968)
-  - [PCB Parts](#org9bbb3bc)
-  - [Supplemental Parts](#org647ec9b)
-  - [Vendor Parts Lists](#org22c38dd)
-- [Supplemental Documentation](#orge913f34)
-  - [Assembly Instructions](#org8df99ae)
-- [Manufacturing Archive](#orge21427f)
+- [Repository Information](#orge65aeaa)
+  - [Description](#org7d485e7)
+- [Images](#orgcf94088)
+- [Schematic](#orgbeb5333)
+- [Gerbers](#orgcdc2d77)
+- [Bill of Materials](#org45988c5)
+  - [PCB Parts](#org1b120af)
+  - [Supplemental Parts](#org4e18273)
+  - [Vendor Parts Lists](#orgcd42155)
+- [Supplemental Documentation](#org9ad3f54)
+  - [Assembly Instructions](#orga54d2db)
+- [Manufacturing Archive](#org2375c63)
 
 
 
-<a id="orgbc42dec"></a>
+<a id="orge65aeaa"></a>
 
 # Repository Information
 
 -   **Name:** y\_arena\_valve\_controller
--   **Version:** 1.1
+-   **Version:** 1.2
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/y_arena_valve_controller>
 -   **Author:** Peter Polidoro
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org338aae6"></a>
+<a id="org7d485e7"></a>
 
 ## Description
 
 This board controls the y-arena valves for the Turner lab.
 
 
-<a id="org1c6e4e9"></a>
+<a id="orgcf94088"></a>
 
 # Images
 
 
-<a id="org64a1392"></a>
+<a id="orgbeb5333"></a>
 
 # Schematic
 
@@ -64,7 +64,7 @@ This board controls the y-arena valves for the Turner lab.
 ![img](./schematic/images/schematic09.png)
 
 
-<a id="orge607dd2"></a>
+<a id="orgcdc2d77"></a>
 
 # Gerbers
 
@@ -73,38 +73,35 @@ This board controls the y-arena valves for the Turner lab.
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="orgba0b968"></a>
+<a id="org45988c5"></a>
 
 # Bill of Materials
 
 
-<a id="org9bbb3bc"></a>
+<a id="org1b120af"></a>
 
 ## PCB Parts
 
-| Item | Reference(s)                      | Quantity | Manufacturer                    | Manufacturer Part Number | Vendor   | Vendor Part Number   | Description                    | Package            |
-|---- |--------------------------------- |-------- |------------------------------- |------------------------ |-------- |-------------------- |------------------------------ |------------------ |
-| 1    | C1                                | 1        | TDK Corporation                 | C2012X5R1V106K085AC      | Digi-Key | 445-14417-1-ND       | CAP CER 10UF 35V X5R           | 0805 (2012 Metric) |
-| 2    | C10 C12 C14 C16 C18 C2 C4 C6 C8   | 9        | Vishay Sprague                  | 298D105X0016K2T          | Digi-Key | 718-1618-1-ND        | CAP TANT 1UF 20% 16V           | 0402               |
-| 3    | C11 C13 C15 C17 C19 C3 C5 C7 C9   | 9        | Murata Electronics              | GCM155R71H153JA55D       | Digi-Key | 490-16428-1-ND       | CAP CER 0.015UF 50V X7R 0402   | 0402               |
-| 4    | D1                                | 1        | Nexperia USA Inc.               | PMEG045V100EPDZ          | Digi-Key | 1727-1904-1-ND       | DIODE SCHOTTKY 45V 10A         | CFP15              |
-| 5    | D10 D12 D14 D16 D18 D20 D4 D6 D8  | 9        | Comchip Technology              | CDBQR0230L               | Digi-Key | 641-1275-1-ND        | DIODE SCHOTTKY 30V 200MA       | 0402               |
-| 6    | D11 D13 D15 D17 D19 D3 D5 D7 D9   | 9        | Diodes Incorporated             | BAS116LPH4-7B            | Digi-Key | BAS116LPH4-7BDICT-ND | DIODE GEN PURP 85V 215MA 2DFN  | 0402               |
-| 7    | D2                                | 1        | Diodes Incorporated             | BAS116LPH4-7B            | Digi-Key | BAS116LPH4-7BDICT-ND | DIODE GEN PURP 85V 215MA 2DFN  | 0402               |
-| 8    | L1                                | 1        | Lite-On Inc.                    | LTST-C170GKT             | Digi-Key | 160-1179-1-ND        | LED GREEN CLEAR SMD            | 0805 (2012 Metric) |
-| 9    | L10 L2 L3 L4 L5 L6 L7 L8 L9       | 9        | Lite-On Inc.                    | LTST-C170GKT             | Digi-Key | 160-1179-1-ND        | LED GREEN CLEAR SMD            | 0805 (2012 Metric) |
-| 10   | P1                                | 1        | CUI Devices                     | PJ-036AH-SMT-TR          | Digi-Key | CP-036AHPJCT-ND      | CONN PWR JACK 2X5.5MM SOLDER   |                    |
-| 11   | R1                                | 1        | Panasonic Electronic Components | ERJ-PA2J391X             | Digi-Key | P124568CT-ND         | RES SMD 390 OHM 5% 1/5W        | 0402               |
-| 12   | R10 R13 R16 R19 R22 R25 R28 R4 R7 | 9        | Panasonic Electronic Components | ERJ-2RKF2053X            | Digi-Key | P205KLCT-ND          | RES SMD 205K OHM 1% 1/10W 0402 | 0402               |
-| 13   | R11 R14 R17 R2 R20 R23 R26 R5 R8  | 9        | Panasonic Electronic Components | ERJ-PA2J391X             | Digi-Key | P124568CT-ND         | RES SMD 390 OHM 5% 1/5W        | 0402               |
-| 14   | R12 R15 R18 R21 R24 R27 R3 R6 R9  | 9        | Panasonic Electronic Components | ERJ-2RKF1503X            | Digi-Key | P150KLCT-ND          | RES SMD 150K OHM 1% 1/10W 0402 | 0402               |
-| 15   | S1 S2 S3 S4 S5 S6 S7 S8 S9        | 18       | Mill-Max Manufacturing Corp     | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND           | CONN PIN RCPT .025-.037 SOLDER |                    |
-| 16   | SW1                               | 1        | E-Switch                        | 500ASSP1SM6QE            | Digi-Key | EG5810CT-ND          | SWITCH SLIDE SPDT 3A 120V      |                    |
-| 17   | TEENSY1                           | 28       | Mill-Max Manufacturing Corp.    | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND           | CONN PIN RCPT .025-.037 SOLDER |                    |
-| 18   | U1 U2 U3 U4 U5 U6 U7 U8 U9        | 9        | Texas Instruments               | DRV103U                  | Digi-Key | 296-11622-ND         | IC LO-SIDE DRIVER PWM 8SOIC    | 8SOIC              |
+| Item | Reference(s)                        | Quantity | Manufacturer                    | Manufacturer Part Number | Vendor   | Vendor Part Number   | Description                    | Package            |
+|---- |----------------------------------- |-------- |------------------------------- |------------------------ |-------- |-------------------- |------------------------------ |------------------ |
+| 1    | C1                                  | 1        | TDK Corporation                 | C2012X5R1V106K085AC      | Digi-Key | 445-14417-1-ND       | CAP CER 10UF 35V X5R           | 0805 (2012 Metric) |
+| 2    | C10 C12 C14 C16 C18 C2 C4 C6 C8     | 9        | Vishay Sprague                  | 298D105X0016K2T          | Digi-Key | 718-1618-1-ND        | CAP TANT 1UF 20% 16V           | 0402               |
+| 3    | C11 C13 C15 C17 C19 C3 C5 C7 C9     | 9        | Murata Electronics              | GCM155R71H153JA55D       | Digi-Key | 490-16428-1-ND       | CAP CER 0.015UF 50V X7R 0402   | 0402               |
+| 4    | D1                                  | 1        | Nexperia USA Inc.               | PMEG045V100EPDZ          | Digi-Key | 1727-1904-1-ND       | DIODE SCHOTTKY 45V 10A         | CFP15              |
+| 5    | D10 D12 D14 D16 D18 D20 D4 D6 D8    | 9        | Comchip Technology              | CDBQR0230L               | Digi-Key | 641-1275-1-ND        | DIODE SCHOTTKY 30V 200MA       | 0402               |
+| 6    | D11 D13 D15 D17 D19 D3 D5 D7 D9 D2  | 10       | Diodes Incorporated             | BAS116LPH4-7B            | Digi-Key | BAS116LPH4-7BDICT-ND | DIODE GEN PURP 85V 215MA 2DFN  | 0402               |
+| 7    | L1 L10 L2 L3 L4 L5 L6 L7 L8 L9      | 10       | Lite-On Inc.                    | LTST-C170GKT             | Digi-Key | 160-1179-1-ND        | LED GREEN CLEAR SMD            | 0805 (2012 Metric) |
+| 8    | P1                                  | 1        | CUI Devices                     | PJ-036AH-SMT-TR          | Digi-Key | CP-036AHPJCT-ND      | CONN PWR JACK 2X5.5MM SOLDER   |                    |
+| 9    | R1 R11 R14 R17 R2 R20 R23 R26 R5 R8 | 10       | Panasonic Electronic Components | ERJ-PA2J391X             | Digi-Key | P124568CT-ND         | RES SMD 390 OHM 5% 1/5W        | 0402               |
+| 10   | R10 R13 R16 R19 R22 R25 R28 R4 R7   | 9        | Panasonic Electronic Components | ERJ-2RKF2053X            | Digi-Key | P205KLCT-ND          | RES SMD 205K OHM 1% 1/10W 0402 | 0402               |
+| 11   | R12 R15 R18 R21 R24 R27 R3 R6 R9    | 9        | Panasonic Electronic Components | ERJ-2RKF1503X            | Digi-Key | P150KLCT-ND          | RES SMD 150K OHM 1% 1/10W 0402 | 0402               |
+| 12   | S1 S2 S3 S4 S5 S6 S7 S8 S9 TEENSY1  | 46       | Mill-Max Manufacturing Corp     | 0305-0-15-15-47-27-10-0  | Digi-Key | ED90331-ND           | CONN PIN RCPT .025-.037 SOLDER |                    |
+| 13   | SW1                                 | 1        | E-Switch                        | 500ASSP1SM6QE            | Digi-Key | EG5810CT-ND          | SWITCH SLIDE SPDT 3A 120V      |                    |
+| 14   | U1 U2 U3 U4 U5 U6 U7 U8 U9          | 9        | Texas Instruments               | DRV103U                  | Digi-Key | 296-11622-ND         | IC LO-SIDE DRIVER PWM 8SOIC    | 8SOIC              |
+|      | FID1 FID2 FID3 FID4 MH1 MH2 MH3     | 7        |                                 |                          |          |                      |                                |                    |
 
 
-<a id="org647ec9b"></a>
+<a id="org4e18273"></a>
 
 ## Supplemental Parts
 
@@ -125,7 +122,7 @@ This board controls the y-arena valves for the Turner lab.
 | 13   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
 
 
-<a id="org22c38dd"></a>
+<a id="orgcd42155"></a>
 
 ## Vendor Parts Lists
 
@@ -134,19 +131,19 @@ This board controls the y-arena valves for the Turner lab.
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="orge913f34"></a>
+<a id="org9ad3f54"></a>
 
 # Supplemental Documentation
 
 
-<a id="org8df99ae"></a>
+<a id="orga54d2db"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="orge21427f"></a>
+<a id="org2375c63"></a>
 
 # Manufacturing Archive
 

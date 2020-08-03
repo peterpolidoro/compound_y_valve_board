@@ -121,11 +121,11 @@ F 1 "10uF" H 3050 5850 30  0000 C CNN
 F 2 "y_arena_valve_controller:SM0805" H 3088 5700 30  0001 C CNN
 F 3 "" H 3050 5850 60  0000 C CNN
 F 4 "Digi-Key" H 3150 6050 60  0001 C CNN "Vendor"
-F 5 " 445-14417-1-ND " H 3250 6150 60  0001 C CNN "Vendor Part Number"
+F 5 "445-14417-1-ND" H 3250 6150 60  0001 C CNN "Vendor Part Number"
 F 6 "CAP CER 10UF 35V X5R" H 3350 6250 60  0001 C CNN "Description"
 F 7 "0805 (2012 Metric)" H 3050 5850 60  0001 C CNN "Package"
 F 8 "TDK Corporation" H 3050 5850 60  0001 C CNN "Manufacturer"
-F 9 " C2012X5R1V106K085AC" H 3050 5850 60  0001 C CNN "Manufacturer Part Number"
+F 9 "C2012X5R1V106K085AC" H 3050 5850 60  0001 C CNN "Manufacturer Part Number"
 	1    3050 5850
 	1    0    0    -1  
 $EndComp

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/polidorop/git/kicad/y_arena_valve_controller/y_arena_valve_controller.sch</source>
-    <date>Sun 02 Aug 2020 03:26:19 PM EDT</date>
+    <date>Mon 03 Aug 2020 03:12:06 PM EDT</date>
     <tool>Eeschema 5.1.6-c6e7f7d~87~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -191,10 +191,10 @@
       <fields>
         <field name="Description">CAP CER 10UF 35V X5R</field>
         <field name="Manufacturer">TDK Corporation</field>
-        <field name="Manufacturer Part Number"> C2012X5R1V106K085AC</field>
+        <field name="Manufacturer Part Number">C2012X5R1V106K085AC</field>
         <field name="Package">0805 (2012 Metric)</field>
         <field name="Vendor">Digi-Key</field>
-        <field name="Vendor Part Number"> 445-14417-1-ND </field>
+        <field name="Vendor Part Number">445-14417-1-ND</field>
       </fields>
       <libsource lib="y_arena_valve_controller" part="10uF" description=""/>
       <sheetpath names="/" tstamps="/"/>

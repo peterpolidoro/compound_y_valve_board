@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name y_arena_valve_controller
-  #+MACRO: version 1.1
+  #+MACRO: version 1.2
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/y_arena_valve_controller
   #+AUTHOR: Peter Polidoro
