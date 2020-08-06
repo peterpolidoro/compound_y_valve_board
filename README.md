@@ -1,19 +1,19 @@
-- [Repository Information](#orge65aeaa)
-  - [Description](#org7d485e7)
-- [Images](#orgcf94088)
-- [Schematic](#orgbeb5333)
-- [Gerbers](#orgcdc2d77)
-- [Bill of Materials](#org45988c5)
-  - [PCB Parts](#org1b120af)
-  - [Supplemental Parts](#org4e18273)
-  - [Vendor Parts Lists](#orgcd42155)
-- [Supplemental Documentation](#org9ad3f54)
-  - [Assembly Instructions](#orga54d2db)
-- [Manufacturing Archive](#org2375c63)
+- [Repository Information](#org778a52b)
+  - [Description](#org4694fad)
+- [Images](#orga857691)
+- [Schematic](#org16b45e5)
+- [Gerbers](#org5e35fa5)
+- [Bill of Materials](#orga54b429)
+  - [PCB Parts](#org9ff9bb9)
+  - [Supplemental Parts](#org7095c43)
+  - [Vendor Parts Lists](#org35ce719)
+- [Supplemental Documentation](#org0f29065)
+  - [Assembly Instructions](#org768c6b8)
+- [Manufacturing Archive](#org54964ed)
 
 
 
-<a id="orge65aeaa"></a>
+<a id="org778a52b"></a>
 
 # Repository Information
 
@@ -25,19 +25,19 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org7d485e7"></a>
+<a id="org4694fad"></a>
 
 ## Description
 
 This board controls the y-arena valves for the Turner lab.
 
 
-<a id="orgcf94088"></a>
+<a id="orga857691"></a>
 
 # Images
 
 
-<a id="orgbeb5333"></a>
+<a id="org16b45e5"></a>
 
 # Schematic
 
@@ -64,7 +64,7 @@ This board controls the y-arena valves for the Turner lab.
 ![img](./schematic/images/schematic09.png)
 
 
-<a id="orgcdc2d77"></a>
+<a id="org5e35fa5"></a>
 
 # Gerbers
 
@@ -73,12 +73,12 @@ This board controls the y-arena valves for the Turner lab.
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="org45988c5"></a>
+<a id="orga54b429"></a>
 
 # Bill of Materials
 
 
-<a id="org1b120af"></a>
+<a id="org9ff9bb9"></a>
 
 ## PCB Parts
 
@@ -101,7 +101,7 @@ This board controls the y-arena valves for the Turner lab.
 |      | FID1 FID2 FID3 FID4 MH1 MH2 MH3     | 7        |                                 |                          |          |                      |                                |                    |
 
 
-<a id="org4e18273"></a>
+<a id="org7095c43"></a>
 
 ## Supplemental Parts
 
@@ -110,19 +110,21 @@ This board controls the y-arena valves for the Turner lab.
 | 1    | 1        | SparkFun Electronics         | DEV-15583                       | Digi-Key | 1568-DEV-15583-ND                  | TEENSY 4.0                       |
 | 2    | 1        | Qualtek                      | 3021075-03                      | Digi-Key | Q1223-ND                           | USB 2.0 A MALE TO USB 2.0 MICRO  |
 | 3    | 1        | Coolgear                     | USBG-4PUSB2-MH                  | Digi-Key | 2671-USBG-4PUSB2-MH-ND             | 4-PORT USB 2.0 MINI METAL HIGH-S |
-| 4    | 1        | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M     |
-| 5    | 1        | Tensility International Corp | CA-2219                         | Digi-Key | CP-2219-ND                         | CABLE ASSY 5.5X2.1MM M/F R/A 3FT |
-| 6    | 1        | Raspberry Pi                 | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB              |
-| 7    | 1        | Raspberry Pi                 | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US  |
-| 8    | 1        | Raspberry Pi                 | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY   |
-| 9    | 1        | Raspberry Pi                 | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD |
-| 10   | 1        | ATP Electronics Inc          | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC |
-| 11   | 1        | Tripp Lite                   | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS     |
-| 12   | 1        | Tripp Lite                   | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER      |
-| 13   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
+| 4    | 1        | MEAN WELL USA Inc.           | GST60A12-P1J                    | Digi-Key | 1866-2149-ND                       | AC/DC DESKTOP ADAPTER 12V 60W    |
+| 5    | 1        | MEAN WELL USA Inc.           | YP12+YC12                       | Digi-Key | 1866-5006-ND                       | CORD IEC 320-C13 6FT BLACK       |
+| 6    | 1        | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M     |
+| 7    | 1        | Tensility International Corp | CA-2219                         | Digi-Key | CP-2219-ND                         | CABLE ASSY 5.5X2.1MM M/F R/A 3FT |
+| 8    | 1        | Raspberry Pi                 | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB              |
+| 9    | 1        | Raspberry Pi                 | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US  |
+| 10   | 1        | Raspberry Pi                 | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY   |
+| 11   | 1        | Raspberry Pi                 | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD |
+| 12   | 1        | ATP Electronics Inc          | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC |
+| 13   | 1        | Tripp Lite                   | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS     |
+| 14   | 1        | Tripp Lite                   | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER      |
+| 15   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
 
 
-<a id="orgcd42155"></a>
+<a id="org35ce719"></a>
 
 ## Vendor Parts Lists
 
@@ -131,22 +133,22 @@ This board controls the y-arena valves for the Turner lab.
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="org9ad3f54"></a>
+<a id="org0f29065"></a>
 
 # Supplemental Documentation
 
 
-<a id="orga54d2db"></a>
+<a id="org768c6b8"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org2375c63"></a>
+<a id="org54964ed"></a>
 
 # Manufacturing Archive
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[./manufacturing/y\_arena\_valve\_controller\_v1.1.zip](./manufacturing/y_arena_valve_controller_v1.1.zip)
+[./manufacturing/y\_arena\_valve\_controller\_v1.2.zip](./manufacturing/y_arena_valve_controller_v1.2.zip)
