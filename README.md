@@ -1,19 +1,19 @@
-- [Repository Information](#org778a52b)
-  - [Description](#org4694fad)
-- [Images](#orga857691)
-- [Schematic](#org16b45e5)
-- [Gerbers](#org5e35fa5)
-- [Bill of Materials](#orga54b429)
-  - [PCB Parts](#org9ff9bb9)
-  - [Supplemental Parts](#org7095c43)
-  - [Vendor Parts Lists](#org35ce719)
-- [Supplemental Documentation](#org0f29065)
-  - [Assembly Instructions](#org768c6b8)
-- [Manufacturing Archive](#org54964ed)
+- [Repository Information](#org5503ddd)
+  - [Description](#org2838d90)
+- [Images](#orgdeb0a4f)
+- [Schematic](#org624f729)
+- [Gerbers](#org797114c)
+- [Bill of Materials](#orgdbc0032)
+  - [PCB Parts](#org48a2403)
+  - [Supplemental Parts](#org7d230e5)
+  - [Vendor Parts Lists](#org1a2c064)
+- [Supplemental Documentation](#org4bdee15)
+  - [Assembly Instructions](#org23a039a)
+- [Manufacturing Archive](#org7b35284)
 
 
 
-<a id="org778a52b"></a>
+<a id="org5503ddd"></a>
 
 # Repository Information
 
@@ -25,19 +25,19 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="org4694fad"></a>
+<a id="org2838d90"></a>
 
 ## Description
 
 This board controls the y-arena valves for the Turner lab.
 
 
-<a id="orga857691"></a>
+<a id="orgdeb0a4f"></a>
 
 # Images
 
 
-<a id="org16b45e5"></a>
+<a id="org624f729"></a>
 
 # Schematic
 
@@ -64,7 +64,7 @@ This board controls the y-arena valves for the Turner lab.
 ![img](./schematic/images/schematic09.png)
 
 
-<a id="org5e35fa5"></a>
+<a id="org797114c"></a>
 
 # Gerbers
 
@@ -73,12 +73,12 @@ This board controls the y-arena valves for the Turner lab.
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="orga54b429"></a>
+<a id="orgdbc0032"></a>
 
 # Bill of Materials
 
 
-<a id="org9ff9bb9"></a>
+<a id="org48a2403"></a>
 
 ## PCB Parts
 
@@ -101,7 +101,7 @@ This board controls the y-arena valves for the Turner lab.
 |      | FID1 FID2 FID3 FID4 MH1 MH2 MH3     | 7        |                                 |                          |          |                      |                                |                    |
 
 
-<a id="org7095c43"></a>
+<a id="org7d230e5"></a>
 
 ## Supplemental Parts
 
@@ -109,7 +109,7 @@ This board controls the y-arena valves for the Turner lab.
 |---- |-------- |---------------------------- |------------------------------- |-------- |---------------------------------- |-------------------------------- |
 | 1    | 1        | SparkFun Electronics         | DEV-15583                       | Digi-Key | 1568-DEV-15583-ND                  | TEENSY 4.0                       |
 | 2    | 1        | Qualtek                      | 3021075-03                      | Digi-Key | Q1223-ND                           | USB 2.0 A MALE TO USB 2.0 MICRO  |
-| 3    | 1        | Coolgear                     | USBG-4PUSB2-MH                  | Digi-Key | 2671-USBG-4PUSB2-MH-ND             | 4-PORT USB 2.0 MINI METAL HIGH-S |
+| 3    | 1        | Tripp Lite                   | U222-004-R                      | Digi-Key | TL430-ND                           | HUB USB 4-PORT 2.0 & 1.1         |
 | 4    | 1        | MEAN WELL USA Inc.           | GST60A12-P1J                    | Digi-Key | 1866-2149-ND                       | AC/DC DESKTOP ADAPTER 12V 60W    |
 | 5    | 1        | MEAN WELL USA Inc.           | YP12+YC12                       | Digi-Key | 1866-5006-ND                       | CORD IEC 320-C13 6FT BLACK       |
 | 6    | 1        | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M     |
@@ -124,7 +124,7 @@ This board controls the y-arena valves for the Turner lab.
 | 15   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
 
 
-<a id="org35ce719"></a>
+<a id="org1a2c064"></a>
 
 ## Vendor Parts Lists
 
@@ -133,19 +133,19 @@ This board controls the y-arena valves for the Turner lab.
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="org0f29065"></a>
+<a id="org4bdee15"></a>
 
 # Supplemental Documentation
 
 
-<a id="org768c6b8"></a>
+<a id="org23a039a"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org54964ed"></a>
+<a id="org7b35284"></a>
 
 # Manufacturing Archive
 
