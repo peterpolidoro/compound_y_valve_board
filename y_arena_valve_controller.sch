@@ -18,9 +18,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 2250 6550 2250
 Text Label 6550 1750 2    50   ~ 0
-VALVE_0
+ARM_0_VALVE_0
 Text Label 6550 2250 2    50   ~ 0
-VALVE_1
+ARM_0_VALVE_1
 NoConn ~ 9200 1950
 $Comp
 L power:VAA #PWR020
@@ -292,21 +292,21 @@ F 3 "" H 1500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4550 2900 0    50   ~ 0
-VALVE_0
+ARM_0_VALVE_0
 Text Label 4550 3000 0    50   ~ 0
-VALVE_1
+ARM_0_VALVE_1
 Text Label 4550 3100 0    50   ~ 0
-VALVE_2
+ARM_0_VALVE_2
 Text Label 4550 3200 0    50   ~ 0
-VALVE_3
+ARM_1_VALVE_0
 Text Label 4550 3300 0    50   ~ 0
-VALVE_4
+ARM_1_VALVE_1
 Text Label 4550 3400 0    50   ~ 0
-VALVE_5
+ARM_1_VALVE_2
 Text Label 4550 3500 0    50   ~ 0
-VALVE_6
+ARM_2_VALVE_0
 Text Label 4550 3600 0    50   ~ 0
-VALVE_7
+ARM_2_VALVE_1
 $Sheet
 S 6750 1550 1000 300 
 U 5F238750
@@ -371,7 +371,7 @@ F 7 "28" H 3250 3150 50  0001 C CNN "Quantity"
 	1    0    0    -1  
 $EndComp
 Text Label 4550 3700 0    50   ~ 0
-VALVE_8
+ARM_2_VALVE_2
 Wire Wire Line
 	1500 2550 1500 2500
 Wire Wire Line
@@ -474,9 +474,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 3250 6550 3250
 Text Label 6550 2750 2    50   ~ 0
-VALVE_2
+ARM_0_VALVE_2
 Text Label 6550 3250 2    50   ~ 0
-VALVE_3
+ARM_1_VALVE_0
 $Comp
 L power:VCC #PWR06
 U 1 1 5F2EACEA
@@ -570,9 +570,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 4250 6550 4250
 Text Label 6550 3750 2    50   ~ 0
-VALVE_4
+ARM_1_VALVE_1
 Text Label 6550 4250 2    50   ~ 0
-VALVE_5
+ARM_1_VALVE_2
 $Comp
 L power:VCC #PWR010
 U 1 1 5F2ED130
@@ -666,9 +666,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 5250 6550 5250
 Text Label 6550 4750 2    50   ~ 0
-VALVE_6
+ARM_2_VALVE_0
 Text Label 6550 5250 2    50   ~ 0
-VALVE_7
+ARM_2_VALVE_1
 $Comp
 L power:VCC #PWR014
 U 1 1 5F2ED174
@@ -760,7 +760,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 5750 6550 5750
 Text Label 6550 5750 2    50   ~ 0
-VALVE_8
+ARM_2_VALVE_2
 $Sheet
 S 6750 5550 1000 300 
 U 5F2F1BA8

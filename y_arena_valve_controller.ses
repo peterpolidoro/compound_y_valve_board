@@ -139,13 +139,13 @@
   )
   (was_is
   )
-  (routes 
+  (routes
     (resolution um 10)
     (parser
       (host_cad "KiCad's Pcbnew")
       (host_version "5.1.6-c6e7f7d~87~ubuntu20.04.1")
     )
-    (library_out 
+    (library_out
       (padstack "Via[0-1]_800:400_um"
         (shape
           (circle F.Cu 8000 0 0)
@@ -165,8 +165,8 @@
         (attach off)
       )
     )
-    (network_out 
-      (net /VALVE_0
+    (network_out
+      (net /ARM_0_VALVE_0
         (wire
           (path F.Cu 4064
             993668 -1193800
@@ -203,7 +203,7 @@
         (via "Via[0-1]_889:635_um" 636079 -780959
         )
       )
-      (net /VALVE_1
+      (net /ARM_0_VALVE_1
         (wire
           (path F.Cu 4064
             636177 -704677
@@ -237,7 +237,7 @@
         (via "Via[0-1]_889:635_um" 636177 -704677
         )
       )
-      (net /VALVE_2
+      (net /ARM_0_VALVE_2
         (wire
           (path B.Cu 4064
             595376 -609600
@@ -261,7 +261,7 @@
           )
         )
       )
-      (net /VALVE_3
+      (net /ARM_1_VALVE_0
         (wire
           (path F.Cu 4064
             895976 -782360
@@ -289,7 +289,7 @@
         (via "Via[0-1]_889:635_um" 895976 -782360
         )
       )
-      (net /VALVE_4
+      (net /ARM_1_VALVE_1
         (wire
           (path B.Cu 4064
             874776 -685800
@@ -318,7 +318,7 @@
           )
         )
       )
-      (net /VALVE_5
+      (net /ARM_1_VALVE_2
         (wire
           (path B.Cu 4064
             874776 -609600
@@ -338,7 +338,7 @@
           )
         )
       )
-      (net /VALVE_6
+      (net /ARM_2_VALVE_0
         (wire
           (path B.Cu 4064
             1154176 -762000
@@ -356,7 +356,7 @@
           )
         )
       )
-      (net /VALVE_7
+      (net /ARM_2_VALVE_1
         (wire
           (path B.Cu 4064
             1009650 -1016000
@@ -374,7 +374,7 @@
           )
         )
       )
-      (net /VALVE_8
+      (net /ARM_2_VALVE_2
         (wire
           (path B.Cu 4064
             1154176 -609600

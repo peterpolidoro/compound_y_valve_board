@@ -643,31 +643,31 @@
     )
   )
   (network
-    (net /VALVE_0
+    (net /ARM_0_VALVE_0
       (pins U1-8 TEENSY1-22)
     )
-    (net /VALVE_1
+    (net /ARM_0_VALVE_1
       (pins U2-8 TEENSY1-21)
     )
-    (net /VALVE_2
+    (net /ARM_0_VALVE_2
       (pins U3-8 TEENSY1-20)
     )
-    (net /VALVE_3
+    (net /ARM_1_VALVE_0
       (pins U4-8 TEENSY1-19)
     )
-    (net /VALVE_4
+    (net /ARM_1_VALVE_1
       (pins U5-8 TEENSY1-18)
     )
-    (net /VALVE_5
+    (net /ARM_1_VALVE_2
       (pins U6-8 TEENSY1-17)
     )
-    (net /VALVE_6
+    (net /ARM_2_VALVE_0
       (pins U7-8 TEENSY1-16)
     )
-    (net /VALVE_7
+    (net /ARM_2_VALVE_1
       (pins U8-8 TEENSY1-15)
     )
-    (net /VALVE_8
+    (net /ARM_2_VALVE_2
       (pins U9-8 TEENSY1-14)
     )
     (net VAA
@@ -864,8 +864,8 @@
         (clearance 200.1)
       )
     )
-    (class POWER /VALVE_0 /VALVE_1 /VALVE_2 /VALVE_3 /VALVE_4 /VALVE_5 /VALVE_6
-      /VALVE_7 /VALVE_8 /Vled /valve_0/SH /valve_1/SH /valve_2/SH /valve_3/SH
+    (class POWER /ARM_0_VALVE_0 /ARM_0_VALVE_1 /ARM_0_VALVE_2 /ARM_1_VALVE_0 /ARM_1_VALVE_1 /ARM_1_VALVE_2 /ARM_2_VALVE_0
+      /ARM_2_VALVE_1 /ARM_2_VALVE_2 /Vled /valve_0/SH /valve_1/SH /valve_2/SH /valve_3/SH
       /valve_4/SH /valve_5/SH /valve_6/SH /valve_7/SH /valve_8/SH GND "Net-(C11-Pad1)"
       "Net-(C13-Pad1)" "Net-(C15-Pad1)" "Net-(C17-Pad1)" "Net-(C19-Pad1)"
       "Net-(C3-Pad1)" "Net-(C5-Pad1)" "Net-(C7-Pad1)" "Net-(C9-Pad1)" "Net-(D11-Pad1)"
