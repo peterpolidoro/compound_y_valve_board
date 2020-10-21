@@ -32,7 +32,7 @@
   (fp_text user "This Side" (at 0 10.16) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
-  (fp_text user "Faces Valve" (at 0 11.43) (layer F.SilkS)
+  (fp_text user "Faces Odor" (at 0 11.43) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1905)))
   )
   (pad 1 thru_hole circle (at -1.27 0) (size 2.286 2.286) (drill 1.524) (layers *.Cu *.Mask))

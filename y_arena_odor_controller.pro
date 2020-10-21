@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=y_arena_valve_controller.net
+LastNetListRead=y_arena_odor_controller.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0

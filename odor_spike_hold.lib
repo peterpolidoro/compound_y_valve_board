@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 150k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "150k" 0 0 30 V V C CNN
-F2 "valve_spike_hold:SM0402" -70 0 30 V I C CNN
+F2 "odor_spike_hold:SM0402" -70 0 30 V I C CNN
 F3 "" 80 0 30 V V C CNN
 F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
 F5 "P150KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
@@ -33,7 +33,7 @@ ENDDEF
 DEF 15nF C 0 10 N Y 1 F N
 F0 "C" 0 100 40 H V L CNN
 F1 "15nF" 0 0 30 H V C CNN
-F2 "valve_spike_hold:SM0402" 38 -150 30 H I C CNN
+F2 "odor_spike_hold:SM0402" 38 -150 30 H I C CNN
 F3 "" 0 100 60 H I C CNN
 F4 "Digi-Key" 100 200 60 H I C CNN "Vendor"
 F5 "490-16428-1-ND" 200 300 60 H I C CNN "Vendor Part Number"
@@ -59,7 +59,7 @@ ENDDEF
 DEF 1uF C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "1uF" 0 0 30 H V C CNN
-F2 "valve_spike_hold:SM0402_POL" -90 -30 60 H I C CNN
+F2 "odor_spike_hold:SM0402_POL" -90 -30 60 H I C CNN
 F3 "" 10 70 60 H I C CNN
 F4 "Digi-Key" 110 170 60 H I C CNN "Vendor"
 F5 "718-1618-1-ND" 210 270 60 H I C CNN "Vendor Part Number"
@@ -90,7 +90,7 @@ ENDDEF
 DEF 205k R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "205k" 0 0 30 V V C CNN
-F2 "valve_spike_hold:SM0402" -70 0 30 V I C CNN
+F2 "odor_spike_hold:SM0402" -70 0 30 V I C CNN
 F3 "" 80 0 30 V V C CNN
 F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
 F5 "P205KLCT-ND" 280 200 60 V I C CNN "Vendor Part Number"
@@ -117,7 +117,7 @@ ENDDEF
 DEF 390 R 0 0 N Y 1 F N
 F0 "R" 80 0 40 V V C CNN
 F1 "390" 0 0 30 V V C CNN
-F2 "valve_spike_hold:SM0402" -70 0 30 V I C CNN
+F2 "odor_spike_hold:SM0402" -70 0 30 V I C CNN
 F3 "" 80 0 30 V V C CNN
 F4 "Digi-Key" 180 100 60 V I C CNN "Vendor"
 F5 "P124568CT-ND" 280 200 60 V I C CNN "Vendor Part Number"
@@ -144,7 +144,7 @@ ENDDEF
 DEF DIODE_LOW_REV_CURRENT_0402 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "DIODE_LOW_REV_CURRENT_0402" -280 -80 50 H I L CNN
-F2 "valve_spike_hold:SM0402_POL" -150 -20 60 H I C CNN
+F2 "odor_spike_hold:SM0402_POL" -150 -20 60 H I C CNN
 F3 "" -50 80 60 H I C CNN
 F4 "Digi-Key" 50 180 60 H I C CNN "Vendor"
 F5 "BAS116LPH4-7BDICT-ND" 150 280 60 H I C CNN "Vendor Part Number"
@@ -174,7 +174,7 @@ ENDDEF
 DEF DIODE_SCHOTTKY_0402 D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
 F1 "DIODE_SCHOTTKY_0402" -280 -80 50 H I L CNN
-F2 "valve_spike_hold:SM0402_POL" -150 -20 60 H I C CNN
+F2 "odor_spike_hold:SM0402_POL" -150 -20 60 H I C CNN
 F3 "" -50 80 60 H I C CNN
 F4 "Digi-Key" 50 180 60 H I C CNN "Vendor"
 F5 "641-1275-1-ND" 150 280 60 H I C CNN "Vendor Part Number"
@@ -204,7 +204,7 @@ ENDDEF
 DEF DRV103 U 0 40 Y Y 1 F N
 F0 "U" 350 -200 60 H V C CNN
 F1 "DRV103" 100 300 60 H V C CNN
-F2 "valve_spike_hold:SOIC_8" 250 -300 60 H I C CNN
+F2 "odor_spike_hold:SOIC_8" 250 -300 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 450 -100 60 H I C CNN "Vendor"
 F5 "296-11622-ND" 550 0 60 H I C CNN "Vendor Part Number"
@@ -230,7 +230,7 @@ ENDDEF
 DEF LED_GRN L 0 40 Y N 1 F N
 F0 "L" 0 100 50 H V C CNN
 F1 "LED_GRN" 0 -100 40 H V C CNN
-F2 "valve_spike_hold:LED0805" -100 0 60 H I C CNN
+F2 "odor_spike_hold:LED0805" -100 0 60 H I C CNN
 F3 "" 0 0 60 H V C CNN
 F4 "LED GREEN CLEAR SMD" 300 400 60 H I C CNN "Description"
 F5 "0805 (2012 Metric)" 0 0 60 H I C CNN "Package"
@@ -262,7 +262,7 @@ ENDDEF
 DEF LEECO_LHDB S 0 40 Y N 1 F N
 F0 "S" 0 150 50 H V C CNN
 F1 "LEECO_LHDB" 100 0 50 V V C CNN
-F2 "valve_spike_hold:LEECO_LHDB" -100 50 60 H I C CNN
+F2 "odor_spike_hold:LEECO_LHDB" -100 50 60 H I C CNN
 F3 "" 0 150 60 H V C CNN
 F4 "Digi-Key" 100 250 60 H I C CNN "Vendor"
 F5 "ED90331-ND" 200 350 60 H I C CNN "Vendor Part Number"

@@ -17,10 +17,10 @@
 
 # Repository Information
 
--   **Name:** y\_arena\_valve\_controller
+-   **Name:** y\_arena\_odor\_controller
 -   **Version:** 1.2
 -   **License:** Open-Source Hardware
--   **URL:** <https://github.com/janelia-kicad/y_arena_valve_controller>
+-   **URL:** <https://github.com/janelia-kicad/y_arena_odor_controller>
 -   **Author:** Peter Polidoro
 -   **Email:** peterpolidoro@gmail.com
 
@@ -29,7 +29,7 @@
 
 ## Description
 
-This board controls the y-arena valves for the Turner lab.
+This board controls the y-arena odors for the Turner lab.
 
 
 <a id="org8e21772"></a>
@@ -45,7 +45,7 @@ This board controls the y-arena valves for the Turner lab.
 
 # Schematic
 
-[./schematic/y\_arena\_valve\_controller.pdf](./schematic/y_arena_valve_controller.pdf)
+[./schematic/y\_arena\_odor\_controller.pdf](./schematic/y_arena_odor_controller.pdf)
 
 ![img](./schematic/images/schematic00.png)
 
@@ -156,4 +156,4 @@ This board controls the y-arena valves for the Turner lab.
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[./manufacturing/y\_arena\_valve\_controller\_v1.2.zip](./manufacturing/y_arena_valve_controller_v1.2.zip)
+[./manufacturing/y\_arena\_odor\_controller\_v1.2.zip](./manufacturing/y_arena_odor_controller_v1.2.zip)

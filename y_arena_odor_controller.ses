@@ -1,15 +1,15 @@
 
-(session y_arena_valve_controller.ses
-  (base_design y_arena_valve_controller.dsn)
+(session y_arena_odor_controller.ses
+  (base_design y_arena_odor_controller.dsn)
   (placement
     (resolution um 10)
-    (component y_arena_valve_controller:SPDT_SLIDE_500A_SM
+    (component y_arena_odor_controller:SPDT_SLIDE_500A_SM
       (place SW1 882650 -1295400 front 0)
     )
-    (component y_arena_valve_controller:DCJACK_3PAD_SMD_RA
+    (component y_arena_odor_controller:DCJACK_3PAD_SMD_RA
       (place P1 679450 -1301750 front 180)
     )
-    (component valve_spike_hold:LED0805
+    (component odor_spike_hold:LED0805
       (place L2 831850 -1143000 front 0)
       (place L3 831850 -1092200 front 0)
       (place L4 831850 -1041400 front 0)
@@ -20,7 +20,7 @@
       (place L9 933450 -1092200 front 0)
       (place L10 933450 -1041400 front 0)
     )
-    (component valve_spike_hold:LEECO_LHDB
+    (component odor_spike_hold:LEECO_LHDB
       (place S1 527050 -768350 front 90)
       (place S2 527050 -692150 front 90)
       (place S3 527050 -615950 front 90)
@@ -31,7 +31,7 @@
       (place S8 1085850 -692150 front 90)
       (place S9 1085850 -615950 front 90)
     )
-    (component valve_spike_hold:SOIC_8
+    (component odor_spike_hold:SOIC_8
       (place U1 622300 -781050 back 0)
       (place U2 622300 -704850 back 0)
       (place U3 622300 -628650 back 0)
@@ -42,7 +42,7 @@
       (place U8 1181100 -704850 back 0)
       (place U9 1181100 -628650 back 0)
     )
-    (component valve_spike_hold:SM0402_POL
+    (component odor_spike_hold:SM0402_POL
       (place D3 819150 -1143000 back 0)
       (place D4 565150 -768350 back 0)
       (place D5 819150 -1092200 back 0)
@@ -72,7 +72,7 @@
       (place C18 1181100 -666750 back 90)
       (place D2 781050 -1263650 back 0)
     )
-    (component valve_spike_hold:SM0402
+    (component odor_spike_hold:SM0402
       (place C3 679450 -781050 back 90)
       (place C5 679450 -704850 back 90)
       (place C7 679450 -628650 back 90)
@@ -110,30 +110,30 @@
       (place R23 946150 -1092200 back 0)
       (place R26 946150 -1041400 back 0)
     )
-    (component y_arena_valve_controller:SM0402
+    (component y_arena_odor_controller:SM0402
       (place R1 806450 -1263650 back 0)
     )
-    (component y_arena_valve_controller:LED0805
+    (component y_arena_odor_controller:LED0805
       (place L1 793750 -1263650 front 0)
     )
-    (component y_arena_valve_controller:FIDUCIAL
+    (component y_arena_odor_controller:FIDUCIAL
       (place FID1 539750 -539750 front 180)
       (place FID2 1225550 -539750 front 180)
       (place FID3 1225550 -1282700 front 180)
       (place FID4 539750 -1282700 front 180)
     )
-    (component "y_arena_valve_controller:MOUNTING_HOLE_4-40"
+    (component "y_arena_odor_controller:MOUNTING_HOLE_4-40"
       (place MH1 927100 -850900 back 0)
       (place MH2 647700 -565150 back 0)
       (place MH3 1206500 -565150 back 0)
     )
-    (component y_arena_valve_controller:SM0805
+    (component y_arena_odor_controller:SM0805
       (place C1 635000 -1073150 front 0)
     )
-    (component y_arena_valve_controller:CFP15
+    (component y_arena_odor_controller:CFP15
       (place D1 679450 -1073150 front 180)
     )
-    (component y_arena_valve_controller:TEENSY_4.0
+    (component y_arena_odor_controller:TEENSY_4.0
       (place TEENSY1 1085850 -1130300 front 180)
     )
   )
@@ -166,7 +166,7 @@
       )
     )
     (network_out
-      (net /ARM_0_VALVE_0
+      (net /ARM_0_ODOR_0
         (wire
           (path F.Cu 4064
             993668 -1193800
@@ -203,7 +203,7 @@
         (via "Via[0-1]_889:635_um" 636079 -780959
         )
       )
-      (net /ARM_0_VALVE_1
+      (net /ARM_0_ODOR_1
         (wire
           (path F.Cu 4064
             636177 -704677
@@ -237,7 +237,7 @@
         (via "Via[0-1]_889:635_um" 636177 -704677
         )
       )
-      (net /ARM_0_VALVE_2
+      (net /ARM_0_ODOR_2
         (wire
           (path B.Cu 4064
             595376 -609600
@@ -261,7 +261,7 @@
           )
         )
       )
-      (net /ARM_1_VALVE_0
+      (net /ARM_1_ODOR_0
         (wire
           (path F.Cu 4064
             895976 -782360
@@ -289,7 +289,7 @@
         (via "Via[0-1]_889:635_um" 895976 -782360
         )
       )
-      (net /ARM_1_VALVE_1
+      (net /ARM_1_ODOR_1
         (wire
           (path B.Cu 4064
             874776 -685800
@@ -318,7 +318,7 @@
           )
         )
       )
-      (net /ARM_1_VALVE_2
+      (net /ARM_1_ODOR_2
         (wire
           (path B.Cu 4064
             874776 -609600
@@ -338,7 +338,7 @@
           )
         )
       )
-      (net /ARM_2_VALVE_0
+      (net /ARM_2_ODOR_0
         (wire
           (path B.Cu 4064
             1154176 -762000
@@ -356,7 +356,7 @@
           )
         )
       )
-      (net /ARM_2_VALVE_1
+      (net /ARM_2_ODOR_1
         (wire
           (path B.Cu 4064
             1009650 -1016000
@@ -374,7 +374,7 @@
           )
         )
       )
-      (net /ARM_2_VALVE_2
+      (net /ARM_2_ODOR_2
         (wire
           (path B.Cu 4064
             1154176 -609600
@@ -1901,7 +1901,7 @@
           )
         )
       )
-      (net /valve_0/SH
+      (net /odor_0/SH
         (wire
           (path F.Cu 4064
             831850 -1132459
@@ -1960,7 +1960,7 @@
           )
         )
       )
-      (net /valve_1/SH
+      (net /odor_1/SH
         (wire
           (path F.Cu 4064
             831850 -1081659
@@ -2015,7 +2015,7 @@
           )
         )
       )
-      (net /valve_2/SH
+      (net /odor_2/SH
         (wire
           (path F.Cu 4064
             527050 -628650
@@ -2070,7 +2070,7 @@
           )
         )
       )
-      (net /valve_3/SH
+      (net /odor_3/SH
         (wire
           (path F.Cu 4064
             806450 -781050
@@ -2125,7 +2125,7 @@
           )
         )
       )
-      (net /valve_4/SH
+      (net /odor_4/SH
         (wire
           (path F.Cu 4064
             806450 -704850
@@ -2180,7 +2180,7 @@
           )
         )
       )
-      (net /valve_5/SH
+      (net /odor_5/SH
         (wire
           (path F.Cu 4064
             806450 -628650
@@ -2228,7 +2228,7 @@
           )
         )
       )
-      (net /valve_6/SH
+      (net /odor_6/SH
         (wire
           (path F.Cu 4064
             933450 -1132459
@@ -2279,7 +2279,7 @@
           )
         )
       )
-      (net /valve_7/SH
+      (net /odor_7/SH
         (wire
           (path F.Cu 4064
             933450 -1072408
@@ -2335,7 +2335,7 @@
           )
         )
       )
-      (net /valve_8/SH
+      (net /odor_8/SH
         (wire
           (path F.Cu 4064
             933450 -1030859

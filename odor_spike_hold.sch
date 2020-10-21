@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L valve_spike_hold:DRV103 U1
+L odor_spike_hold:DRV103 U1
 U 1 1 5F23BA75
 P 4350 2750
 AR Path="/5F238750/5F23BA75" Ref="U1"  Part="1" 
@@ -28,7 +28,7 @@ AR Path="/5F2ED184/5F23BA75" Ref="U8"  Part="1"
 AR Path="/5F2F1BA8/5F23BA75" Ref="U9"  Part="1" 
 F 0 "U1" H 4600 2550 60  0000 L CNN
 F 1 "DRV103" H 4450 3050 60  0000 C CNN
-F 2 "valve_spike_hold:SOIC_8" H 4600 2450 60  0001 C CNN
+F 2 "odor_spike_hold:SOIC_8" H 4600 2450 60  0001 C CNN
 F 3 "" H 4350 2750 60  0000 C CNN
 F 4 "Digi-Key" H 4800 2650 60  0001 C CNN "Vendor"
 F 5 "296-11622-ND" H 4900 2750 60  0001 C CNN "Vendor Part Number"
@@ -42,7 +42,7 @@ Text HLabel 7700 2650 1    50   UnSpc ~ 0
 Vs
 NoConn ~ 4700 2600
 $Comp
-L valve_spike_hold:205k R4
+L odor_spike_hold:205k R4
 U 1 1 5F24E9AE
 P 4400 3550
 AR Path="/5F238750/5F24E9AE" Ref="R4"  Part="1" 
@@ -56,7 +56,7 @@ AR Path="/5F2ED184/5F24E9AE" Ref="R25"  Part="1"
 AR Path="/5F2F1BA8/5F24E9AE" Ref="R28"  Part="1" 
 F 0 "R4" H 4450 3550 40  0000 L CNN
 F 1 "205k" V 4400 3550 30  0000 C CNN
-F 2 "valve_spike_hold:SM0402" V 4330 3550 30  0001 C CNN
+F 2 "odor_spike_hold:SM0402" V 4330 3550 30  0001 C CNN
 F 3 "" V 4480 3550 30  0000 C CNN
 F 4 "Digi-Key" V 4580 3650 60  0001 C CNN "Vendor"
 F 5 "P205KLCT-ND" V 4680 3750 60  0001 C CNN "Vendor Part Number"
@@ -86,7 +86,7 @@ Connection ~ 4850 2750
 Text Label 4950 2750 0    50   ~ 0
 SH
 $Comp
-L valve_spike_hold:15nF C3
+L odor_spike_hold:15nF C3
 U 1 1 5F255A52
 P 4200 3550
 AR Path="/5F238750/5F255A52" Ref="C3"  Part="1" 
@@ -100,7 +100,7 @@ AR Path="/5F2ED184/5F255A52" Ref="C17"  Part="1"
 AR Path="/5F2F1BA8/5F255A52" Ref="C19"  Part="1" 
 F 0 "C3" H 4200 3650 40  0000 L CNN
 F 1 "15nF" H 4200 3550 30  0000 C CNN
-F 2 "valve_spike_hold:SM0402" H 4238 3400 30  0001 C CNN
+F 2 "odor_spike_hold:SM0402" H 4238 3400 30  0001 C CNN
 F 3 "" H 4200 3650 60  0001 C CNN
 F 4 "Digi-Key" H 4300 3750 60  0001 C CNN "Vendor"
 F 5 "490-16428-1-ND" H 4400 3850 60  0001 C CNN "Vendor Part Number"
@@ -117,7 +117,7 @@ GND
 Text Notes 4300 3950 1    50   ~ 0
 16.5 ms
 $Comp
-L valve_spike_hold:LEECO_LHDB S1
+L odor_spike_hold:LEECO_LHDB S1
 U 1 1 5F25E10F
 P 7450 2750
 AR Path="/5F238750/5F25E10F" Ref="S1"  Part="1" 
@@ -131,7 +131,7 @@ AR Path="/5F2ED184/5F25E10F" Ref="S8"  Part="1"
 AR Path="/5F2F1BA8/5F25E10F" Ref="S9"  Part="1" 
 F 0 "S1" H 7528 2791 50  0000 L CNN
 F 1 "LEECO_LHDB" H 7528 2700 50  0000 L CNN
-F 2 "valve_spike_hold:LEECO_LHDB" H 7350 2800 60  0001 C CNN
+F 2 "odor_spike_hold:LEECO_LHDB" H 7350 2800 60  0001 C CNN
 F 3 "" H 7450 2900 60  0000 C CNN
 F 4 "Digi-Key" H 7550 3000 60  0001 C CNN "Vendor"
 F 5 "ED90331-ND" H 7650 3100 60  0001 C CNN "Vendor Part Number"
@@ -143,7 +143,7 @@ F 9 "0305-0-15-15-47-27-10-0" H 7450 2750 50  0001 C CNN "Manufacturer Part Numb
 	-1   0    0    1   
 $EndComp
 $Comp
-L valve_spike_hold:150k R3
+L odor_spike_hold:150k R3
 U 1 1 5F25EE83
 P 3950 3550
 AR Path="/5F238750/5F25EE83" Ref="R3"  Part="1" 
@@ -157,7 +157,7 @@ AR Path="/5F2ED184/5F25EE83" Ref="R24"  Part="1"
 AR Path="/5F2F1BA8/5F25EE83" Ref="R27"  Part="1" 
 F 0 "R3" H 4000 3550 40  0000 L CNN
 F 1 "150k" V 3950 3550 30  0000 C CNN
-F 2 "valve_spike_hold:SM0402" V 3880 3550 30  0001 C CNN
+F 2 "odor_spike_hold:SM0402" V 3880 3550 30  0001 C CNN
 F 3 "" V 4030 3550 30  0000 C CNN
 F 4 "Digi-Key" V 4130 3650 60  0001 C CNN "Vendor"
 F 5 "P150KLCT-ND" V 4230 3750 60  0001 C CNN "Vendor Part Number"
@@ -202,7 +202,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 2600 5300 2650
 Text HLabel 3950 2700 0    50   Input ~ 0
-VALVE
+ODOR
 Wire Wire Line
 	3950 2700 4000 2700
 Text HLabel 6150 2300 1    50   UnSpc ~ 0
@@ -220,7 +220,7 @@ SH
 Text HLabel 4200 2350 1    50   UnSpc ~ 0
 Vs
 $Comp
-L valve_spike_hold:DIODE_LOW_REV_CURRENT_0402 D3
+L odor_spike_hold:DIODE_LOW_REV_CURRENT_0402 D3
 U 1 1 5F26049A
 P 6150 2450
 AR Path="/5F238750/5F26049A" Ref="D3"  Part="1" 
@@ -234,7 +234,7 @@ AR Path="/5F2ED184/5F26049A" Ref="D17"  Part="1"
 AR Path="/5F2F1BA8/5F26049A" Ref="D19"  Part="1" 
 F 0 "D3" V 6150 2382 50  0000 R CNN
 F 1 "DIODE_LOW_REV_CURRENT_0402" H 5870 2370 50  0001 L CNN
-F 2 "valve_spike_hold:SM0402_POL" H 6000 2430 60  0001 C CNN
+F 2 "odor_spike_hold:SM0402_POL" H 6000 2430 60  0001 C CNN
 F 3 "" H 6100 2530 60  0001 C CNN
 F 4 "Digi-Key" H 6200 2630 60  0001 C CNN "Vendor"
 F 5 "BAS116LPH4-7BDICT-ND" H 6300 2730 60  0001 C CNN "Vendor Part Number"
@@ -246,7 +246,7 @@ F 9 "BAS116LPH4-7B" H 6150 2450 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L valve_spike_hold:LED_GRN L2
+L odor_spike_hold:LED_GRN L2
 U 1 1 5F259ACB
 P 6150 3350
 AR Path="/5F238750/5F259ACB" Ref="L2"  Part="1" 
@@ -260,7 +260,7 @@ AR Path="/5F2ED184/5F259ACB" Ref="L9"  Part="1"
 AR Path="/5F2F1BA8/5F259ACB" Ref="L10"  Part="1" 
 F 0 "L2" V 6112 3428 50  0000 L CNN
 F 1 "LED_GRN" V 6196 3428 40  0000 L CNN
-F 2 "valve_spike_hold:LED0805" H 6050 3350 60  0001 C CNN
+F 2 "odor_spike_hold:LED0805" H 6050 3350 60  0001 C CNN
 F 3 "" H 6150 3350 60  0000 C CNN
 F 4 "LED GREEN CLEAR SMD" H 6450 3750 60  0001 C CNN "Description"
 F 5 "0805 (2012 Metric)" H 6150 3350 60  0001 C CNN "Package"
@@ -272,7 +272,7 @@ F 9 "160-1179-1-ND" H 6150 3350 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L valve_spike_hold:390 R2
+L odor_spike_hold:390 R2
 U 1 1 5F2668A6
 P 6150 2850
 AR Path="/5F238750/5F2668A6" Ref="R2"  Part="1" 
@@ -286,7 +286,7 @@ AR Path="/5F2ED184/5F2668A6" Ref="R23"  Part="1"
 AR Path="/5F2F1BA8/5F2668A6" Ref="R26"  Part="1" 
 F 0 "R2" H 6200 2850 40  0000 L CNN
 F 1 "390" V 6150 2850 30  0000 C CNN
-F 2 "valve_spike_hold:SM0402" V 6080 2850 30  0001 C CNN
+F 2 "odor_spike_hold:SM0402" V 6080 2850 30  0001 C CNN
 F 3 "" V 6230 2850 30  0000 C CNN
 F 4 "Digi-Key" V 6330 2950 60  0001 C CNN "Vendor"
 F 5 "P124568CT-ND" V 6430 3050 60  0001 C CNN "Vendor Part Number"
@@ -298,7 +298,7 @@ F 9 "0402" H 6150 2850 50  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L valve_spike_hold:DIODE_SCHOTTKY_0402 D4
+L odor_spike_hold:DIODE_SCHOTTKY_0402 D4
 U 1 1 5F26A8AE
 P 4850 2600
 AR Path="/5F238750/5F26A8AE" Ref="D4"  Part="1" 
@@ -312,7 +312,7 @@ AR Path="/5F2ED184/5F26A8AE" Ref="D18"  Part="1"
 AR Path="/5F2F1BA8/5F26A8AE" Ref="D20"  Part="1" 
 F 0 "D4" V 4850 2668 50  0000 L CNN
 F 1 "DIODE_SCHOTTKY_0402" H 4570 2520 50  0001 L CNN
-F 2 "valve_spike_hold:SM0402_POL" H 4700 2580 60  0001 C CNN
+F 2 "odor_spike_hold:SM0402_POL" H 4700 2580 60  0001 C CNN
 F 3 "" H 4800 2680 60  0001 C CNN
 F 4 "Digi-Key" H 4900 2780 60  0001 C CNN "Vendor"
 F 5 "641-1275-1-ND" H 5000 2880 60  0001 C CNN "Vendor Part Number"
@@ -324,7 +324,7 @@ F 9 "0402" H 4850 2600 50  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L valve_spike_hold:1uF C2
+L odor_spike_hold:1uF C2
 U 1 1 5F273171
 P 5300 2500
 AR Path="/5F238750/5F273171" Ref="C2"  Part="1" 
@@ -338,7 +338,7 @@ AR Path="/5F2ED184/5F273171" Ref="C16"  Part="1"
 AR Path="/5F2F1BA8/5F273171" Ref="C18"  Part="1" 
 F 0 "C2" H 5388 2530 50  0000 L CNN
 F 1 "1uF" H 5388 2454 30  0000 L CNN
-F 2 "valve_spike_hold:SM0402_POL" H 5210 2470 60  0001 C CNN
+F 2 "odor_spike_hold:SM0402_POL" H 5210 2470 60  0001 C CNN
 F 3 "" H 5310 2570 60  0001 C CNN
 F 4 "Digi-Key" H 5410 2670 60  0001 C CNN "Vendor"
 F 5 "718-1618-1-ND" H 5510 2770 60  0001 C CNN "Vendor Part Number"

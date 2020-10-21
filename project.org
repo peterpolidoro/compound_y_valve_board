@@ -1,15 +1,15 @@
 * Header                                                           :noexport:
 
-  #+MACRO: name y_arena_valve_controller
+  #+MACRO: name y_arena_odor_controller
   #+MACRO: version 1.2
   #+MACRO: license Open-Source Hardware
-  #+MACRO: url https://github.com/janelia-kicad/y_arena_valve_controller
+  #+MACRO: url https://github.com/janelia-kicad/y_arena_odor_controller
   #+AUTHOR: Peter Polidoro
   #+EMAIL: peterpolidoro@gmail.com
 
 * Description
 
-  This board controls the y-arena valves for the Turner lab.
+  This board controls the y-arena odors for the Turner lab.
 
 * Assembly Instructions
 
