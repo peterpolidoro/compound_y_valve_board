@@ -1,7 +1,7 @@
 * Header                                                           :noexport:
 
   #+MACRO: name y_arena_odor_controller
-  #+MACRO: version 1.2
+  #+MACRO: version 2.0
   #+MACRO: license Open-Source Hardware
   #+MACRO: url https://github.com/janelia-kicad/y_arena_odor_controller
   #+AUTHOR: Peter Polidoro

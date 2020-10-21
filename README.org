@@ -1,9 +1,9 @@
-# Created 2020-10-21 Wed 15:22
+# Created 2020-10-21 Wed 15:28
 #+OPTIONS: title:nil author:nil email:nil toc:t |:t ^:nil
 * Repository Information
 
 - Name :: y_arena_odor_controller
-- Version :: 1.2
+- Version :: 2.0
 - License :: Open-Source Hardware
 - URL :: https://github.com/janelia-kicad/y_arena_odor_controller
 - Author :: Peter Polidoro
@@ -62,6 +62,10 @@ This board controls the y-arena odors for the Turner lab.
 [[file:./schematic/images/schematic19.png]]
 
 * Gerbers
+
+[[file:./gerbers/images/gerbers00.png]]
+
+[[file:./gerbers/images/gerbers01.png]]
 
 * Bill of Materials
 
@@ -123,4 +127,4 @@ This board controls the y-arena odors for the Turner lab.
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[[file:./manufacturing/y_arena_odor_controller_v1.2.zip][./manufacturing/y_arena_odor_controller_v1.2.zip]]
+[[file:./manufacturing/y_arena_odor_controller_v2.0.zip][./manufacturing/y_arena_odor_controller_v2.0.zip]]

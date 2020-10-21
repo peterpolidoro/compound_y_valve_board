@@ -1,43 +1,43 @@
-- [Repository Information](#org1c6046a)
-  - [Description](#orgeed84e0)
-- [Images](#org79c3c3a)
-- [Schematic](#orgf628b5e)
-- [Gerbers](#org8e03eda)
-- [Bill of Materials](#org1ab47da)
-  - [PCB Parts](#org63eb994)
-  - [Supplemental Parts](#org4ae9a43)
-  - [Vendor Parts Lists](#org6e1c7f5)
-- [Supplemental Documentation](#org8a7a48e)
-  - [Assembly Instructions](#org1b41d13)
-- [Manufacturing Archive](#org686d8c4)
+- [Repository Information](#org6e1213b)
+  - [Description](#orgd0d791c)
+- [Images](#org8cb4350)
+- [Schematic](#org553bf91)
+- [Gerbers](#org39a496e)
+- [Bill of Materials](#orge2ffd28)
+  - [PCB Parts](#org040ae12)
+  - [Supplemental Parts](#orgb761b26)
+  - [Vendor Parts Lists](#org0014428)
+- [Supplemental Documentation](#orgbf2b48b)
+  - [Assembly Instructions](#org13f3675)
+- [Manufacturing Archive](#org57317b4)
 
 
 
-<a id="org1c6046a"></a>
+<a id="org6e1213b"></a>
 
 # Repository Information
 
 -   **Name:** y\_arena\_odor\_controller
--   **Version:** 1.2
+-   **Version:** 2.0
 -   **License:** Open-Source Hardware
 -   **URL:** <https://github.com/janelia-kicad/y_arena_odor_controller>
 -   **Author:** Peter Polidoro
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="orgeed84e0"></a>
+<a id="orgd0d791c"></a>
 
 ## Description
 
 This board controls the y-arena odors for the Turner lab.
 
 
-<a id="org79c3c3a"></a>
+<a id="org8cb4350"></a>
 
 # Images
 
 
-<a id="orgf628b5e"></a>
+<a id="org553bf91"></a>
 
 # Schematic
 
@@ -86,17 +86,21 @@ This board controls the y-arena odors for the Turner lab.
 ![img](./schematic/images/schematic19.png)
 
 
-<a id="org8e03eda"></a>
+<a id="org39a496e"></a>
 
 # Gerbers
 
+![img](./gerbers/images/gerbers00.png)
 
-<a id="org1ab47da"></a>
+![img](./gerbers/images/gerbers01.png)
+
+
+<a id="orge2ffd28"></a>
 
 # Bill of Materials
 
 
-<a id="org63eb994"></a>
+<a id="org040ae12"></a>
 
 ## PCB Parts
 
@@ -119,7 +123,7 @@ This board controls the y-arena odors for the Turner lab.
 |      | FID1 FID2 FID3 FID4 MH1 MH2 MH3                                     | 7        |                                 |                          |          |                      |                                |                    |
 
 
-<a id="org4ae9a43"></a>
+<a id="orgb761b26"></a>
 
 ## Supplemental Parts
 
@@ -143,7 +147,7 @@ This board controls the y-arena odors for the Turner lab.
 | 16   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
 
 
-<a id="org6e1c7f5"></a>
+<a id="org0014428"></a>
 
 ## Vendor Parts Lists
 
@@ -152,22 +156,22 @@ This board controls the y-arena odors for the Turner lab.
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="org8a7a48e"></a>
+<a id="orgbf2b48b"></a>
 
 # Supplemental Documentation
 
 
-<a id="org1b41d13"></a>
+<a id="org13f3675"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org686d8c4"></a>
+<a id="org57317b4"></a>
 
 # Manufacturing Archive
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[./manufacturing/y\_arena\_odor\_controller\_v1.2.zip](./manufacturing/y_arena_odor_controller_v1.2.zip)
+[./manufacturing/y\_arena\_odor\_controller\_v2.0.zip](./manufacturing/y_arena_odor_controller_v2.0.zip)
