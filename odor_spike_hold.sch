@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 2 10
 Title ""
 Date ""
-Rev "1.2"
+Rev "2.0"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -26,7 +26,7 @@ AR Path="/5F2ED140/5F23BA75" Ref="U6"  Part="1"
 AR Path="/5F2ED17E/5F23BA75" Ref="U7"  Part="1" 
 AR Path="/5F2ED184/5F23BA75" Ref="U8"  Part="1" 
 AR Path="/5F2F1BA8/5F23BA75" Ref="U9"  Part="1" 
-F 0 "U1" H 4600 2550 60  0000 L CNN
+F 0 "U9" H 4600 2550 60  0000 L CNN
 F 1 "DRV103" H 4450 3050 60  0000 C CNN
 F 2 "odor_spike_hold:SOIC_8" H 4600 2450 60  0001 C CNN
 F 3 "" H 4350 2750 60  0000 C CNN
@@ -42,19 +42,19 @@ Text HLabel 7700 2650 1    50   UnSpc ~ 0
 Vs
 NoConn ~ 4700 2600
 $Comp
-L odor_spike_hold:205k R4
+L odor_spike_hold:205k R5
 U 1 1 5F24E9AE
 P 4400 3550
-AR Path="/5F238750/5F24E9AE" Ref="R4"  Part="1" 
-AR Path="/5F2C7F20/5F24E9AE" Ref="R7"  Part="1" 
-AR Path="/5F2EACF4/5F24E9AE" Ref="R10"  Part="1" 
-AR Path="/5F2EACFA/5F24E9AE" Ref="R13"  Part="1" 
-AR Path="/5F2ED13A/5F24E9AE" Ref="R16"  Part="1" 
-AR Path="/5F2ED140/5F24E9AE" Ref="R19"  Part="1" 
-AR Path="/5F2ED17E/5F24E9AE" Ref="R22"  Part="1" 
-AR Path="/5F2ED184/5F24E9AE" Ref="R25"  Part="1" 
-AR Path="/5F2F1BA8/5F24E9AE" Ref="R28"  Part="1" 
-F 0 "R4" H 4450 3550 40  0000 L CNN
+AR Path="/5F238750/5F24E9AE" Ref="R5"  Part="1" 
+AR Path="/5F2C7F20/5F24E9AE" Ref="R9"  Part="1" 
+AR Path="/5F2EACF4/5F24E9AE" Ref="R13"  Part="1" 
+AR Path="/5F2EACFA/5F24E9AE" Ref="R17"  Part="1" 
+AR Path="/5F2ED13A/5F24E9AE" Ref="R21"  Part="1" 
+AR Path="/5F2ED140/5F24E9AE" Ref="R25"  Part="1" 
+AR Path="/5F2ED17E/5F24E9AE" Ref="R29"  Part="1" 
+AR Path="/5F2ED184/5F24E9AE" Ref="R33"  Part="1" 
+AR Path="/5F2F1BA8/5F24E9AE" Ref="R37"  Part="1" 
+F 0 "R37" H 4450 3550 40  0000 L CNN
 F 1 "205k" V 4400 3550 30  0000 C CNN
 F 2 "odor_spike_hold:SM0402" V 4330 3550 30  0001 C CNN
 F 3 "" V 4480 3550 30  0000 C CNN
@@ -98,7 +98,7 @@ AR Path="/5F2ED140/5F255A52" Ref="C13"  Part="1"
 AR Path="/5F2ED17E/5F255A52" Ref="C15"  Part="1" 
 AR Path="/5F2ED184/5F255A52" Ref="C17"  Part="1" 
 AR Path="/5F2F1BA8/5F255A52" Ref="C19"  Part="1" 
-F 0 "C3" H 4200 3650 40  0000 L CNN
+F 0 "C19" H 4200 3650 40  0000 L CNN
 F 1 "15nF" H 4200 3550 30  0000 C CNN
 F 2 "odor_spike_hold:SM0402" H 4238 3400 30  0001 C CNN
 F 3 "" H 4200 3650 60  0001 C CNN
@@ -129,7 +129,7 @@ AR Path="/5F2ED140/5F25E10F" Ref="S6"  Part="1"
 AR Path="/5F2ED17E/5F25E10F" Ref="S7"  Part="1" 
 AR Path="/5F2ED184/5F25E10F" Ref="S8"  Part="1" 
 AR Path="/5F2F1BA8/5F25E10F" Ref="S9"  Part="1" 
-F 0 "S1" H 7528 2791 50  0000 L CNN
+F 0 "S9" H 7528 2791 50  0000 L CNN
 F 1 "LEECO_LHDB" H 7528 2700 50  0000 L CNN
 F 2 "odor_spike_hold:LEECO_LHDB" H 7350 2800 60  0001 C CNN
 F 3 "" H 7450 2900 60  0000 C CNN
@@ -143,19 +143,19 @@ F 9 "0305-0-15-15-47-27-10-0" H 7450 2750 50  0001 C CNN "Manufacturer Part Numb
 	-1   0    0    1   
 $EndComp
 $Comp
-L odor_spike_hold:150k R3
+L odor_spike_hold:150k R4
 U 1 1 5F25EE83
 P 3950 3550
-AR Path="/5F238750/5F25EE83" Ref="R3"  Part="1" 
-AR Path="/5F2C7F20/5F25EE83" Ref="R6"  Part="1" 
-AR Path="/5F2EACF4/5F25EE83" Ref="R9"  Part="1" 
-AR Path="/5F2EACFA/5F25EE83" Ref="R12"  Part="1" 
-AR Path="/5F2ED13A/5F25EE83" Ref="R15"  Part="1" 
-AR Path="/5F2ED140/5F25EE83" Ref="R18"  Part="1" 
-AR Path="/5F2ED17E/5F25EE83" Ref="R21"  Part="1" 
-AR Path="/5F2ED184/5F25EE83" Ref="R24"  Part="1" 
-AR Path="/5F2F1BA8/5F25EE83" Ref="R27"  Part="1" 
-F 0 "R3" H 4000 3550 40  0000 L CNN
+AR Path="/5F238750/5F25EE83" Ref="R4"  Part="1" 
+AR Path="/5F2C7F20/5F25EE83" Ref="R8"  Part="1" 
+AR Path="/5F2EACF4/5F25EE83" Ref="R12"  Part="1" 
+AR Path="/5F2EACFA/5F25EE83" Ref="R16"  Part="1" 
+AR Path="/5F2ED13A/5F25EE83" Ref="R20"  Part="1" 
+AR Path="/5F2ED140/5F25EE83" Ref="R24"  Part="1" 
+AR Path="/5F2ED17E/5F25EE83" Ref="R28"  Part="1" 
+AR Path="/5F2ED184/5F25EE83" Ref="R32"  Part="1" 
+AR Path="/5F2F1BA8/5F25EE83" Ref="R36"  Part="1" 
+F 0 "R36" H 4000 3550 40  0000 L CNN
 F 1 "150k" V 3950 3550 30  0000 C CNN
 F 2 "odor_spike_hold:SM0402" V 3880 3550 30  0001 C CNN
 F 3 "" V 4030 3550 30  0000 C CNN
@@ -201,10 +201,8 @@ Wire Wire Line
 	5300 2350 5300 2400
 Wire Wire Line
 	5300 2600 5300 2650
-Text HLabel 3950 2700 0    50   Input ~ 0
+Text HLabel 3600 2700 0    50   Input ~ 0
 ODOR
-Wire Wire Line
-	3950 2700 4000 2700
 Text HLabel 6150 2300 1    50   UnSpc ~ 0
 Vled
 Wire Wire Line
@@ -232,7 +230,7 @@ AR Path="/5F2ED140/5F26049A" Ref="D13"  Part="1"
 AR Path="/5F2ED17E/5F26049A" Ref="D15"  Part="1" 
 AR Path="/5F2ED184/5F26049A" Ref="D17"  Part="1" 
 AR Path="/5F2F1BA8/5F26049A" Ref="D19"  Part="1" 
-F 0 "D3" V 6150 2382 50  0000 R CNN
+F 0 "D19" V 6150 2382 50  0000 R CNN
 F 1 "DIODE_LOW_REV_CURRENT_0402" H 5870 2370 50  0001 L CNN
 F 2 "odor_spike_hold:SM0402_POL" H 6000 2430 60  0001 C CNN
 F 3 "" H 6100 2530 60  0001 C CNN
@@ -258,7 +256,7 @@ AR Path="/5F2ED140/5F259ACB" Ref="L7"  Part="1"
 AR Path="/5F2ED17E/5F259ACB" Ref="L8"  Part="1" 
 AR Path="/5F2ED184/5F259ACB" Ref="L9"  Part="1" 
 AR Path="/5F2F1BA8/5F259ACB" Ref="L10"  Part="1" 
-F 0 "L2" V 6112 3428 50  0000 L CNN
+F 0 "L10" V 6112 3428 50  0000 L CNN
 F 1 "LED_GRN" V 6196 3428 40  0000 L CNN
 F 2 "odor_spike_hold:LED0805" H 6050 3350 60  0001 C CNN
 F 3 "" H 6150 3350 60  0000 C CNN
@@ -276,15 +274,15 @@ L odor_spike_hold:390 R2
 U 1 1 5F2668A6
 P 6150 2850
 AR Path="/5F238750/5F2668A6" Ref="R2"  Part="1" 
-AR Path="/5F2C7F20/5F2668A6" Ref="R5"  Part="1" 
-AR Path="/5F2EACF4/5F2668A6" Ref="R8"  Part="1" 
-AR Path="/5F2EACFA/5F2668A6" Ref="R11"  Part="1" 
-AR Path="/5F2ED13A/5F2668A6" Ref="R14"  Part="1" 
-AR Path="/5F2ED140/5F2668A6" Ref="R17"  Part="1" 
-AR Path="/5F2ED17E/5F2668A6" Ref="R20"  Part="1" 
-AR Path="/5F2ED184/5F2668A6" Ref="R23"  Part="1" 
-AR Path="/5F2F1BA8/5F2668A6" Ref="R26"  Part="1" 
-F 0 "R2" H 6200 2850 40  0000 L CNN
+AR Path="/5F2C7F20/5F2668A6" Ref="R6"  Part="1" 
+AR Path="/5F2EACF4/5F2668A6" Ref="R10"  Part="1" 
+AR Path="/5F2EACFA/5F2668A6" Ref="R14"  Part="1" 
+AR Path="/5F2ED13A/5F2668A6" Ref="R18"  Part="1" 
+AR Path="/5F2ED140/5F2668A6" Ref="R22"  Part="1" 
+AR Path="/5F2ED17E/5F2668A6" Ref="R26"  Part="1" 
+AR Path="/5F2ED184/5F2668A6" Ref="R30"  Part="1" 
+AR Path="/5F2F1BA8/5F2668A6" Ref="R34"  Part="1" 
+F 0 "R34" H 6200 2850 40  0000 L CNN
 F 1 "390" V 6150 2850 30  0000 C CNN
 F 2 "odor_spike_hold:SM0402" V 6080 2850 30  0001 C CNN
 F 3 "" V 6230 2850 30  0000 C CNN
@@ -310,7 +308,7 @@ AR Path="/5F2ED140/5F26A8AE" Ref="D14"  Part="1"
 AR Path="/5F2ED17E/5F26A8AE" Ref="D16"  Part="1" 
 AR Path="/5F2ED184/5F26A8AE" Ref="D18"  Part="1" 
 AR Path="/5F2F1BA8/5F26A8AE" Ref="D20"  Part="1" 
-F 0 "D4" V 4850 2668 50  0000 L CNN
+F 0 "D20" V 4850 2668 50  0000 L CNN
 F 1 "DIODE_SCHOTTKY_0402" H 4570 2520 50  0001 L CNN
 F 2 "odor_spike_hold:SM0402_POL" H 4700 2580 60  0001 C CNN
 F 3 "" H 4800 2680 60  0001 C CNN
@@ -336,7 +334,7 @@ AR Path="/5F2ED140/5F273171" Ref="C12"  Part="1"
 AR Path="/5F2ED17E/5F273171" Ref="C14"  Part="1" 
 AR Path="/5F2ED184/5F273171" Ref="C16"  Part="1" 
 AR Path="/5F2F1BA8/5F273171" Ref="C18"  Part="1" 
-F 0 "C2" H 5388 2530 50  0000 L CNN
+F 0 "C18" H 5388 2530 50  0000 L CNN
 F 1 "1uF" H 5388 2454 30  0000 L CNN
 F 2 "odor_spike_hold:SM0402_POL" H 5210 2470 60  0001 C CNN
 F 3 "" H 5310 2570 60  0001 C CNN
@@ -357,4 +355,40 @@ Wire Wire Line
 	7650 2800 7700 2800
 Text Label 7700 2800 0    50   ~ 0
 SH
+$Comp
+L odor_spike_hold:150k R3
+U 1 1 5F912753
+P 3700 3550
+AR Path="/5F238750/5F912753" Ref="R3"  Part="1" 
+AR Path="/5F2C7F20/5F912753" Ref="R7"  Part="1" 
+AR Path="/5F2EACF4/5F912753" Ref="R11"  Part="1" 
+AR Path="/5F2EACFA/5F912753" Ref="R15"  Part="1" 
+AR Path="/5F2ED13A/5F912753" Ref="R19"  Part="1" 
+AR Path="/5F2ED140/5F912753" Ref="R23"  Part="1" 
+AR Path="/5F2ED17E/5F912753" Ref="R27"  Part="1" 
+AR Path="/5F2ED184/5F912753" Ref="R31"  Part="1" 
+AR Path="/5F2F1BA8/5F912753" Ref="R35"  Part="1" 
+F 0 "R35" H 3750 3550 40  0000 L CNN
+F 1 "150k" V 3700 3550 30  0000 C CNN
+F 2 "odor_spike_hold:SM0402" V 3630 3550 30  0001 C CNN
+F 3 "" V 3780 3550 30  0000 C CNN
+F 4 "Digi-Key" V 3880 3650 60  0001 C CNN "Vendor"
+F 5 "P150KLCT-ND" V 3980 3750 60  0001 C CNN "Vendor Part Number"
+F 6 "RES SMD 150K OHM 1% 1/10W 0402" V 4080 3850 60  0001 C CNN "Description"
+F 7 "Panasonic Electronic Components" H 3700 3550 50  0001 C CNN "Manufacturer"
+F 8 "ERJ-2RKF1503X" H 3700 3550 50  0001 C CNN "Manufacturer Part Number"
+	1    3700 3550
+	1    0    0    -1  
+$EndComp
+Text HLabel 3700 3850 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	3700 3850 3700 3800
+Wire Wire Line
+	3700 3300 3700 2700
+Wire Wire Line
+	3700 2700 4000 2700
+Wire Wire Line
+	3600 2700 3700 2700
+Connection ~ 3700 2700
 $EndSCHEMATC
