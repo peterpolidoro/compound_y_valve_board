@@ -1,19 +1,19 @@
-- [Repository Information](#org6e1213b)
-  - [Description](#orgd0d791c)
-- [Images](#org8cb4350)
-- [Schematic](#org553bf91)
-- [Gerbers](#org39a496e)
-- [Bill of Materials](#orge2ffd28)
-  - [PCB Parts](#org040ae12)
-  - [Supplemental Parts](#orgb761b26)
-  - [Vendor Parts Lists](#org0014428)
-- [Supplemental Documentation](#orgbf2b48b)
-  - [Assembly Instructions](#org13f3675)
-- [Manufacturing Archive](#org57317b4)
+- [Repository Information](#orgc6530e9)
+  - [Description](#org5c6ca96)
+- [Images](#orga6285ff)
+- [Schematic](#org7f61687)
+- [Gerbers](#orgfb2865a)
+- [Bill of Materials](#orgd9371e2)
+  - [PCB Parts](#org33410f6)
+  - [Supplemental Parts](#org136273a)
+  - [Vendor Parts Lists](#org000b85e)
+- [Supplemental Documentation](#orgff06e15)
+  - [Assembly Instructions](#org2694ab8)
+- [Manufacturing Archive](#org64aed02)
 
 
 
-<a id="org6e1213b"></a>
+<a id="orgc6530e9"></a>
 
 # Repository Information
 
@@ -25,19 +25,19 @@
 -   **Email:** peterpolidoro@gmail.com
 
 
-<a id="orgd0d791c"></a>
+<a id="org5c6ca96"></a>
 
 ## Description
 
 This board controls the y-arena odors for the Turner lab.
 
 
-<a id="org8cb4350"></a>
+<a id="orga6285ff"></a>
 
 # Images
 
 
-<a id="org553bf91"></a>
+<a id="org7f61687"></a>
 
 # Schematic
 
@@ -86,7 +86,7 @@ This board controls the y-arena odors for the Turner lab.
 ![img](./schematic/images/schematic19.png)
 
 
-<a id="org39a496e"></a>
+<a id="orgfb2865a"></a>
 
 # Gerbers
 
@@ -95,12 +95,12 @@ This board controls the y-arena odors for the Turner lab.
 ![img](./gerbers/images/gerbers01.png)
 
 
-<a id="orge2ffd28"></a>
+<a id="orgd9371e2"></a>
 
 # Bill of Materials
 
 
-<a id="org040ae12"></a>
+<a id="org33410f6"></a>
 
 ## PCB Parts
 
@@ -123,31 +123,32 @@ This board controls the y-arena odors for the Turner lab.
 |      | FID1 FID2 FID3 FID4 MH1 MH2 MH3                                     | 7        |                                 |                          |          |                      |                                |                    |
 
 
-<a id="orgb761b26"></a>
+<a id="org136273a"></a>
 
 ## Supplemental Parts
 
-| Item | Quantity | Manufacturer                 | Manufacturer Part Number        | Vendor   | Vendor Part Number                 | Description                      |
-|---- |-------- |---------------------------- |------------------------------- |-------- |---------------------------------- |-------------------------------- |
-| 1    | 1        | SparkFun Electronics         | DEV-15583                       | Digi-Key | 1568-DEV-15583-ND                  | TEENSY 4.0                       |
-| 2    | 2        | Molex                        | 0022284146                      | Digi-Key | WM24210-ND                         | CONN HEADER VERT 14POS 2.54MM    |
-| 3    | 1        | Qualtek                      | 3021075-03                      | Digi-Key | Q1223-ND                           | USB 2.0 A MALE TO USB 2.0 MICRO  |
-| 4    | 1        | Tripp Lite                   | U222-004-R                      | Digi-Key | TL430-ND                           | HUB USB 4-PORT 2.0 & 1.1         |
-| 5    | 1        | MEAN WELL USA Inc.           | GST60A12-P1J                    | Digi-Key | 1866-2149-ND                       | AC/DC DESKTOP ADAPTER 12V 60W    |
-| 6    | 1        | MEAN WELL USA Inc.           | YP12+YC12                       | Digi-Key | 1866-5006-ND                       | CORD IEC 320-C13 6FT BLACK       |
-| 7    | 1        | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M     |
-| 8    | 1        | Tensility International Corp | CA-2219                         | Digi-Key | CP-2219-ND                         | CABLE ASSY 5.5X2.1MM M/F R/A 3FT |
-| 9    | 1        | Raspberry Pi                 | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB              |
-| 10   | 1        | Raspberry Pi                 | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US  |
-| 11   | 1        | Raspberry Pi                 | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY   |
-| 12   | 1        | Raspberry Pi                 | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD |
-| 13   | 1        | ATP Electronics Inc          | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC |
-| 14   | 1        | Tripp Lite                   | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS     |
-| 15   | 1        | Tripp Lite                   | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER      |
-| 16   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT  |
+| Item | Quantity | Manufacturer                 | Manufacturer Part Number        | Vendor   | Vendor Part Number                 | Description                       |
+|---- |-------- |---------------------------- |------------------------------- |-------- |---------------------------------- |--------------------------------- |
+| 1    | 1        | SparkFun Electronics         | DEV-15583                       | Digi-Key | 1568-DEV-15583-ND                  | TEENSY 4.0                        |
+| 2    | 2        | Molex                        | 0022284146                      | Digi-Key | WM24210-ND                         | CONN HEADER VERT 14POS 2.54MM     |
+| 3    | 1        | Qualtek                      | 3021075-03                      | Digi-Key | Q1223-ND                           | USB 2.0 A MALE TO USB 2.0 MICRO   |
+| 4    | 1        | Tripp Lite                   | U222-004-R                      | Digi-Key | TL430-ND                           | HUB USB 4-PORT 2.0 & 1.1          |
+| 5    | 1        | MEAN WELL USA Inc.           | GST60A12-P1J                    | Digi-Key | 1866-2149-ND                       | AC/DC DESKTOP ADAPTER 12V 60W     |
+| 6    | 1        | MEAN WELL USA Inc.           | YP12+YC12                       | Digi-Key | 1866-5006-ND                       | CORD IEC 320-C13 6FT BLACK        |
+| 7    | 1        | Tensility International Corp | 10-02739                        | Digi-Key | 839-1474-ND                        | SPLITTER 5.5X2.1MM F TO X4 M      |
+| 8    | 1        | Tensility International Corp | CA-2219                         | Digi-Key | CP-2219-ND                         | CABLE ASSY 5.5X2.1MM M/F R/A 3FT  |
+| 9    | 1        | Raspberry Pi                 | RASPBERRY PI 4B/4GB             | Digi-Key | 1690-RASPBERRYPI4B/4GB-ND          | RASPBERRY PI 4B/4GB               |
+| 10   | 1        | Raspberry Pi                 | RPI USB-C POWER SUPPLY BLACK US | Digi-Key | 1690-RPIUSB-CPOWERSUPPLYBLACKUS-ND | RPI USB-C POWER SUPPLY BLACK US   |
+| 11   | 1        | Raspberry Pi                 | RASPBERRY PI 4 CASE BLACK/GREY  | Digi-Key | 1690-RASPBERRYPI4CASEBLACK/GREY-ND | RASPBERRY PI 4 CASE BLACK/GREY    |
+| 12   | 1        | Raspberry Pi                 | 8997466                         | Digi-Key | 1690-1007-ND                       | RASPBERRY PI 7" TOUCH SCREEN LCD  |
+| 13   | 1        | ATP Electronics Inc          | AF32GUD3-OEM                    | Digi-Key | AF32GUD3-OEM-ND                    | MEM CARD MICROSD 32GB CLS 10 MLC  |
+| 14   | 1        | Tripp Lite                   | U352-000-MD                     | Digi-Key | TL825-ND                           | USB 3.0 MULTI-DRIVE SD CF MS      |
+| 15   | 1        | Tripp Lite                   | U336-000-R                      | Digi-Key | TL824-ND                           | USB 3.0 TO ETHERNET ADAPTER       |
+| 16   | 1        | Assmann WSW Components       | A-MCSSP60010/B                  | Digi-Key | AE10190-ND                         | CABLE MOD 8P8C PLUG-PLUG 3.28FT   |
+| 17   | 1        | Tripp Lite                   | U024-006                        | Digi-Key | TL776-ND                           | CABLE USB 2.0 EXTENSION A M/F 6FT |
 
 
-<a id="org0014428"></a>
+<a id="org000b85e"></a>
 
 ## Vendor Parts Lists
 
@@ -156,19 +157,19 @@ This board controls the y-arena odors for the Turner lab.
 [./bom/supplemental\_Digi-Key\_parts.csv](./bom/supplemental_Digi-Key_parts.csv)
 
 
-<a id="orgbf2b48b"></a>
+<a id="orgff06e15"></a>
 
 # Supplemental Documentation
 
 
-<a id="org13f3675"></a>
+<a id="org2694ab8"></a>
 
 ## Assembly Instructions
 
 -   Solder surface mount and through hole components onto the pcb.
 
 
-<a id="org57317b4"></a>
+<a id="org64aed02"></a>
 
 # Manufacturing Archive
 
