@@ -36,6 +36,9 @@ This board controls the y-arena odors for the Turner lab.
 
 # Images
 
+![img](./images/top.png)
+
+![img](./images/bottom.png)
 
 <a id="org7f61687"></a>
 
