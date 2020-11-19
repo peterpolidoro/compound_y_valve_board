@@ -28,21 +28,21 @@ markdown_extensions:
       guess_lang: true
 
 nav:
-    - Home: index.md
-    - Schematic:
-       - schematic00: schematic/schematic00.md
-       - schematic01: schematic/schematic01.md
-       - schematic02: schematic/schematic02.md
-       - schematic03: schematic/schematic03.md
-       - schematic04: schematic/schematic04.md
-       - schematic05: schematic/schematic05.md
-       - schematic06: schematic/schematic06.md
-       - schematic07: schematic/schematic07.md
-       - schematic08: schematic/schematic08.md
-       - schematic09: schematic/schematic09.md
-    - Gerbers:
-       - gerbers00: gerbers/gerbers00.md
-       - gerbers01: gerbers/gerbers01.md
-    - Bill of Materials:
-       - PCB Parts: bom/pcb.md
-       - Supplemental Parts: bom/supplemental.md
+  - Home: index.md
+  - Schematic:
+    - schematic00: schematic/schematic00.md
+    - schematic01: schematic/schematic01.md
+    - schematic02: schematic/schematic02.md
+    - schematic03: schematic/schematic03.md
+    - schematic04: schematic/schematic04.md
+    - schematic05: schematic/schematic05.md
+    - schematic06: schematic/schematic06.md
+    - schematic07: schematic/schematic07.md
+    - schematic08: schematic/schematic08.md
+    - schematic09: schematic/schematic09.md
+  - Gerbers:
+    - gerbers00: gerbers/gerbers00.md
+    - gerbers01: gerbers/gerbers01.md
+  - Bill of Materials:
+    - PCB Parts: bom/pcb.md
+    - Supplemental Parts: bom/supplemental.md
