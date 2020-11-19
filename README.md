@@ -158,4 +158,4 @@ Solder surface mount and through hole components onto the pcb.
 
 Send manufacturing zip file to your favorite PCB manufacturer for fabrication.
 
-[./manufacturing/y\_arena\_valve\_controller\_v1.2.zip](./manufacturing/y_arena_valve_controller_v1.2.zip)
+[./manufacturing/y\_arena\_valve\_controller\_v1.3.zip](./manufacturing/y_arena_valve_controller_v1.3.zip)
