@@ -150,8 +150,7 @@ This board controls the y-arena valves for the Turner lab.
 
 ## Assembly Instructions
 
--   Solder surface mount and through hole components onto the pcb.
-
+Solder surface mount and through hole components onto the pcb.
 
 <a id="org17d4580"></a>
 
