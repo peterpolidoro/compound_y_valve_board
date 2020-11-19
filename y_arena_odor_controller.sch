@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title "y_arena_valve_controller"
+Title "y_arena_odor_controller"
 Date ""
-Rev "1.2"
+Rev "1.3"
 Comp "Janelia"
 Comment1 ""
 Comment2 ""
@@ -18,9 +18,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 2250 6550 2250
 Text Label 6550 1750 2    50   ~ 0
-ARM_0_VALVE_0
+ARM_0_ODOR_0
 Text Label 6550 2250 2    50   ~ 0
-ARM_0_VALVE_1
+ARM_1_ODOR_0
 NoConn ~ 9200 1950
 $Comp
 L power:VAA #PWR020
@@ -34,91 +34,91 @@ F 3 "" H 2300 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH1
+L y_arena_odor_controller:MOUNTING_HOLE_4-40 MH1
 U 1 1 5EFE0DCF
 P 9200 1950
 F 0 "MH1" H 9258 2068 50  0000 L CNN
 F 1 "MOUNTING_HOLE_4-40" H 9258 1977 50  0000 L CNN
-F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 9400 1950 50  0001 C CNN
+F 2 "y_arena_odor_controller:MOUNTING_HOLE_4-40" H 9400 1950 50  0001 C CNN
 F 3 "" H 9400 1950 50  0001 C CNN
 	1    9200 1950
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9200 2200
 $Comp
-L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH2
+L y_arena_odor_controller:MOUNTING_HOLE_4-40 MH2
 U 1 1 5EFE42B4
 P 9200 2200
 F 0 "MH2" H 9258 2318 50  0000 L CNN
 F 1 "MOUNTING_HOLE_4-40" H 9258 2227 50  0000 L CNN
-F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 9400 2200 50  0001 C CNN
+F 2 "y_arena_odor_controller:MOUNTING_HOLE_4-40" H 9400 2200 50  0001 C CNN
 F 3 "" H 9400 2200 50  0001 C CNN
 	1    9200 2200
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9200 2450
 $Comp
-L y_arena_valve_controller:MOUNTING_HOLE_4-40 MH3
+L y_arena_odor_controller:MOUNTING_HOLE_4-40 MH3
 U 1 1 5EFE5820
 P 9200 2450
 F 0 "MH3" H 9258 2568 50  0000 L CNN
 F 1 "MOUNTING_HOLE_4-40" H 9258 2477 50  0000 L CNN
-F 2 "y_arena_valve_controller:MOUNTING_HOLE_4-40" H 9400 2450 50  0001 C CNN
+F 2 "y_arena_odor_controller:MOUNTING_HOLE_4-40" H 9400 2450 50  0001 C CNN
 F 3 "" H 9400 2450 50  0001 C CNN
 	1    9200 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:FIDUCIAL FID1
+L y_arena_odor_controller:FIDUCIAL FID1
 U 1 1 5EFF6F31
 P 10350 1850
 F 0 "FID1" H 10428 1896 50  0000 L CNN
 F 1 "FIDUCIAL" H 10428 1805 50  0000 L CNN
-F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 1850 50  0001 C CNN
+F 2 "y_arena_odor_controller:FIDUCIAL" H 10550 1850 50  0001 C CNN
 F 3 "" H 10550 1850 50  0001 C CNN
 	1    10350 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:FIDUCIAL FID2
+L y_arena_odor_controller:FIDUCIAL FID2
 U 1 1 5EFF7D26
 P 10350 2050
 F 0 "FID2" H 10428 2096 50  0000 L CNN
 F 1 "FIDUCIAL" H 10428 2005 50  0000 L CNN
-F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 2050 50  0001 C CNN
+F 2 "y_arena_odor_controller:FIDUCIAL" H 10550 2050 50  0001 C CNN
 F 3 "" H 10550 2050 50  0001 C CNN
 	1    10350 2050
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:FIDUCIAL FID3
+L y_arena_odor_controller:FIDUCIAL FID3
 U 1 1 5EFF92FD
 P 10350 2250
 F 0 "FID3" H 10428 2296 50  0000 L CNN
 F 1 "FIDUCIAL" H 10428 2205 50  0000 L CNN
-F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 2250 50  0001 C CNN
+F 2 "y_arena_odor_controller:FIDUCIAL" H 10550 2250 50  0001 C CNN
 F 3 "" H 10550 2250 50  0001 C CNN
 	1    10350 2250
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:FIDUCIAL FID4
+L y_arena_odor_controller:FIDUCIAL FID4
 U 1 1 5EFF9307
 P 10350 2450
 F 0 "FID4" H 10428 2496 50  0000 L CNN
 F 1 "FIDUCIAL" H 10428 2405 50  0000 L CNN
-F 2 "y_arena_valve_controller:FIDUCIAL" H 10550 2450 50  0001 C CNN
+F 2 "y_arena_odor_controller:FIDUCIAL" H 10550 2450 50  0001 C CNN
 F 3 "" H 10550 2450 50  0001 C CNN
 	1    10350 2450
 	1    0    0    -1  
 $EndComp
 $Comp
-L y_arena_valve_controller:10uF C1
+L y_arena_odor_controller:10uF C1
 U 1 1 5F0E6C69
 P 3050 5850
 F 0 "C1" H 3100 5950 40  0000 L CNN
 F 1 "10uF" H 3050 5850 30  0000 C CNN
-F 2 "y_arena_valve_controller:SM0805" H 3088 5700 30  0001 C CNN
+F 2 "y_arena_odor_controller:SM0805" H 3088 5700 30  0001 C CNN
 F 3 "" H 3050 5850 60  0000 C CNN
 F 4 "Digi-Key" H 3150 6050 60  0001 C CNN "Vendor"
 F 5 "445-14417-1-ND" H 3250 6150 60  0001 C CNN "Vendor Part Number"
@@ -196,12 +196,12 @@ Wire Wire Line
 	1900 5550 2300 5550
 Connection ~ 2300 5550
 $Comp
-L y_arena_valve_controller:DIODE_SCHOTTKY_45V_10A D1
+L y_arena_odor_controller:DIODE_SCHOTTKY_45V_10A D1
 U 1 1 5F124F7B
 P 3150 5150
 F 0 "D1" H 3150 5037 50  0000 C CNN
 F 1 "DIODE_SCHOTTKY_45V_10A" H 2870 5070 50  0001 L CNN
-F 2 "y_arena_valve_controller:CFP15" H 3000 5130 60  0001 C CNN
+F 2 "y_arena_odor_controller:CFP15" H 3000 5130 60  0001 C CNN
 F 3 "" H 3100 5230 60  0001 C CNN
 F 4 "DIODE SCHOTTKY 45V 10A" H 3400 5530 60  0001 C CNN "Description"
 F 5 "CFP15" H 3150 5150 60  0001 C CNN "Package"
@@ -292,29 +292,29 @@ F 3 "" H 1500 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4550 2900 0    50   ~ 0
-ARM_0_VALVE_0
+ARM_0_ODOR_0
 Text Label 4550 3000 0    50   ~ 0
-ARM_0_VALVE_1
+ARM_1_ODOR_0
 Text Label 4550 3100 0    50   ~ 0
-ARM_0_VALVE_2
+ARM_2_ODOR_0
 Text Label 4550 3200 0    50   ~ 0
-ARM_1_VALVE_0
+ARM_0_ODOR_1
 Text Label 4550 3300 0    50   ~ 0
-ARM_1_VALVE_1
+ARM_1_ODOR_1
 Text Label 4550 3400 0    50   ~ 0
-ARM_1_VALVE_2
+ARM_2_ODOR_1
 Text Label 4550 3500 0    50   ~ 0
-ARM_2_VALVE_0
+ARM_0_ODOR_2
 Text Label 4550 3600 0    50   ~ 0
-ARM_2_VALVE_1
+ARM_1_ODOR_2
 $Sheet
 S 6750 1550 1000 300 
 U 5F238750
-F0 "valve_0" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_0" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 1650 50 
 F3 "GND" U R 7750 1750 50 
-F4 "VALVE" I L 6750 1750 50 
+F4 "ODOR" I L 6750 1750 50 
 F5 "Vled" U R 7750 1650 50 
 $EndSheet
 $Comp
@@ -356,12 +356,12 @@ Wire Wire Line
 Text Label 4550 4850 0    50   ~ 0
 Vled
 $Comp
-L y_arena_valve_controller:TEENSY_4.0 TEENSY1
+L y_arena_odor_controller:TEENSY_4.0 TEENSY1
 U 1 1 5F2A54D7
 P 3250 3150
 F 0 "TEENSY1" H 3250 4047 60  0000 C CNN
 F 1 "TEENSY_4.0" H 3250 3941 60  0000 C CNN
-F 2 "y_arena_valve_controller:TEENSY_4.0" H 3250 4200 60  0001 C CNN
+F 2 "y_arena_odor_controller:TEENSY_4.0" H 3250 4200 60  0001 C CNN
 F 3 "" H 3300 5900 60  0000 C CNN
 F 4 "Digi-Key" H 3250 4300 60  0001 C CNN "Vendor"
 F 5 "ED90331-ND" H 3250 4400 60  0001 C CNN "Vendor Part Number"
@@ -371,7 +371,7 @@ F 7 "28" H 3250 3150 50  0001 C CNN "Quantity"
 	1    0    0    -1  
 $EndComp
 Text Label 4550 3700 0    50   ~ 0
-ARM_2_VALVE_2
+ARM_2_ODOR_2
 Wire Wire Line
 	1500 2550 1500 2500
 Wire Wire Line
@@ -403,11 +403,11 @@ NoConn ~ 4500 3800
 $Sheet
 S 6750 2050 1000 300 
 U 5F2C7F20
-F0 "valve_1" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_1" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 2150 50 
 F3 "GND" U R 7750 2250 50 
-F4 "VALVE" I L 6750 2250 50 
+F4 "ODOR" I L 6750 2250 50 
 F5 "Vled" U R 7750 2150 50 
 $EndSheet
 Wire Wire Line
@@ -474,9 +474,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 3250 6550 3250
 Text Label 6550 2750 2    50   ~ 0
-ARM_0_VALVE_2
+ARM_2_ODOR_0
 Text Label 6550 3250 2    50   ~ 0
-ARM_1_VALVE_0
+ARM_0_ODOR_1
 $Comp
 L power:VCC #PWR06
 U 1 1 5F2EACEA
@@ -491,21 +491,21 @@ $EndComp
 $Sheet
 S 6750 2550 1000 300 
 U 5F2EACF4
-F0 "valve_2" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_2" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 2650 50 
 F3 "GND" U R 7750 2750 50 
-F4 "VALVE" I L 6750 2750 50 
+F4 "ODOR" I L 6750 2750 50 
 F5 "Vled" U R 7750 2650 50 
 $EndSheet
 $Sheet
 S 6750 3050 1000 300 
 U 5F2EACFA
-F0 "valve_3" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_3" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 3150 50 
 F3 "GND" U R 7750 3250 50 
-F4 "VALVE" I L 6750 3250 50 
+F4 "ODOR" I L 6750 3250 50 
 F5 "Vled" U R 7750 3150 50 
 $EndSheet
 Wire Wire Line
@@ -570,9 +570,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 4250 6550 4250
 Text Label 6550 3750 2    50   ~ 0
-ARM_1_VALVE_1
+ARM_1_ODOR_1
 Text Label 6550 4250 2    50   ~ 0
-ARM_1_VALVE_2
+ARM_2_ODOR_1
 $Comp
 L power:VCC #PWR010
 U 1 1 5F2ED130
@@ -587,21 +587,21 @@ $EndComp
 $Sheet
 S 6750 3550 1000 300 
 U 5F2ED13A
-F0 "valve_4" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_4" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 3650 50 
 F3 "GND" U R 7750 3750 50 
-F4 "VALVE" I L 6750 3750 50 
+F4 "ODOR" I L 6750 3750 50 
 F5 "Vled" U R 7750 3650 50 
 $EndSheet
 $Sheet
 S 6750 4050 1000 300 
 U 5F2ED140
-F0 "valve_5" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_5" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 4150 50 
 F3 "GND" U R 7750 4250 50 
-F4 "VALVE" I L 6750 4250 50 
+F4 "ODOR" I L 6750 4250 50 
 F5 "Vled" U R 7750 4150 50 
 $EndSheet
 Wire Wire Line
@@ -666,9 +666,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 5250 6550 5250
 Text Label 6550 4750 2    50   ~ 0
-ARM_2_VALVE_0
+ARM_0_ODOR_2
 Text Label 6550 5250 2    50   ~ 0
-ARM_2_VALVE_1
+ARM_1_ODOR_2
 $Comp
 L power:VCC #PWR014
 U 1 1 5F2ED174
@@ -683,21 +683,21 @@ $EndComp
 $Sheet
 S 6750 4550 1000 300 
 U 5F2ED17E
-F0 "valve_6" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_6" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 4650 50 
 F3 "GND" U R 7750 4750 50 
-F4 "VALVE" I L 6750 4750 50 
+F4 "ODOR" I L 6750 4750 50 
 F5 "Vled" U R 7750 4650 50 
 $EndSheet
 $Sheet
 S 6750 5050 1000 300 
 U 5F2ED184
-F0 "valve_7" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_7" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 5150 50 
 F3 "GND" U R 7750 5250 50 
-F4 "VALVE" I L 6750 5250 50 
+F4 "ODOR" I L 6750 5250 50 
 F5 "Vled" U R 7750 5150 50 
 $EndSheet
 Wire Wire Line
@@ -760,15 +760,15 @@ Wire Wire Line
 Wire Wire Line
 	6750 5750 6550 5750
 Text Label 6550 5750 2    50   ~ 0
-ARM_2_VALVE_2
+ARM_2_ODOR_2
 $Sheet
 S 6750 5550 1000 300 
 U 5F2F1BA8
-F0 "valve_8" 50
-F1 "valve_spike_hold.sch" 50
+F0 "odor_8" 50
+F1 "odor_spike_hold.sch" 50
 F2 "Vs" U L 6750 5650 50 
 F3 "GND" U R 7750 5750 50 
-F4 "VALVE" I L 6750 5750 50 
+F4 "ODOR" I L 6750 5750 50 
 F5 "Vled" U R 7750 5650 50 
 $EndSheet
 $Comp
@@ -806,12 +806,12 @@ Wire Wire Line
 Wire Wire Line
 	7850 5750 7850 5800
 $Comp
-L y_arena_valve_controller:DIODE_LOW_REV_CURRENT_0402 D2
+L y_arena_odor_controller:DIODE_LOW_REV_CURRENT_0402 D2
 U 1 1 5F2613AE
 P 4550 5050
 F 0 "D2" V 4550 4982 50  0000 R CNN
 F 1 "DIODE_LOW_REV_CURRENT_0402" H 4270 4970 50  0001 L CNN
-F 2 "y_arena_valve_controller:SM0402_POL" H 4400 5030 60  0001 C CNN
+F 2 "y_arena_odor_controller:SM0402_POL" H 4400 5030 60  0001 C CNN
 F 3 "" H 4500 5130 60  0001 C CNN
 F 4 "Digi-Key" H 4600 5230 60  0001 C CNN "Vendor"
 F 5 "BAS116LPH4-7BDICT-ND" H 4700 5330 60  0001 C CNN "Vendor Part Number"
@@ -823,12 +823,12 @@ F 9 "BAS116LPH4-7B" H 4550 5050 50  0001 C CNN "Manufacturer Part Number"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L y_arena_valve_controller:LED_GRN L1
+L y_arena_odor_controller:LED_GRN L1
 U 1 1 5F25AEEF
 P 4550 5950
 F 0 "L1" V 4512 6028 50  0000 L CNN
 F 1 "LED_GRN" V 4596 6028 40  0000 L CNN
-F 2 "y_arena_valve_controller:LED0805" H 4450 5950 60  0001 C CNN
+F 2 "y_arena_odor_controller:LED0805" H 4450 5950 60  0001 C CNN
 F 3 "" H 4550 5950 60  0000 C CNN
 F 4 "LED GREEN CLEAR SMD" H 4850 6350 60  0001 C CNN "Description"
 F 5 "0805 (2012 Metric)" H 4550 5950 60  0001 C CNN "Package"
@@ -840,12 +840,12 @@ F 9 "160-1179-1-ND" H 4550 5950 60  0001 C CNN "Vendor Part Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L y_arena_valve_controller:390 R1
+L y_arena_odor_controller:390 R1
 U 1 1 5F265AF0
 P 4550 5450
 F 0 "R1" H 4621 5480 40  0000 L CNN
 F 1 "390" V 4550 5450 30  0000 C CNN
-F 2 "y_arena_valve_controller:SM0402" V 4480 5450 30  0001 C CNN
+F 2 "y_arena_odor_controller:SM0402" V 4480 5450 30  0001 C CNN
 F 3 "" V 4630 5450 30  0000 C CNN
 F 4 "Digi-Key" V 4730 5550 60  0001 C CNN "Vendor"
 F 5 "P124568CT-ND" V 4830 5650 60  0001 C CNN "Vendor Part Number"
@@ -866,12 +866,12 @@ NoConn ~ 2000 2800
 NoConn ~ 2000 2700
 NoConn ~ 2000 2600
 $Comp
-L y_arena_valve_controller:SPDT_SLIDE_500A_SM SW1
+L y_arena_odor_controller:SPDT_SLIDE_500A_SM SW1
 U 1 1 5F275B4A
 P 4000 5550
 F 0 "SW1" H 4100 5550 40  0000 L CNN
 F 1 "SPDT_SLIDE_500A_SM" V 4150 5550 40  0001 C CNN
-F 2 "y_arena_valve_controller:SPDT_SLIDE_500A_SM" H 3950 6050 60  0001 C CNN
+F 2 "y_arena_odor_controller:SPDT_SLIDE_500A_SM" H 3950 6050 60  0001 C CNN
 F 3 "" H 4000 5550 60  0000 C CNN
 F 4 "Digi-Key" H 3950 6050 60  0001 C CNN "Vendor"
 F 5 "EG5810CT-ND" H 3950 6050 60  0001 C CNN "Vendor Part Number"
@@ -883,12 +883,12 @@ F 8 "500ASSP1SM6QE" H 3950 6050 50  0001 C CNN "Manufacturer Part Number"
 $EndComp
 NoConn ~ 4100 5750
 $Comp
-L y_arena_valve_controller:PWR_JACK_2.1x5.5_SMD_RA P1
+L y_arena_odor_controller:PWR_JACK_2.1x5.5_SMD_RA P1
 U 1 1 5F27FF09
 P 2550 5500
 F 0 "P1" H 2550 5650 50  0000 C CNN
 F 1 "PWR_JACK_2.1x5.5_SMD_RA" V 2650 5500 50  0000 C CNN
-F 2 "y_arena_valve_controller:DCJACK_3PAD_SMD_RA" H 2450 5550 60  0001 C CNN
+F 2 "y_arena_odor_controller:DCJACK_3PAD_SMD_RA" H 2450 5550 60  0001 C CNN
 F 3 "" H 2550 5650 60  0000 C CNN
 F 4 "Digi-Key" H 2650 5750 60  0001 C CNN "Vendor"
 F 5 "CP-036AHPJCT-ND" H 2750 5850 60  0001 C CNN "Vendor Part Number"

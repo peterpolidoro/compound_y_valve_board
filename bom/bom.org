@@ -1,4 +1,4 @@
-# Created 2020-09-02 Wed 14:29
+# Created 2020-11-19 Thu 10:20
 * Bill of Materials
 #+results: pcb-parts
 | Item | Reference(s)                        | Quantity | Manufacturer                    | Manufacturer Part Number | Vendor   | Vendor Part Number   | Description                    |            Package |
