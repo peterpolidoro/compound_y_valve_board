@@ -1,0 +1,45 @@
+site_name: y_arena_odor_controller
+site_description: This board controls the y-arena odors for the Janelia Turner lab
+site_author: Peter Polidoro
+
+copyright: 'Copyright &copy; 2020 Peter Polidoro'
+
+theme:
+  name: 'material'
+  language: en
+  logo: 'y_logo.png'
+  feature:
+    tabs: true
+  palette:
+    primary: indigo
+    accent: Deep Purple
+  font:
+    text: Ubuntu
+    code: Roboto Mono
+
+repo_name: 'y_arena_odor_controller'
+repo_url: 'https://github.com/janelia-kicad/y_arena_odor_controller.git'
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - codehilite:
+      guess_lang: true
+
+nav:
+    - Home: index.md
+    - Usage:
+       - Matlab: usage/matlab.md
+       - Linux Command Line: usage/cli.md
+       - Arena Odors Message: usage/arena_odors_message.md
+       - Odors Vector: usage/odors_vector.md
+    - Images:
+       - Arena: images/arena.md
+       - Module Side: images/module_side.md
+       - Module Top: images/module_top.md
+       - Module Top Labeled: images/module_top_labeled.md
+    - Hardware:
+       - y_arena_odor_controller: hardware/y_arena_odor_controller/y_arena_odor_controller.md
+    - Firmware:
+       - y_arena_odor_controller: hardware/y_arena_odor_controller/y_arena_odor_controller.md
