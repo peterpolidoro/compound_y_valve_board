@@ -18,7 +18,7 @@ theme:
     code: Roboto Mono
 
 repo_name: 'y_arena_odor_controller'
-repo_url: 'https://github.com/janelia-kicad/y_arena_odor_controller.git'
+repo_url: 'https://github.com/janelia-kicad/y_arena_odor_controller'
 
 markdown_extensions:
   - admonition
