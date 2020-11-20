@@ -1,0 +1,735 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="This board controls the y-arena odors for the Janelia Turner lab">
+      
+      
+      
+      
+        <meta name="author" content="Peter Polidoro">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.5">
+    
+    
+      
+        <title>PCB Parts - y_arena_odor_controller</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.21aed14c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.196e0c26.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+    
+    
+    
+      
+        
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Ubuntu",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="deep-purple">
+      
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="y_arena_odor_controller" class="md-header-nav__button md-logo" aria-label="y_arena_odor_controller">
+      
+  <img src="../../img/y_logo.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            y_arena_odor_controller
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              PCB Parts
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/janelia-kicad/y_arena_odor_controller/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    y_arena_odor_controller
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="y_arena_odor_controller" class="md-nav__button md-logo" aria-label="y_arena_odor_controller">
+      
+  <img src="../../img/y_logo.png" alt="logo">
+
+    </a>
+    y_arena_odor_controller
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/janelia-kicad/y_arena_odor_controller/" title="Go to repository" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    y_arena_odor_controller
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" >
+    <label class="md-nav__link" for="nav-2">
+      Schematic
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Schematic" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Schematic
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic00/" class="md-nav__link">
+      schematic00
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic01/" class="md-nav__link">
+      schematic01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic02/" class="md-nav__link">
+      schematic02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic03/" class="md-nav__link">
+      schematic03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic04/" class="md-nav__link">
+      schematic04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic05/" class="md-nav__link">
+      schematic05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic06/" class="md-nav__link">
+      schematic06
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic07/" class="md-nav__link">
+      schematic07
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic08/" class="md-nav__link">
+      schematic08
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../schematic/schematic09/" class="md-nav__link">
+      schematic09
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" >
+    <label class="md-nav__link" for="nav-3">
+      Gerbers
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Gerbers" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Gerbers
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gerbers/gerbers00/" class="md-nav__link">
+      gerbers00
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../gerbers/gerbers01/" class="md-nav__link">
+      gerbers01
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    <label class="md-nav__link" for="nav-4">
+      Bill of Materials
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Bill of Materials" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Bill of Materials
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      PCB Parts
+    </a>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../supplemental/" class="md-nav__link">
+      Supplemental Parts
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/janelia-kicad/y_arena_odor_controller/edit/master/docs/bom/pcb.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>PCB Parts</h1>
+                
+                <table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Reference(s)</th>
+<th>Quantity</th>
+<th>Manufacturer</th>
+<th>Manufacturer Part Number</th>
+<th>Vendor</th>
+<th>Vendor Part Number</th>
+<th>Description</th>
+<th>Package</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>C1</td>
+<td>1</td>
+<td>TDK Corporation</td>
+<td>C2012X5R1V106K085AC</td>
+<td>Digi-Key</td>
+<td>445-14417-1-ND</td>
+<td>CAP CER 10UF 35V X5R</td>
+<td>0805 (2012 Metric)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>C10 C12 C14 C16 C18 C2 C4 C6 C8</td>
+<td>9</td>
+<td>Vishay Sprague</td>
+<td>298D105X0016K2T</td>
+<td>Digi-Key</td>
+<td>718-1618-1-ND</td>
+<td>CAP TANT 1UF 20% 16V</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>3</td>
+<td>C11 C13 C15 C17 C19 C3 C5 C7 C9</td>
+<td>9</td>
+<td>Murata Electronics</td>
+<td>GCM155R71H153JA55D</td>
+<td>Digi-Key</td>
+<td>490-16428-1-ND</td>
+<td>CAP CER 0.015UF 50V X7R 0402</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>4</td>
+<td>D1</td>
+<td>1</td>
+<td>Nexperia USA Inc.</td>
+<td>PMEG045V100EPDZ</td>
+<td>Digi-Key</td>
+<td>1727-1904-1-ND</td>
+<td>DIODE SCHOTTKY 45V 10A</td>
+<td>CFP15</td>
+</tr>
+<tr>
+<td>5</td>
+<td>D10 D12 D14 D16 D18 D20 D4 D6 D8</td>
+<td>9</td>
+<td>Comchip Technology</td>
+<td>CDBQR0230L</td>
+<td>Digi-Key</td>
+<td>641-1275-1-ND</td>
+<td>DIODE SCHOTTKY 30V 200MA</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>6</td>
+<td>D11 D13 D15 D17 D19 D3 D5 D7 D9 D2</td>
+<td>10</td>
+<td>Diodes Incorporated</td>
+<td>BAS116LPH4-7B</td>
+<td>Digi-Key</td>
+<td>BAS116LPH4-7BDICT-ND</td>
+<td>DIODE GEN PURP 85V 215MA 2DFN</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>7</td>
+<td>L1 L10 L2 L3 L4 L5 L6 L7 L8 L9</td>
+<td>10</td>
+<td>Lite-On Inc.</td>
+<td>LTST-C170GKT</td>
+<td>Digi-Key</td>
+<td>160-1179-1-ND</td>
+<td>LED GREEN CLEAR SMD</td>
+<td>0805 (2012 Metric)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>P1</td>
+<td>1</td>
+<td>CUI Devices</td>
+<td>PJ-036AH-SMT-TR</td>
+<td>Digi-Key</td>
+<td>CP-036AHPJCT-ND</td>
+<td>CONN PWR JACK 2X5.5MM SOLDER</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>R1 R11 R14 R17 R2 R20 R23 R26 R5 R8</td>
+<td>10</td>
+<td>Panasonic Electronic Components</td>
+<td>ERJ-PA2J391X</td>
+<td>Digi-Key</td>
+<td>P124568CT-ND</td>
+<td>RES SMD 390 OHM 5% 1/5W</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>10</td>
+<td>R10 R13 R16 R19 R22 R25 R28 R4 R7</td>
+<td>9</td>
+<td>Panasonic Electronic Components</td>
+<td>ERJ-2RKF2053X</td>
+<td>Digi-Key</td>
+<td>P205KLCT-ND</td>
+<td>RES SMD 205K OHM 1% 1/10W 0402</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>11</td>
+<td>R12 R15 R18 R21 R24 R27 R3 R6 R9</td>
+<td>9</td>
+<td>Panasonic Electronic Components</td>
+<td>ERJ-2RKF1503X</td>
+<td>Digi-Key</td>
+<td>P150KLCT-ND</td>
+<td>RES SMD 150K OHM 1% 1/10W 0402</td>
+<td>0402</td>
+</tr>
+<tr>
+<td>12</td>
+<td>S1 S2 S3 S4 S5 S6 S7 S8 S9 TEENSY1</td>
+<td>46</td>
+<td>Mill-Max Manufacturing Corp</td>
+<td>0305-0-15-15-47-27-10-0</td>
+<td>Digi-Key</td>
+<td>ED90331-ND</td>
+<td>CONN PIN RCPT .025-.037 SOLDER</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>SW1</td>
+<td>1</td>
+<td>E-Switch</td>
+<td>500ASSP1SM6QE</td>
+<td>Digi-Key</td>
+<td>EG5810CT-ND</td>
+<td>SWITCH SLIDE SPDT 3A 120V</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>U1 U2 U3 U4 U5 U6 U7 U8 U9</td>
+<td>9</td>
+<td>Texas Instruments</td>
+<td>DRV103U</td>
+<td>Digi-Key</td>
+<td>296-11622-ND</td>
+<td>IC LO-SIDE DRIVER PWM 8SOIC</td>
+<td>8SOIC</td>
+</tr>
+<tr>
+<td></td>
+<td>FID1 FID2 FID3 FID4 MH1 MH2 MH3</td>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../../gerbers/gerbers01/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                gerbers01
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../supplemental/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Supplemental Parts
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright &copy; 2020 Peter Polidoro
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="../../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: [],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.4ac00218.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
